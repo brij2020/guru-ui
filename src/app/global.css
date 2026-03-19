@@ -1,0 +1,310 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans-app: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans-app);
+}
+
+p, span, div, strong {
+  font-family: var(--font-sans-app);
+}
+
+html,
+body {
+  font-family: var(--font-sans-app);
+}
+
+/* Base Colors (Bootstrap-like vars) */
+:root {
+  --bs-primary: #0073e6;
+  --bs-success: #16a34a;
+  --bs-danger: #dc2626;
+  --bs-warning: #f59e0b;
+  --bs-info: #111827;
+  --bs-light: #f8fafc;
+  --bs-dark: #0f172a;
+
+  --text-color: #0f172a;
+  --heading-color: #0f172a;
+
+  --section-bg-1: #f8fafc;
+  --section-bg-2: #ffffff;
+  --section-bg-3: #f1f5f9;
+
+  --section-bg-dark-1: #1e1e1e;
+  --section-bg-dark-2: #121212;
+  --section-bg-dark-3: #2c2c2c;
+
+  --section-primary: #0073e6;
+  --section-accent: #005bb5;
+
+  --main: #0073e6;
+  --main2: #111827;
+  --main3: #ffffff;
+  --grey: #e2e8f0;
+  --section-border: #e2e8f0;
+  --section-text: #0f172a;
+
+  --bs-body-color: #0f172a;
+  --bs-body-bg: #f8fafc;
+}
+
+/* Dark Theme */
+.dark {
+  --bs-primary: #3396ec;
+  --text-color: #f3f4f6;
+  --bs-success: #22c55e;
+  --bs-danger: #ef4444;
+  --bs-warning: #f59e0b;
+  --bs-info: #1f2937;
+  --bs-light: #1f2937;
+  --bs-dark: #f9fafb;
+
+  --heading-color: #ffffff;
+  --section-bg-1: #0f172a;
+  --section-bg-2: #111827;
+  --section-bg-3: #1f2937;
+
+  --section-bg-dark-1: #f8fafc;
+  --section-bg-dark-2: #ffffff;
+  --section-bg-dark-3: #f1f5f9;
+  
+  --section-text: #e5e7eb;
+
+  --section-primary: #3396ec;
+  --section-accent: #0073e6;
+
+  --main: #3396ec;
+  --main2: #1f2937;
+  --main3: #1a1a1a;
+  --grey: #334155;
+  --section-border: #334155;
+
+  --bs-body-color: #e5e7eb;
+  --bs-body-bg: #0b1220;
+}
+
+/* ===================== THEMES ===================== */
+
+/* Admin Theme */
+/* Admin Dashboard Colors */
+.admin-theme {
+  --sidebar-bg: #1e293b;
+  --sidebar-text: #f8fafc;
+  --sidebar-hover: #6366f1;
+
+  --header-bg: #f8fafc;
+  --header-text: #1e293b;
+
+  --body-bg: #f1f5f9;
+  --card-bg: #ffffff;
+  --content-bg: #ffffff;
+  --section-text: #212529;
+
+  --section-primary: #2563eb;
+  --section-accent: #3b82f6;
+}
+
+/* Override Ant Design Menu */
+.admin-theme .ant-menu-item,
+.admin-theme .ant-menu-submenu-title {
+  color: var(--sidebar-text) !important;
+}
+
+.admin-theme .ant-menu-item:hover,
+.admin-theme .ant-menu-submenu-title:hover {
+  background-color: var(--sidebar-hover) !important;
+  color: var(--sidebar-text) !important;
+}
+
+.admin-theme .ant-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: var(--header-text) !important;
+}
+
+
+/* Doctor Theme */
+.user-theme {
+  --header-bg: #008C99;
+  --header-text: #ffffff;
+  --sidebar-bg: #00b4d8;
+  --card-bg: #e6f7ff;
+  --content-bg: #ffffff;
+  --section-text: #1e293b;
+  --layout-bg: #f5faff;
+}
+
+/* Nurse Theme */
+.nurse-theme {
+  --header-bg: #9c27b0;
+  --header-text: #ffffff;
+  --sidebar-bg: #7b1fa2;
+  --card-bg: #f3e5f5;
+  --content-bg: #fff8f9;
+  --section-text: #2c2c2c;
+  --layout-bg: #faf5ff;
+}
+
+/* Apply theme variables globally */
+.ant-layout-sider {
+  background-color: var(--sidebar-bg) !important;
+}
+
+.ant-menu {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--section-text) !important;
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+  color: var(--section-text) !important;
+}
+
+.ant-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: var(--header-text) !important;
+}
+
+
+/* ===================== COMMON STYLES ===================== */
+
+/* Sidebar styles */
+.ant-layout-sider {
+  background-color: var(--sidebar-bg) !important;
+}
+
+.ant-menu {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--text-color) !important;
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+  color: var(--text-color) !important;
+}
+
+.ant-menu-item:hover,
+.ant-menu-submenu-title:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-color) !important;
+}
+
+.ant-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: var(--text-color) !important;
+}
+
+.ant-menu-item-icon,
+.ant-menu-submenu-arrow {
+  color: var(--text-color) !important;
+}
+
+/* Header Search Button */
+.admin-theme .ant-input-search-button,
+.doctor-theme .ant-input-search-button,
+.nurse-theme .ant-input-search-button {
+  background-color: var(--header-bg) !important;
+  color: var(--header-text) !important;
+  border-color: var(--header-text) !important;
+}
+
+.admin-theme .ant-input-search-button:hover,
+.doctor-theme .ant-input-search-button:hover,
+.nurse-theme .ant-input-search-button:hover {
+  background-color: var(--section-primary) !important;
+  border-color: var(--section-primary) !important;
+}
+
+/* Body */
+body {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+
+/* Animation of user dashboard */
+@keyframes scrollRightToLeft {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.scrolling-header {
+  white-space: nowrap;
+  display: inline-block;
+  animation: scrollRightToLeft 10s linear infinite;
+  background: linear-gradient(90deg, #64b5f6, #2196f3, #1976d2);
+}
+/* ===================== MENU ICON FIX ===================== */
+
+/* Ensure selected item uses your custom color instead of default gray */
+.admin-theme .ant-menu-dark .ant-menu-item-selected {
+  background-color: var(--sidebar-selected) !important; /* your custom highlight */
+  color: var(--sidebar-text) !important;
+}
+
+/* Ensure icons in selected item also use your color */
+.admin-theme .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon {
+  color: var(--sidebar-text) !important;
+}
+
+/* Optional: remove gray when menu collapses and hovered */
+.admin-theme .ant-menu-dark .ant-menu-item:hover {
+  background-color: var(--sidebar-hover) !important;
+  color: var(--sidebar-text) !important;
+}
+/* Sidebar icons should always be visible */
+.admin-theme .ant-menu-item-icon,
+.admin-theme .ant-menu-submenu-arrow {
+  color: var(--sidebar-text) !important; /* icons use same as text */
+}
+
+/* Selected item icon */
+.admin-theme .ant-menu-item-selected .ant-menu-item-icon {
+  color: var(--sidebar-text) !important;
+}
+
+/* Hover icon */
+.admin-theme .ant-menu-item:hover .ant-menu-item-icon {
+  color: var(--sidebar-text) !important;
+}
+
+.start-btn:hover .anticon {
+  background: #e6f7ff;
+  border-radius: 50%;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+
+
+/* For Loading Screen */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes progressBar {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.loading-step {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* =====================Tests Styles========================== */
+/* In a CSS file or style tag */

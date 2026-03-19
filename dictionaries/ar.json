@@ -1,0 +1,1833 @@
+{
+  "Navheader": {
+    "categories": "الفئات",
+    "getCertified": "احصل على الشهادة",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "searchPlaceholder": "ابحث عن أي شيء"
+  },
+  "Cart": {
+    "cartTitle": "عربة التسوق",
+    "emptyCart": "سلة التسوق فارغة",
+    "remove": "إزالة",
+    "checkout": "الدفع"
+  },
+  "login": {
+    "title": "مرحبًا بعودتك",
+    "subtitle": "سجّل الدخول لمتابعة رحلتك التعليمية الطبية",
+    "emailLabel": "عنوان البريد الإلكتروني",
+    "emailRequired": "يرجى إدخال عنوان البريد الإلكتروني",
+    "emailPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "passwordRequired": "يرجى إدخال كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "signingIn": "جارٍ تسجيل الدخول...",
+    "or": "أو",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+    "noAccount": "ليس لديك حساب؟ أنشئ حسابًا",
+    "createAccount": "أنشئ حسابًا",
+    "medical": "طبي",
+    "certified": "معتمد",
+    "secure": "آمن"
+  },
+  "dashboard": {
+    "admin": {
+      "header": {
+        "role": "مدير النظام",
+        "name": "محمد الراشد",
+        "profile": "الملف الشخصي",
+        "logout": "تسجيل الخروج"
+      },
+      "sider": {
+        "brandCollapsed": "م+",
+        "brandFull": "ميد + سيرت",
+      "dashboard": "لوحة التحكم",
+      "courses": "الدورات",
+      "tests": "الاختبارات",
+      "users": "المستخدمون",
+      "manage ai test meta data": "إدارة بيانات اختبار الذكاء الاصطناعي"
+    },
+      "profile": {
+        "firstName": "محمد",
+        "lastName": "الراشد",
+        "role": "مشرف أول",
+        "bio": "مسؤول النظام مع خبرة 5+ سنوات في إدارة منصات التعلم الإلكتروني. متخصص في إدارة المستخدمين، مراجعة المحتوى، وتحسين المنصة.",
+        "department": "عمليات المنصة",
+        "location": "دبي، الإمارات",
+        "permissionsTitle": "أذونات المشرف",
+        "permissions": {
+          "fullAccess": "وصول كامل",
+          "userManagement": "إدارة المستخدمين",
+          "contentModeration": "مراجعة المحتوى",
+          "analytics": "تحليلات"
+        },
+        "activity": {
+          "courseApproved": "تم اعتماد الدورة",
+          "userRegistered": "تم تسجيل مستخدم",
+          "reportResolved": "تم حل التقرير",
+          "systemUpdated": "تم تحديث النظام"
+        },
+        "memberSince": "عضو منذ",
+        "lastLogin": "آخر تسجيل دخول",
+        "editProfile": "تعديل الملف الشخصي",
+        "logout": "تسجيل الخروج",
+        "profileImageAlt": "الملف الشخصي",
+        "stats": {
+          "totalUsers": "إجمالي المستخدمين",
+          "activeCourses": "الدورات النشطة",
+          "certificates": "الشهادات",
+          "testsConducted": "الاختبارات المنجزة"
+        },
+        "quickActionsTitle": "الإجراءات السريعة",
+        "quickActions": {
+          "manageUsers": "إدارة المستخدمين",
+          "manageUsersDesc": "حسابات المستخدمين والأذونات",
+          "viewAnalytics": "عرض التحليلات",
+          "viewAnalyticsDesc": "أداء المنصة",
+          "settings": "الإعدادات",
+          "settingsDesc": "تهيئة النظام",
+          "reports": "التقارير",
+          "reportsDesc": "توليد التقارير"
+        },
+        "recentActivity": "النشاط الأخير",
+        "accountInformation": {
+          "accountInformation": "معلومات الحساب",
+          "email": "البريد الإلكتروني",
+          "phone": "رقم الهاتف",
+          "department": "القسم"
+        }
+      },
+      "stats": {
+        "totalCourses": "إجمالي الدورات",
+        "totalTests": "إجمالي الاختبارات",
+        "activeUsers": "المستخدمون النشطون",
+        "completionRate": "معدل الإكمال"
+      },
+      "charts": {
+        "coursesBySpecialization": " الدورات حسب التخصص",
+        "coursesByRole": "الدورات حسب الدور",
+        "coursesLabel": "الدورات",
+        "roleLabel": "الدور",
+        "specializationLabel": "التخصص"
+      },
+      "tests": {
+        "stats": {
+          "totalTests": "إجمالي الاختبارات",
+          "objectiveTests": "الاختبارات الموضوعية",
+          "subjectiveTests": "الاختبارات الذاتية"
+        },
+        "charts": {
+          "testsBySpecialization": "الاختبارات حسب التخصص والنوع",
+          "testDistribution": "توزيع الاختبارات والاتجاهات",
+          "byRole": "حسب الدور",
+          "monthlyTrend": "الاتجاه الشهري"
+        }
+      },
+      "userData": {
+        "quickActions": "إجراءات سريعة",
+        "createCourse": "إنشاء دورة جديدة",
+        "addCourse": "إضافة دورة جديدة إلى المنصة",
+        "createQuiz": "إنشاء اختبار جديد",
+        "addQuiz": "إضافة اختبار جديد إلى المنصة",
+        "manageUsers": "إدارة المستخدمين",
+        "viewUsers": "عرض وإدارة جميع المستخدمين",
+        "viewReport": "عرض التقارير",
+        "analytics": "التحليلات ورؤى الأداء",
+        "systemSetting": "إعدادات النظام",
+        "configure": "تكوين إعدادات المنصة",
+        "helpCenter": "مركز المساعدة",
+        "getSupport": "الحصول على الدعم والوثائق",
+        "proTip": "نصيحة احترافية",
+        "useQuick": "استخدم الإجراءات السريعة لإدارة المنصة بكفاءة. معظم المهام الشائعة لا تتطلب سوى نقرة واحدة!"
+      },
+      "reportData": {
+        "weeklyActivity": "اتجاهات النشاط الأسبوعي",
+        "peakActivity": "ذروة النشاط",
+        "showstotalActivities": "يعرض إجمالي الأنشطة لكل يوم"
+      },
+      "progressTable": {
+        "UserProgressTracking": "تتبع تقدم المستخدمين",
+        "title": {
+          "user": "المستخدم",
+          "course": "الدورة التدريبية",
+          "progress": "التقدم",
+          "status": "الحالة"
+        },
+        "userProgressData": {
+          "users": [
+            {
+              "name": "علي خان",
+              "course": "تدريب الإنعاش القلبي الرئوي",
+              "specialization": "طبيب",
+              "score": 85,
+              "certificate": "صادر"
+            },
+            {
+              "name": "ماريا أحمد",
+              "course": "الإسعافات الأولية",
+              "specialization": "ممرضة",
+              "score": 65,
+              "certificate": "قيد الانتظار"
+            },
+            {
+              "name": "د. أحمد",
+              "course": "الرعاية الطارئة",
+              "specialization": "طبيب",
+              "score": 92,
+              "certificate": "صادر"
+            },
+            {
+              "name": "سارة علي",
+              "course": "رعاية الصدمات",
+              "specialization": "ممرضة",
+              "score": 50,
+              "certificate": "قيد الانتظار"
+            },
+            {
+              "name": "جون سميث",
+              "course": "رعاية الأطفال",
+              "specialization": "طبيب",
+              "score": 78,
+              "certificate": "صادر"
+            },
+            {
+              "name": "إميلي جونسون",
+              "course": "إجراءات العناية المركزة",
+              "specialization": "ممرضة",
+              "score": 88,
+              "certificate": "صادر"
+            }
+          ]
+        }
+      },
+      "cards": {
+        "totalEnrollments": "إجمالي التسجيلات",
+        "certificatesIssued": "الشهادات الصادرة",
+        "avgCompletion": "متوسط الإكمال",
+        "activeCourses": "الدورات النشطة",
+        "coursePerformanceOverview": "نظرة عامة على أداء الدورة",
+        "certificationTrends": "اتجاهات الشهادات"
+      },
+      "RecentActivity": {
+        "totalEnrolled": "إجمالي المسجلين",
+        "testAttempts": "محاولات الاختبار",
+        "certificates": "الشهادات",
+        "weeklyActivityBreakdown": "تحليل النشاط الأسبوعي",
+        "activityTrends": "اتجاهات النشاط"
+      }
+    },
+    "user": {
+      "welcome": "مرحبًا بك في لوحة التحكم الخاصة بك",
+      "logout": "تسجيل خروج",
+      "enrolledCourses": "الدورات المسجلة",
+      "lecturesWatched": "المحاضرات التي تمت مشاهدتها",
+      "submissions": "التسليمات الخاصة بي",
+      "testSeries": "سلسلة الاختبارات",
+      "score": "النتيجة",
+      "activity": "النشاط",
+      "quiz": "اختبار قصير",
+      "submission": "تسليم",
+      "courses": "الدورات",
+      "recommendedCourses": "الدورات الموصى بها",
+      "view": "عرض",
+      "close": "إغلاق",
+      "enrollNow": "سجل الآن"
+    }
+  },
+  "footer": {
+    "company": "الشركة",
+    "resources": "الموارد",
+    "legal": "قانوني",
+    "links": {
+      "medCertBusiness": "أعمال Med-Cert",
+      "teach": "التدريس على Med-Cert",
+      "app": "احصل على التطبيق",
+      "about": "معلومات عنا",
+      "contact": "اتصل بنا",
+      "careers": "الوظائف",
+      "blog": "المدونة",
+      "help": "المساعدة والدعم",
+      "affiliate": "برنامج الشركاء",
+      "investors": "المستثمرون",
+      "terms": "الشروط",
+      "privacy": "سياسة الخصوصية",
+      "cookies": "إعدادات ملفات تعريف الارتباط",
+      "sitemap": "خريطة الموقع",
+      "accessibility": "بيان سهولة الاستخدام"
+    },
+    "language": {
+      "en": "الإنجليزية",
+      "ar": "العربية"
+    },
+    "copyright": "© {year} Med-Cert, Inc."
+  },
+  "reviewSection": {
+    "title": "آراء المستخدمين",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "زايد",
+        "image": "https://randomuser.me/api/portraits/men/32.jpg",
+        "review": "هذا المنصة رائعة! واجهة المستخدم نظيفة وسهلة الاستخدام. أوصي بها بشدة."
+      },
+      {
+        "id": 2,
+        "name": "أمينة",
+        "image": "https://randomuser.me/api/portraits/women/44.jpg",
+        "review": "استمتعت حقًا بالمميزات. كان إنشاء الاختبارات سلسًا وسريعًا."
+      },
+      {
+        "id": 3,
+        "name": "مالك",
+        "image": "https://randomuser.me/api/portraits/men/65.jpg",
+        "review": "تجربة رائعة بشكل عام. فريق الدعم كان سريعًا في الرد على استفساراتي."
+      }
+    ]
+  },
+  "navbar": {
+    "categories": "الفئات",
+    "searchPlaceholder": "ابحث عن الدورات...",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "cart": "عربة التسوق",
+    "Dentist": "طبيب أسنان",
+    "Gynecologist": "طبيبة نسائية / طبيب نسائية",
+    "GeneralPhysician": "طبيب عام",
+    "Dermatologist": "طبيب جلدية",
+    "ENTSpecialist": "أخصائي أنف وأذن وحنجرة",
+    "Homoeopath": "طبيب المعالجة المثلية",
+    "Ayurveda": "طب الأيورفيدا"
+  },
+  "hero": {
+    "title": "تعلم",
+    "highlight": "مهارات الرعاية الصحية",
+    "subtitle": "الوصول إلى دورات مهنية مصممة للأطباء والممرضين. طوّر مسيرتك المهنية بالشهادات والتعلم الواقعي.",
+    "stats": {
+      "count": "٥٠٠+",
+      "courses": "دورات متاحة"
+    },
+    "trending": "المجالات الرائجة",
+    "domains": {
+      "dentist": "طبيب أسنان",
+      "gynecologist": "طبيب نساء وتوليد",
+      "physician": "طبيب عام",
+      "dermatologist": "طبيب جلدية",
+      "ent": "أخصائي أنف وأذن وحنجرة",
+      "homoeopath": "طبيب هوميوپاثي",
+      "ayurveda": "طب أيورفيدا"
+    }
+  },
+  "signup": {
+    "createAccount": "إنشاء حساب",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "role": "الدور",
+    "specialization": "التخصص",
+    "uploadLicense": "تحميل الترخيص",
+    "hospital": "المستشفى",
+    "signUp": "تسجيل",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "login": "تسجيل الدخول",
+    "BackToHome": "العودة إلى الصفحة الرئيسية",
+    "doctor": "طبيب",
+    "nurse": "ممرضة",
+    "technician": "فني",
+    "specializations": {
+      "cardiologist": "طبيب قلب",
+      "dermatologist": "طبيب جلدية",
+      "gynecologist": "طبيب نساء",
+      "pediatrician": "طبيب أطفال",
+      "orthopedic": "طبيب عظام",
+      "neurologist": "طبيب أعصاب",
+      "surgicalNurse": "ممرضة جراحة",
+      "icuNurse": "ممرضة عناية مركزة",
+      "pediatricNurse": "ممرضة أطفال",
+      "erNurse": "ممرضة طوارئ",
+      "oncologyNurse": "ممرضة أورام",
+      "radiologyTechnician": "فني أشعة",
+      "laboratoryTechnician": "فني مختبرات",
+      "pharmacyTechnician": "فني صيدلة",
+      "cardiologyTechnician": "فني قلب",
+      "surgicalTechnician": "فني جراحة"
+    },
+    
+    "requiredFirstName": "الرجاء إدخال الاسم الأول",
+    "requiredLastName": "الرجاء إدخال اسم العائلة",
+    "requiredEmail": "الرجاء إدخال البريد الإلكتروني",
+    "validEmail": "الرجاء إدخال بريد إلكتروني صحيح",
+    "requiredPassword": "الرجاء إدخال كلمة المرور",
+    "requiredConfirmPassword": "الرجاء تأكيد كلمة المرور",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين",
+    "requiredRole": "الرجاء اختيار الدور",
+    "requiredSpecialization": "الرجاء اختيار التخصص",
+    "requiredLicense": "الرجاء تحميل الترخيص",
+    "requiredHospital": "الرجاء إدخال اسم المستشفى",
+    "firstNamePlaceholder": "محمد",
+    "lastNamePlaceholder": "أحمد",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "confirmPasswordPlaceholder": "أعد إدخال كلمة المرور",
+    "specializationPlaceholder": "اختر التخصص",
+    "uploadLicenseBtn": "تحميل الترخيص",
+    "hospitalPlaceholder": "اسم المستشفى",
+    "successMessage": "تم التسجيل بنجاح!"
+  },
+  "course": {
+    "title": "مجموعة واسعة من الدورات",
+    "subtitle": "اختر من بين دورات الفيديو عبر الإنترنت مع إضافات جديدة تُنشر كل شهر",
+    "courseData": {
+      "طبيب الأسنان": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "أساسيات جراحة الأسنان",
+          "createdBy": "د. سميث",
+          "description": "دليل شامل للمبادئ الأساسية لجراحة الأسنان، يغطي الأدوات الأساسية والتقنيات الإجرائية وبروتوكولات سلامة المرضى. تعلم كيفية إدارة بيئات الجراحة وضمان نتائج مثالية لمختلف العمليات السنية.",
+          "price": 49,
+          "img": "https://lnkly.tech/1X"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "إتقان علاج قناة الجذر",
+          "createdBy": "د. ألين",
+          "description": "إتقان خطوة بخطوة لعلاج قناة الجذر، بما في ذلك الأدوات المتقدمة وتقنيات الري والمناقشات القائمة على الحالات. فهم كيفية تشخيص أمراض اللب وإجراء علاجات لب الأسنان بدقة.",
+          "price": 59,
+          "img": "https://lnkly.tech/1Y"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "تقنيات تبييض الأسنان",
+          "createdBy": "د. لي",
+          "description": "تعلم طرق تبييض الأسنان المهنية باستخدام العوامل القائمة على البيروكسيد والتقنيات المساعدة بالليزر والقوالب المخصصة. استكشف العلم وراء سلامة المينا والفعالية طويلة المدى لملفات المرضى المختلفة.",
+          "price": 39,
+          "img": "https://lnkly.tech/1Z"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "أساسيات نظافة الفم",
+          "createdBy": "د. باتيل",
+          "description": "فهم أساسيات نظافة الفم، بما في ذلك تقنيات التنظيف وعادات الخيط الطبي ودور الفلورايد. تعلم كيفية تثقيف المرضى للعناية اليومية الأفضل والوقاية من مشاكل الأسنان الشائعة مثل البلاك والتهاب اللثة.",
+          "price": 29,
+          "img": "https://lnkly.tech/1a"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "دليل زراعة الأسنان",
+          "createdBy": "د. براون",
+          "description": "تدريب شامل على زراعة الأسنان، من التشخيص الأولي وتقييم العظم إلى الوضع الجراحي والصيانة بعد الجراحة. استكشف مواد الزراعة والاندماج العظمي واستراتيجيات النجاح طويلة المدى.",
+          "price": 69,
+          "img": "https://lnkly.tech/1b"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "طب أسنان الأطفال",
+          "createdBy": "د. جرين",
+          "description": "تدريب مركّز على طب أسنان الأطفال، والتعامل مع التشريح السني الفريد للأطفال وإدارة السلوك والرعاية الوقائية. تعلم كيفية إنشاء بيئة عيادة مناسبة للأطفال ومعالجة احتياجات تقويم الأسنان المبكرة.",
+          "price": 55,
+          "img": "https://lnkly.tech/1c"
+        }
+      ],
+      "طبيب النساء والتوليد": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "أساسيات الرعاية السابقة للولادة",
+          "createdBy": "د. جونسون",
+          "description": "يغطي جميع مراحل الرعاية السابقة للولادة، من الحمل إلى الولادة، مما يضمن رحلة حمل صحية للأم والطفل. تعلم مراقبة الجنين والإرشادات الغذائية واستراتيجيات الدعم العاطفي.",
+          "price": 49,
+          "img": "https://lnkly.tech/1d"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "الحمل عالي الخطورة",
+          "createdBy": "د. إيفانز",
+          "description": "نهج عملي لتحديد وإدارة حالات الحمل عالية الخطورة، بما في ذلك سكري الحمل وتسمم الحمل والحمل المتعدد. فهم كيفية تنسيق الرعاية عبر التخصصات والاستجابة للمضاعفات.",
+          "price": 69,
+          "img": "https://lnkly.tech/1e"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "طوارئ التوليد",
+          "createdBy": "د. وايت",
+          "description": "تدريب للتعامل مع حالات الطوارئ التوليدية الحرجة مثل النزيف بعد الولادة وعسر ولادة الكتف والانزياح. اكتسب الثقة في اتخاذ القرار السريع وبروتوكولات الطوارئ في أجنحة الولادة.",
+          "price": 79,
+          "img": "https://lnkly.tech/1f"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "علاجات العقم",
+          "createdBy": "د. يونغ",
+          "description": "نظرة عامة متعمقة على علاجات العقم، بما في ذلك التلقيح داخل الرحم وأطفال الأنابيب والعلاجات الهرمونية. استكشف التقنيات الإنجابية وتقنيات الإرشاد للأزواج الذين يواجهون تحديات الخصوبة.",
+          "price": 59,
+          "img": "https://lnkly.tech/1g"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "اضطرابات الدورة الشهرية",
+          "createdBy": "د. هيل",
+          "description": "تشخيص وإدارة اضطرابات الدورة الشهرية التي تؤثر على النساء في جميع الأعمار، من المراهقة إلى انقطاع الطمث. تعلم علاج حالات مثل متلازمة تكيس المبايض وانقطاع الطمث وعسر الطمث بالتدخلات الطبية ونمط الحياة.",
+          "price": 45,
+          "img": "https://lnkly.tech/1h"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "الرعاية بعد الولادة",
+          "createdBy": "د. كينغ",
+          "description": "إرشادات للرعاية الفعالة بعد الولادة، معالجة التعافي الجسدي ودعم الرضاعة الطبيعية والفحص الصحي النفسي. فهم كيفية مراقبة صحة الأم وتعزيز الترابط مع المولود الجديد.",
+          "price": 39,
+          "img": "https://lnkly.tech/1i"
+        }
+      ],
+      "الطبيب العام": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "أساسيات الرعاية الصحية الأولية",
+          "createdBy": "د. آدامز",
+          "description": "مقدمة في ممارسات الرعاية الصحية الأولية والرعاية المركزة على المريض، مع التركيز على الطب الوقائي والتشخيص المبكر. تعلم كيفية بناء الثقة والعلاقات طويلة المدى مع المرضى عبر الفئات الديموغرافية.",
+          "price": 39,
+          "img": "https://lnkly.tech/1j"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "إدارة ارتفاع ضغط الدم",
+          "createdBy": "د. ديفيس",
+          "description": "تقنيات قائمة على الأدلة لتشخيص وعلاج ارتفاع ضغط الدم، بما في ذلك تعديلات نمط الحياة والخيارات الدوائية واستراتيجيات المراقبة. فهم تأثير الأمراض المصاحبة والتزام المريض.",
+          "price": 49,
+          "img": "https://lnkly.tech/24"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "التحكم في السكري",
+          "createdBy": "د. ويلسون",
+          "description": "إرشادات حول نمط الحياة والنظام الغذائي والدواء لإدارة مرض السكري، مع التركيز على التحكم في سكر الدم والعلاج بالأنسولين وتعليم المريض. استكشف المضاعفات مثل الاعتلال العصبي واعتلال الشبكية.",
+          "price": 59,
+          "img": "https://lnkly.tech/1k"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "الأمراض المعدية الشائعة",
+          "createdBy": "د. مارتن",
+          "description": "تشخيص وعلاج الأمراض المعدية الشائعة عبر الفئات العمرية، بما في ذلك التهابات الجهاز التنفسي وأمراض الجهاز الهضمي والأمراض المنقولة بالنواقل. تعلم تفسير نتائج المختبر ووصف المضادات الميكروبية المناسبة.",
+          "price": 45,
+          "img": "https://lnkly.tech/1z"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "أساسيات طب الطوارئ",
+          "createdBy": "د. لوبيز",
+          "description": "تعلم كيفية التعامل مع حالات الطوارئ الطبية ومواقف الرعاية العاجلة بفعالية، من السكتة القلبية إلى الحساسية المفرطة. اكتسب المهارات في الفرز والاستقرار وبروتوكولات الإحالة.",
+          "price": 69,
+          "img": "https://lnkly.tech/20"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "نظرة عامة على طب الأسرة",
+          "createdBy": "د. ووكر",
+          "description": "فهم شامل لطب الأسرة والرعاية الشاملة، ودمج الصحة الجسدية والعاطفية والاجتماعية. استكشف إدارة الأمراض المزمنة واستمرارية الرعاية عبر الأجيال.",
+          "price": 55,
+          "img": "https://lnkly.tech/21"
+        }
+      ],
+      "طبيب الجلدية": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "أساسيات العناية بالبشرة",
+          "createdBy": "د. ألين",
+          "description": "ممارسات العناية الأساسية بالبشرة للوقاية والحفاظ على بشرة صحية، بما في ذلك روتين التنظيف والترطيب والحماية من الشمس. تعلم كيفية تخصيص الأنظمة لأنواع البشرة والحالات المختلفة.",
+          "price": 39,
+          "img": "https://lnkly.tech/25"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "علاجات حب الشباب",
+          "createdBy": "د. كلارك",
+          "description": "نهج سريري لعلاج حب الشباب والوقاية من تكراره، باستخدام العوامل الموضعية والأدوية الفموية والتدخلات الإجرائية. فهم التأثيرات الهرمونية والآثار النفسية.",
+          "price": 49,
+          "img": "https://lnkly.tech/26"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "الصدفية والإكزيما",
+          "createdBy": "د. لويس",
+          "description": "إدارة حالات الجلد المزمنة مثل الإكزيما والصدفية، مع رؤى في العلاجات المناعية ومحفزات نمط الحياة واستشارة المريض. استكشف استراتيجيات الرعاية طويلة المدى والوقاية من التوهجات.",
+          "price": 59,
+          "img": "https://lnkly.tech/26"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "طب الجلد بالليزر",
+          "createdBy": "د. هول",
+          "description": "تدريب عملي على إجراءات طب الجلد المتقدمة القائمة على الليزر، بما في ذلك إزالة الشعر وتصحيح التصبغ وعلاج الندوب. تعلم بروتوكولات السلامة والرعاية بعد الإجراء.",
+          "price": 69,
+          "img": "https://lnkly.tech/28"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "طب الجلد التجميلي",
+          "createdBy": "د. ألين",
+          "description": "طب الجلد التجميلي والجمالي لتعزيز ثقة المريض، covering البوتوكس، والحشوات، والتقشير الكيميائي، وتجديد الشباب. فهم الاعتبارات الأخلاقية وتوقعات المريض.",
+          "price": 79,
+          "img": "https://lnkly.tech/29"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "طب جلدية الأطفال",
+          "createdBy": "د. سكوت",
+          "description": "طب جلدية الأطفال focusing on قضايا جلد الأطفال والعلاجات، مثل طفح الحفاض، الوحمات، والتهاب الجلد التأتبي. تعلم العلاجات المناسبة للعمر وتقنيات التوجيه الأبوي.",
+          "price": 55,
+          "img": "https://lnkly.tech/2A"
+        }
+      ],
+      "أخصائي الأنف والأذن والحنجرة": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "أساسيات تشريح الأنف والأذن والحنجرة",
+          "createdBy": "د. باركر",
+          "description": "نظرة عامة مفصلة على تشريح الأنف والأذن والحنجرة وأهميته السريرية، بما في ذلك الجهاز السمعي والممرات الأنفية والهياكل الحنجرية. تعلم كيف يعزز المعرفة التشريحية التشخيص والتخطيط الجراحي.",
+          "price": 39,
+          "img": "https://lnkly.tech/22"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "علاجات فقدان السمع",
+          "createdBy": "د. كامبل",
+          "description": "تشخيص وطرق علاج المرضى الذين يعانون من فقدان السمع، من قياس السمع إلى زراعة القوقعة. فهم الأسباب مثل تصلب الأذن والالتهابات والتنكس المرتبط بالعمر.",
+          "price": 49,
+          "img": "https://lnkly.tech/2B"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "التهاب الأنف التحسسي",
+          "createdBy": "د. ريفيرا",
+          "description": "أسباب وأعراض وعلاجات التهاب الأنف التحسسي ومشاكل الجيوب الأنفية، بما في ذلك مضادات الهيستامين وبخاخات الأنف والخيارات الجراحية. تعلم كيفية التمييز بين المظاهر التحسسية والمعدية.",
+          "price": 45,
+          "img": "https://lnkly.tech/2C"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "جراحة الجيوب الأنفية",
+          "createdBy": "د. مورفي",
+          "description": "تدريب جراحي عملي لإدارة حالات الجيوب الأنفية المزمنة، مثل جراحة الجيوب الأنفية بالمنظار وتوسيع الجيوب بالبالون. استكشف التقييم قبل الجراحة والرعاية بعدها.",
+          "price": 59,
+          "img": "https://lnkly.tech/2D"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "اضطرابات الصوت",
+          "createdBy": "د. بيلي",
+          "description": "طرق الرعاية وإعادة التأهيل للمرضى الذين يعانون من اضطرابات الصوت، بما في ذلك شلل الحبال الصوتية والعقيدات واضطراب النطق الوظيفي. تعلم تقنيات العلاج والتدخلات الجراحية.",
+          "price": 69,
+          "img": "https://lnkly.tech/2E"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "إدارة توقف التنفس أثناء النوم",
+          "createdBy": "د. كوبر",
+          "description": "نهج لتشخيص وإدارة توقف التنفس أثناء النوم من خلال الأنف والأذن والحنجرة، بما في ذلك علاج الضغط الهوائي الإيجابي واستئصال اللوزتين واللحمية وتغييرات نمط الحياة. فهم الرابط بين تشريح المسالك الهوائية ونوعية النوم.",
+          "price": 75,
+          "img": "https://lnkly.tech/2F"
+        }
+      ],
+      "أخصائي المعالجة المثلية": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "مقدمة في المعالجة المثلية",
+          "createdBy": "د. مورغان",
+          "description": "المفاهيم الأساسية للمعالجة المثلية ونهجها الشامل للصحة، مع التركيز على قانون المشابهات والعلاج الفردي. تعلم الفلسفة وراء اختيار العلاج وتقييم المريض.",
+          "price": 29,
+          "img": "https://lnkly.tech/2G"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "علاجات لنزلات البرد الشائعة",
+          "createdBy": "د. بيل",
+          "description": "علاجات منزلية عملية لإدارة نزلات البرد والإنفلونزا والأمراض الموسمية، باستخدام مواد شائعة مثل البلادونا والأكونيت والبرايونيا. فهم الجرعة والفعالية ومطابقة الأعراض.",
+          "price": 35,
+          "img": "https://lnkly.tech/2H"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "إدارة الأمراض المزمنة",
+          "createdBy": "د. ريد",
+          "description": "استراتيجيات المعالجة المثلية لإدارة الأمراض المزمنة طويلة المدى، بما في ذلك التهاب المفاصل والصداع النصفي واضطرابات الجهاز الهضمي. استكشف العلاجات الدستورية ومتابعة الحالات.",
+          "price": 49,
+          "img": "https://lnkly.tech/2I"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "صيدلية المعالجة المثلية",
+          "createdBy": "د. كوك",
+          "description": "مهارات الصيدلية لإعداد والتعامل مع علاجات المعالجة المثلية، بما في ذلك تقنيات التخفيف والاهتزاز وبروتوكولات التخزين. تعلم المعايير التنظيمية وممارسات السلامة.",
+          "price": 45,
+          "img": "https://lnkly.tech/2J"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "دراسات الحالة في المعالجة المثلية",
+          "createdBy": "د. بروكس",
+          "description": "تعلم قائم على الحالات لتطبيق المعالجة المثلية في سيناريوهات حقيقية، مع تواريخ مرضية مفصلة، واختيار العلاج، وتتبع النتائج. تطوير المنطق السريري ومهارات التوثيق.",
+          "price": 55,
+          "img": "https://lnkly.tech/1m"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "مادة ميديكا المتقدمة",
+          "createdBy": "د. وارد",
+          "description": "مادة ميديكا المتقدمة وتطبيقاتها في الإعدادات السريرية، واستكشاف ملفات العلاج والنقاط الرئيسية والتحليل المقارن. تعميق فهمك لعلاقات العلاج ونظرية الميازم.",
+          "price": 65,
+          "img": "https://lnkly.tech/2N"
+        }
+      ],
+      "الطب الأيورفيدا": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "أساسيات الأيورفيدا",
+          "createdBy": "د. شاه",
+          "description": "تعلم مبادئ الأيورفيدا ودورها في الرعاية الصحية الحديثة، بما في ذلك مفهوم الدوشا والدهات والعناصر الخمسة. فهم كيفية تقييم البراكريتي والفيكريتي في المرضى.",
+          "price": 29,
+          "img": "https://lnkly.tech/1n"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "النظام الغذائي والتغذية في الأيورفيدا",
+          "createdBy": "د. ميهتا",
+          "description": "الممارسات الغذائية وإرشادات التغذية المتجذرة في الأيورفيدا، مع التركيز على الأكل الموسمي والنار الهضمية (أجني) وتوافق الطعام. تعلم كيفية إنشاء خطط وجبات مخصصة.",
+          "price": 39,
+          "img": "https://lnkly.tech/2O"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "علاج بانشاكارما",
+          "createdBy": "د. ناير",
+          "description": "الخصائص الطبية واستخدامات الأعشاب الأيورفيدية الشائعة مثل الأشواغاندا والترفالا والبراهمي. تعلم كيفية تحضير المرق والمساحيق والزيوت للاستخدام العلاجي.",
+          "price": 49,
+          "img": "https://lnkly.tech/2P"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "الأعشاب الأيورفيدية",
+          "createdBy": "د. آير",
+          "description": "دمج اليوجا والأيورفيدا لتحقيق الصحة والسلامة المتوازنة، والجمع بين الوضعيات الجسدية وتقنيات التنفس والتأمل. فهم كيفية محاذاة الجسد والعقل والروح.",
+          "price": 45,
+          "img": "https://lnkly.tech/1n"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "اليوجا والأيورفيدا",
+          "createdBy": "د. مينون",
+          "description": "نهج شامل لتحقيق انسجام العقل والجسد والروح من خلال فلسفة الأيورفيدا، وروتين الحياة، والممارسات الروحية. استكشف الطقوس اليومية (ديناشاريا) والأنظمة الموسمية (ريتوتشاريا).",
+          "price": 55,
+          "img": "https://lnkly.tech/2Q"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "الشفاء الشامل",
+          "createdBy": "د. بيلاي",
+          "description": "تقنيات إزالة السموم وتجديد الشباب مع علاج بانشاكارما، بما في ذلك فامانا وفيريتشانا وباستي وناسيا وراكتاموكشانا. استكشف المؤشرات وموانع الاستعمال والرعاية بعد العلاج.",
+          "price": 65,
+          "img": "https://lnkly.tech/2R"
+        }
+      ]
+    }
+  },
+  "buttonText": {
+    "viewAll": "عرض الكل",
+    "startTest": "ابدأ الاختبار",
+    "addtoCart": "أضف إلى السلة"
+  },
+  "ayurved": {
+    "title1": "دورات لـ",
+    "title2": "الأيورفيدا",
+    "subtitle": "أتقن طب الأسنان من خلال اختبارات تدريبية عبر التخصصات.",
+    "ayurvedTests": [
+      {
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1o",
+        "href": "/tests/basic-ayurveda",
+        "title": "المفاهيم الأساسية للأيورفيدا",
+        "description": "يشمل الدوشا، الداتو، وتركيبة الجسم."
+      },
+      {
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1p",
+        "href": "/tests/panchakarma",
+        "title": "علاج بانشاكارما",
+        "description": "تعلم تقنيات إزالة السموم والعلاجات التجديدية."
+      },
+      {
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1q",
+        "href": "/tests/dravyaguna",
+        "title": "درافياجونا",
+        "description": "دراسة الأعشاب الطبية وتأثيراتها الدوائية."
+      },
+      {
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1r",
+        "href": "/tests/ayurvedic-diagnosis",
+        "title": "التشخيص الأيورفيدي",
+        "description": "يشمل فحص النبض، تحليل البراكريتي، وتصنيف الأمراض."
+      }
+    ]
+  },
+  "dentist": {
+    "title1": "طبيب الأسنان",
+    "title2": "اختبارات تجريبية",
+    "subtitle": "أتقن طب الأسنان من خلال اختبارات الممارسة عبر التخصصات.",
+    "dentistTests": [
+      {
+        "title": "جراحة الفم",
+        "description": "يغطي الإجراءات الجراحية، التخدير، وإدارة الحالات الطارئة.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/1r",
+        "href": "/tests/oral-surgery"
+      },
+      {
+        "title": "تقويم الأسنان",
+        "description": "يتناول الأقواس، المصففات، وتقنيات محاذاة الأسنان.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/1t",
+        "href": "/tests/orthodontics"
+      },
+      {
+        "title": "علاج جذور الأسنان",
+        "description": "تعلّم حول إجراءات قناة الجذر وعلاجات اللب السني.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/1u",
+        "href": "/tests/endodontics"
+      },
+      {
+        "title": "Periodontics",
+        "description": "Covers gum diseases and modern periodontal treatments.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/2T",
+        "href": "/tests/periodontics"
+      }
+    ]
+  },
+  "dermatologist": {
+    "title1": "طبيب الأمراض الجلدية",
+    "title2": "اختبارات تجريبية",
+    "subtitle": "اختبر معلوماتك في الأمراض الجلدية عبر تخصصات متعددة.",
+    "dermatologistTests": [
+      {
+        "title": "الأمراض الجلدية السريرية",
+        "description": "يشمل أمراض الجلد، التشخيص، والعلاجات الموضعية.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://lnkly.tech/1v",
+        "href": "/tests/clinical-dermatology"
+      },
+      {
+        "title": "الأمراض الجلدية التجميلية",
+        "description": "تعرف على البوتوكس، الفيلرز، والإجراءات التجميلية.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://lnkly.tech/1w",
+        "href": "/tests/cosmetic-dermatology"
+      },
+      {
+        "title": "الأمراض الجلدية للأطفال",
+        "description": "يركز على حالات الجلد لدى الرضع والأطفال.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://lnkly.tech/1x",
+        "href": "/tests/pediatric-dermatology"
+      },
+      {
+        "title": "الأورام الجلدية",
+        "description": "يشمل سرطانات الجلد والتدخلات الجراحية.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://lnkly.tech/1y",
+        "href": "/tests/dermato-oncology"
+      }
+    ]
+  },
+  "entSpecialist": {
+    "title1": "أخصائي الأنف والأذن والحنجرة",
+    "title2": "اختبارات تجريبية",
+    "subtitle": "تدرب على تشخيص وعلاج اضطرابات الأنف والأذن والحنجرة.",
+    "entSpecialistTests": [
+      {
+        "title": "علم الأذن",
+        "description": "يشمل اضطرابات الأذن، فقدان السمع، وإدارة الطنين.",
+        "price": 99,
+        "duration": 120,
+        "img": "https://ascentist.com/wp-content/uploads/2021/11/Otology-and-Neurotology-in-Kansas-City-MO.jpg",
+        "href": "/tests/otology"
+      },
+      {
+        "title": "علم الأنف",
+        "description": "تعرف على حالات الأنف، التهاب الجيوب الأنفية، وعلاجات الحساسية.",
+        "price": 99,
+        "duration": 120,
+        "img": "https://fadlullahaksoy.com/en/wp-content/uploads/2019/12/Nasal-Diseases-Rhinology.jpg",
+        "href": "/tests/rhinology"
+      },
+      {
+        "title": "علم الحنجرة",
+        "description": "يركز على اضطرابات الصوت، التهابات الحلق، والعناية بالأحبال الصوتية.",
+        "price": 99,
+        "duration": 120,
+        "img": "https://www.masseyeandear.org/assets/MEE/images/ent/education/laryngology-fellowship-banner.png",
+        "href": "/tests/laryngology"
+      },
+      {
+        "title": "جراحة الرأس والرقبة",
+        "description": "يشمل الإجراءات الجراحية للأورام والصدمات.",
+        "price": 99,
+        "duration": 120,
+        "img": "https://www.oto-hns.northwestern.edu/images/1440x400/main_page-1440x600.jpg",
+        "href": "/tests/head-neck-surgery"
+      }
+    ]
+  },
+  "generalPhysician": {
+    "title1": "الطبيب العام",
+    "title2": "اختبارات تجريبية",
+    "subtitle": "اختبر مهاراتك الطبية العامة في مجالات متعددة.",
+    "generalPhysicianTests": [
+      {
+        "title": "التوليد",
+        "description": "يركز على الحمل، الولادة، والرعاية بعد الولادة.",
+        "price": 99,
+        "duration": 30,
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "title": "الغدد الصماء التناسلية",
+        "description": "يشمل العقم، التلقيح الصناعي، واضطرابات الهرمونات.",
+        "price": 99,
+        "duration": 30,
+        "img": "https://www.careinsurance.com/upload_master/media/posts/April2025/endocrinology.webp",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "title": "أورام النساء",
+        "description": "تعرف على سرطانات الجهاز التناسلي الأنثوي والعلاجات.",
+        "price": 99,
+        "duration": 30,
+        "img": "https://sunnybrook.ca/uploads/1/programs/odette-cancer/gyneonc/gynonc_vicus_171103_103-s.jpg",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "title": "طب الأم والجنين",
+        "description": "يشمل حالات الحمل عالية الخطورة ومضاعفات الجنين.",
+        "price": 99,
+        "duration": 30,
+        "img": "https://cache.careers360.mobi/media/presets/820X410/careers/banner_images/2020/7/22/General%20Physician.jpg",
+        "href": "/tests/maternal-fetal-medicine"
+      }
+    ]
+  },
+  "gynecologist": {
+    "title1": "طبيبة نسائية",
+    "title2": "اختبارات تجريبية",
+    "subtitle": "اختبر معرفتك في طب النساء والتوليد عبر تخصصات متعددة.",
+    "gynecologistTests": [
+      {
+        "title": "التوليد",
+        "description": "يركز على الحمل، الولادة، والرعاية بعد الولادة.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "title": "الغدد الصماء التناسلية",
+        "description": "يشمل العقم، التلقيح الصناعي، واضطرابات الهرمونات.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.Ik13Z6JDhESxar1l39wXDQHaE0?w=740&h=482&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "title": "أورام النساء",
+        "description": "تعرف على سرطانات الجهاز التناسلي الأنثوي والعلاجات.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://tse1.mm.bing.net/th/id/OIP.z7OhT5Xr02j46s5b2zu9fAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "title": "طب الأم والجنين",
+        "description": "يشمل حالات الحمل عالية الخطورة ومضاعفات الجنين.",
+        "price": 99,
+        "duration": 60,
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.Jf1K3ZCurMB7cIn12XVnwQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/maternal-fetal-medicine"
+      }
+    ]
+  },
+  "homoeopath": {
+    "title1": "الطبيب المعالج بالطب البديل",
+    "title2": "اختبارات تجريبية",
+    "subtitle": "اختبر معرفتك في المبادئ والعلاجات الخاصة بالطب البديل.",
+    "homoeopathTests": [
+      {
+        "title": "مبادئ الطب البديل",
+        "description": "يشمل مبدأ التشابه، التخفيف، واختيار العلاج المناسب.",
+        "duration": 15,
+        "img": "https://lnkly.tech/2U",
+        "href": "/tests/homeopathy-principles",
+        "price": 99
+      },
+      {
+        "title": "مادة طبية",
+        "description": "تعرف على العلاجات الرئيسية ودواعي استخدامها.",
+        "duration": 15,
+        "img": "https://lnkly.tech/2V",
+        "href": "/tests/materia-medica",
+        "price": 99
+      },
+      {
+        "title": "أورغانون الطب",
+        "description": "دراسة فلسفة هانيمان والإرشادات العلاجية.",
+        "duration": 15,
+        "img": "https://www.thehealthsite.com/wp-content/uploads/2022/01/homeopathy-medicine-treatment-in-hindi.jpg",
+        "href": "/tests/organon",
+        "price": 99
+      },
+      {
+        "title": "أخذ وتحليل الحالة",
+        "description": "يشمل تقنيات مقابلة المرضى ومطابقة العلاج.",
+        "duration": 15,
+        "img": "https://nigolifeline.com/wp-content/uploads/2023/09/7-cardinal-principles-of-homeopathy.jpg",
+        "href": "/tests/case-taking",
+        "price": 99
+      }
+    ]
+  },
+  "AllCourses": {
+    "Course": "Course",
+    "Tests": "Tests",
+    "filters": "الفلاتر",
+    "Categories": "الفئات",
+    "Category": "الفئة",
+    "All": "الكل",
+    "NoResultsFound": "لم يتم العثور على نتائج.",
+    "AllCategories": [
+      "طبيب الأسنان",
+      "طبيبة نساء وتوليد",
+      "الطبيب العام",
+      "طبيب الجلدية",
+      "أخصائي الأنف والأذن والحنجرة",
+      "المعالج بالهوميوباثي",
+      "الطب الأيورفيدي"
+    ],
+    "allCourses": [
+      {
+        "id": 1,
+        "price": 199,
+        "duration": 30,
+        "type": "course",
+        "category": "الطب الأيورفيدي",
+        "title": "المفاهيم الأساسية في الأيورفيدا",
+        "description": "يشمل الدوشا، الدهات، وتركيبة الجسم.",
+        "createdBy": "Dr. Hilal Ahmed",
+        "img": "https://el-vergel.com/wp-content/uploads/2020/09/Kundan-ayurveda-edited.jpg",
+        "href": "/tests/basic-ayurveda"
+      },
+      {
+        "id": 2,
+        "price": 199,
+        "duration": 30,
+        "type": "test",
+        "category": "الطب الأيورفيدي",
+        "title": "علاج بانشاكارما",
+        "description": "تعلم تقنيات إزالة السموم والعلاجات التجديدية.",
+        "createdBy": "Dr. Hilal Ahmed ",
+        "img": "https://i.pinimg.com/originals/b3/89/7d/b3897d1398dcc1be56e4cebce64e5b19.jpg",
+        "href": "/tests/panchakarma"
+      },
+      {
+        "id": 3,
+        "price": 199,
+        "duration": 30,
+        "type": "test",
+        "category": "الطب الأيورفيدي",
+        "title": "درافياجونا",
+        "description": "دراسة الأعشاب الطبية وتأثيراتها الدوائية.",
+        "createdBy": "Dr. Hilal Ahmed ",
+        "img": "https://i1.wp.com/www.nctayurvedacollege.in/wp-content/uploads/2017/12/dravyaguna-min.jpg?fit=449%2C300&ssl=1",
+        "href": "/tests/dravyaguna"
+      },
+      {
+        "id": 4,
+        "price": 199,
+        "duration": 30,
+        "type": "test",
+        "category": "الطب الأيورفيدي",
+        "title": "التشخيص الأيورفيدي",
+        "description": "يشمل فحص النبض، تحليل البراكريتي، وتصنيف الأمراض.",
+        "createdBy": "Dr. Hilal Ahmed ",
+        "img": "https://healthy-ojas.com/sites/default/files/natural/ayurveda-pulse-diagnosis.jpg",
+        "href": "/tests/ayurvedic-diagnosis"
+      },
+      {
+        "id": 5,
+        "price": 49,
+        "duration": 45,
+        "type": "test",
+        "category": "طبيب الأسنان",
+        "title": "جراحة الفم",
+        "description": "يشمل الإجراءات، التخدير، وإدارة الطوارئ.",
+        "createdBy": "",
+        "img": "https://www.lovettdental.com/wp-content/uploads/2020/08/oral-surgery.jpeg",
+        "href": "/tests/oral-surgery"
+      },
+      {
+        "id": 6,
+        "price": 49,
+        "duration": 45,
+        "type": "test",
+        "category": "طبيب الأسنان",
+        "title": "تقويم الأسنان",
+        "description": "يشمل التقويم، المحاذاة، وتقنيات تعديل الأسنان.",
+        "createdBy": "",
+        "img": "https://lnkly.tech/1t",
+        "href": "/tests/orthodontics"
+      },
+      {
+        "id": 7,
+        "price": 49,
+        "duration": 45,
+        "type": "test",
+        "category": "طبيب الأسنان",
+        "title": "علاج جذور الأسنان",
+        "description": "تعلم إجراءات علاج الجذور ومعالجة اللب السني.",
+        "createdBy": "",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gzaJgwdaougcnz0mJ5zr2wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/endodontics"
+      },
+      {
+        "id": 8,
+        "price": 49,
+        "duration": 45,
+        "type": "test",
+        "category": "طبيب الأسنان",
+        "title": "أمراض اللثة",
+        "description": "يشمل أمراض اللثة والعلاجات الحديثة لها.",
+        "createdBy": "",
+        "img": "https://lnkly.tech/2T",
+        "href": "/tests/periodontics"
+      },
+      {
+        "id": 9,
+        "price": 299,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيب الجلدية",
+        "title": "الأمراض الجلدية السريرية",
+        "description": "يشمل أمراض الجلد، التشخيص، والعلاجات الموضعية.",
+        "createdBy": "",
+        "img": "https://tse2.mm.bing.net/th/id/OIP.PKaqx1BxL8Ane3kUN-l97QHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/clinical-dermatology"
+      },
+      {
+        "id": 10,
+        "price": 299,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيب الجلدية",
+        "title": "الأمراض الجلدية التجميلية",
+        "description": "تعلم عن البوتوكس، الفيلرز، والإجراءات التجميلية.",
+        "createdBy": "",
+        "img": "https://elyzeemc.com/wp-content/uploads/2022/06/cosmetic-dermatology.png",
+        "href": "/tests/cosmetic-dermatology"
+      },
+      {
+        "id": 11,
+        "price": 299,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيب الجلدية",
+        "title": "الأمراض الجلدية للأطفال",
+        "description": "التركيز على أمراض الجلد لدى الرضع والأطفال.",
+        "createdBy": "",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.nuBj1BFGlzcgEb3KuZKJgAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/pediatric-dermatology"
+      },
+      {
+        "id": 12,
+        "price": 299,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيب الجلدية",
+        "title": "الأورام الجلدية",
+        "description": "يشمل سرطانات الجلد والتدخلات الجراحية.",
+        "createdBy": "",
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.AZ8fK026HNYpTwTLXs4PegHaDk?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/dermato-oncology"
+      },
+      {
+        "id": 13,
+        "price": 99,
+        "duration": 120,
+        "type": "test",
+        "category": "أخصائي الأنف والأذن والحنجرة",
+        "title": "علم الأذن",
+        "description": "يشمل اضطرابات الأذن، فقدان السمع، وإدارة الطنين.",
+        "createdBy": "",
+        "img": "https://ascentist.com/wp-content/uploads/2021/11/Otology-and-Neurotology-in-Kansas-City-MO.jpg",
+        "href": "/tests/otology"
+      },
+      {
+        "id": 14,
+        "price": 99,
+        "duration": 120,
+        "type": "test",
+        "category": "أخصائي الأنف والأذن والحنجرة",
+        "title": "علم الأنف",
+        "description": "تعلم عن أمراض الأنف، التهاب الجيوب الأنفية، وعلاجات الحساسية.",
+        "createdBy": "",
+        "img": "https://fadlullahaksoy.com/en/wp-content/uploads/2019/12/Nasal-Diseases-Rhinology.jpg",
+        "href": "/tests/rhinology"
+      },
+      {
+        "id": 15,
+        "price": 99,
+        "duration": 120,
+        "type": "test",
+        "category": "أخصائي الأنف والأذن والحنجرة",
+        "title": "علم الحنجرة",
+        "description": "التركيز على اضطرابات الصوت، التهابات الحلق، والعناية بالأحبال الصوتية.",
+        "createdBy": "",
+        "img": "https://www.masseyeandear.org/assets/MEE/images/ent/education/laryngology-fellowship-banner.png",
+        "href": "/tests/laryngology"
+      },
+      {
+        "id": 16,
+        "price": 99,
+        "duration": 120,
+        "type": "test",
+        "category": "أخصائي الأنف والأذن والحنجرة",
+        "title": "جراحة الرأس والرقبة",
+        "description": "يشمل الإجراءات الجراحية للأورام والصدمات.",
+        "createdBy": "",
+        "img": "https://www.oto-hns.northwestern.edu/images/1440x400/main_page-1440x600.jpg",
+        "href": "/tests/head-neck-surgery"
+      },
+      {
+        "id": 17,
+        "price": 49,
+        "duration": 30,
+        "type": "test",
+        "category": "الطبيب العام",
+        "title": "التوليد",
+        "description": "التركيز على الحمل، الولادة، والرعاية بعد الولادة.",
+        "createdBy": "",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "id": 18,
+        "price": 49,
+        "duration": 30,
+        "type": "test",
+        "category": "الطبيب العام",
+        "title": "الغدد الصماء التناسلية",
+        "description": "يشمل العقم، التلقيح الصناعي، اضطرابات الهرمونات، والصحة الإنجابية.",
+        "createdBy": "",
+        "img": "https://www.careinsurance.com/upload_master/media/posts/April2025/endocrinology.webp",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "id": 19,
+        "price": 49,
+        "duration": 30,
+        "type": "test",
+        "category": "الطبيب العام",
+        "title": "أورام أمراض النساء",
+        "description": "تعلم عن سرطانات الجهاز التناسلي الأنثوي والعلاجات.",
+        "createdBy": "",
+        "img": "https://sunnybrook.ca/uploads/1/programs/odette-cancer/gyneonc/gynonc_vicus_171103_103-s.jpg",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "id": 20,
+        "price": 49,
+        "duration": 30,
+        "type": "test",
+        "category": "الطبيب العام",
+        "title": "طب الأم والجنين",
+        "description": "يشمل حالات الحمل عالية الخطورة ومضاعفات الجنين.",
+        "createdBy": "",
+        "img": "https://cache.careers360.mobi/media/presets/820X410/careers/banner_images/2020/7/22/General%20Physician.jpg",
+        "href": "/tests/maternal-fetal-medicine"
+      },
+      {
+        "id": 21,
+        "price": 30,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيبة نساء وتوليد",
+        "title": "التوليد",
+        "description": "التركيز على الحمل، الولادة، والرعاية بعد الولادة.",
+        "createdBy": "",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "id": 22,
+        "price": 30,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيبة نساء وتوليد",
+        "title": "الغدد الصماء التناسلية",
+        "description": "يشمل العقم، التلقيح الصناعي، اضطرابات الهرمونات، والصحة الإنجابية.",
+        "createdBy": "",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.Ik13Z6JDhESxar1l39wXDQHaE0?w=740&h=482&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "id": 23,
+        "price": 30,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيبة نساء وتوليد",
+        "title": "أورام أمراض النساء",
+        "description": "تعلم عن سرطانات الجهاز التناسلي الأنثوي والعلاجات.",
+        "createdBy": "",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.z7OhT5Xr02j46s5b2zu9fAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "id": 24,
+        "price": 30,
+        "duration": 60,
+        "type": "test",
+        "category": "طبيبة نساء وتوليد",
+        "title": "طب الأم والجنين",
+        "description": "يشمل حالات الحمل عالية الخطورة ومضاعفات الجنين.",
+        "createdBy": "",
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.Jf1K3ZCurMB7cIn12XVnwQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/maternal-fetal-medicine"
+      },
+      {
+        "id": 25,
+        "type": "test",
+        "category": "المعالج بالهوميوباثي",
+        "title": "مبادئ الهوميوباثي",
+        "createdBy": "",
+        "price": 25,
+        "duration": 45,
+        "description": "استكشاف قانون التشابه، التخفيف، والشفاء الشامل.",
+        "img": "https://lnkly.tech/2U",
+        "href": "/tests/principles-of-homeopathy"
+      },
+      {
+        "id": 26,
+        "type": "test",
+        "category": "المعالج بالهوميوباثي",
+        "title": "ماتيريا ميديكا",
+        "createdBy": "",
+        "price": 35,
+        "duration": 60,
+        "description": "دراسة العلاجات الأساسية، مصادرها، ودلالاتها العلاجية.",
+        "img": "https://lnkly.tech/2V",
+        "href": "/tests/materia-medica"
+      },
+      {
+        "id": 27,
+        "type": "test",
+        "category": "المعالج بالهوميوباثي",
+        "title": "أخذ الحالة في الهوميوباثي",
+        "createdBy": "",
+        "price": 30,
+        "duration": 50,
+        "description": "تعلم تقنيات مقابلة المرضى وتحليل الأعراض.",
+        "img": "https://lnkly.tech/2W",
+        "href": "/tests/homeopathic-case-taking"
+      },
+      {
+        "id": 28,
+        "type": "test",
+        "category": "المعالج بالهوميوباثي",
+        "title": "الروبرتوري واختيار العلاج",
+        "createdBy": "",
+        "price": 40,
+        "duration": 70,
+        "description": "إتقان استخدام الروبرتوري واختيار العلاج الأنسب.",
+        "img": "https://lnkly.tech/2X",
+        "href": "/tests/repertory-and-remedy-selection"
+      }
+    ]
+  },
+  "cart": {
+    "emptyCart": "سلة التسوق فارغة!",
+    "checkout": "جارٍ الانتقال إلى الدفع 🎉 (يتم دمج الدفع لاحقًا)",
+    "removeText": "تمت إزالة العنصر من السلة",
+    "shoppingCart": "سلة التسوق",
+    "continueShopping": "تابع التسوق",
+    "Instructor": "المدرب",
+    "Duration": "المدة",
+    "mins": "دقائق",
+    "Yes": "نعم",
+    "No": "لا",
+    "Summary": "الملخص",
+    "Subtotal": "المجموع الفرعي",
+    "OrderTotal": "إجمالي الطلب",
+    "Apply": "تطبيق",
+    "ProceedtoCheckout": "المتابعة إلى الدفع",
+    "OR": "أو",
+    "removeItemCart": "هل تريد إزالة هذا العنصر من السلة؟"
+  },
+  "checkout": {
+    "text": {
+      "checkText": "الدفع",
+      "fname": "الاسم الكامل مطلوب",
+      "cardValid": "أدخل رقم بطاقة صالح (12-19 رقم)",
+      "expiry": "يجب أن يكون تاريخ الانتهاء MM/YY",
+      "cvv": "يجب أن يكون CVV مكون من 3 أرقام",
+      "tc": "يجب الموافقة على الشروط والخصوصية",
+      "code": "الرجاء إدخال الرمز المكون من 6 أرقام",
+      "try": "رمز غير صالح. حاول مرة أخرى",
+      "noItem": "لم يتم العثور على عناصر للإيصال",
+      "empty": "سلة التسوق فارغة",
+      "addItemMsg": "الرجاء إضافة بعض الكورسات قبل المتابعة إلى الدفع",
+      "browse": "تصفح الكورسات",
+      "pay": "تفاصيل الدفع",
+      "card": "اسم صاحب البطاقة",
+      "cardName": "الاسم الكامل على البطاقة",
+      "cardNum": "رقم البطاقة",
+      "valid": "رقم بطاقة صالح",
+      "exp": "تاريخ الانتهاء (MM/YY)",
+      "cvvN": "CVV",
+      "iAccept": "أوافق على",
+      "termP": "الشروط والخصوصية",
+      "validate": "تحقق ومعالجة الدفع",
+      "payMethod": "طرق الدفع المقبولة",
+      "visa": "فيزا",
+      "masterCard": "ماستركارد",
+      "gpay": "جوجل باي",
+      "aPay": "أبل باي",
+      "otp": "أدخل OTP",
+      "subm": "إرسال الرمز",
+      "resend": "إعادة إرسال الرمز",
+      "backto": "العودة إلى الدفع",
+      "backtoC": "العودة إلى الكورسات",
+      "downRec": "تحميل الإيصال"
+    },
+    "paymentSlip": {
+      "heading": "Med-Cert Course - إيصال الدفع",
+      "date": "التاريخ:",
+      "time": "الوقت:",
+      "trans": "معرف المعاملة:",
+      "purchased": "الكورسات المشتراة",
+      "inst": "المدرب",
+      "thankText": "شكراً لك على شرائك!"
+    }
+  },
+  "userdashboard": {
+    "enrolledCourses": "الدورات المسجلة",
+    "lecturesWatched": "المحاضرات المكتملة",
+    "testsTaken": "الاختبارات المقدمة",
+    "certificates": "الشهادات"
+  },
+  "charts": {
+    "weeklyLearningActivity": "النشاط الأسبوعي للتعلم",
+    "courseProgress": "تقدم الدورة",
+    "lecturesWatched": "المحاضرات المشاهدة",
+    "testsCompleted": "الاختبارات المكتملة",
+    "weekDays": [
+      "الإثنين",
+      "الثلاثاء",
+      "الأربعاء",
+      "الخميس",
+      "الجمعة",
+      "السبت",
+      "الأحد"
+    ],
+    "courseStatusLabels": [
+      "مكتمل",
+      "قيد التنفيذ",
+      "غير مبدوء",
+      "متأخر"
+    ]
+  },
+  "learningProgress": {
+    "title": "تقدم التعلم",
+    "completed": "اكتمل"
+  },
+  "learningProgressData": {
+    "courseCompletion": "إكمال الدورة",
+    "testSuccessRate": "معدل نجاح الاختبارات",
+    "learningConsistency": "اتساق التعلم"
+  },
+  "quickActions": {
+    "title": "إجراءات سريعة"
+  },
+  "quickActionsData": {
+    "browseCourses": "تصفح الدورات",
+    "myLearning": "تعلمي",
+    "takeTest": "أداء الاختبار",
+    "certificates": "الشهادات"
+  },
+  "recentActivity": {
+    "title": "النشاطات الأخيرة"
+  },
+  "recentActivityData": {
+    "watched": "شاهد",
+    "completed": "أنجز",
+    "earned": "حصل على",
+    "downloaded": "تم التنزيل",
+    "cardiacLecture": "محاضرة اضطرابات نظم القلب",
+    "advancedCardiology": "طب القلب المتقدم",
+    "emergencyQuiz": "اختبار طب الطوارئ",
+    "emergencyProcedures": "إجراءات الطوارئ",
+    "blsCertificate": "شهادة دعم الحياة الأساسي",
+    "blsTraining": "تدريب دعم الحياة الأساسي",
+    "guidelinesPdf": "إرشادات سريرية PDF",
+    "medicalProtocols": "البروتوكولات الطبية",
+    "twoHoursAgo": "منذ ساعتين",
+    "oneDayAgo": "منذ يوم واحد",
+    "twoDaysAgo": "منذ يومين",
+    "threeDaysAgo": "منذ 3 أيام"
+  },
+  "upcomingTests": {
+    "title": "الاختبارات القادمة",
+    "startTest": "ابدأ الاختبار",
+    "due": "الموعد النهائي",
+    "questions": "أسئلة",
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "upcomingTestsData": {
+    "cardiologyExam": "الامتحان النهائي في أمراض القلب",
+    "advancedCardiology": "أمراض القلب المتقدمة",
+    "jan15": "2024-01-15",
+    "sixtyMinutes": "60 دقيقة",
+    "upcoming": "قادم",
+    "patientSafety": "تقييم سلامة المرضى",
+    "healthProtocols": "بروتوكولات الرعاية الصحية",
+    "jan18": "2024-01-18",
+    "fortyFiveMinutes": "45 دقيقة",
+    "available": "متاح",
+    "ethicsQuiz": "اختبار الأخلاقيات الطبية",
+    "profEthics": "الأخلاقيات المهنية",
+    "jan20": "2024-01-20",
+    "thirtyMinutes": "30 دقيقة"
+  },
+  "ongoingCourses": {
+    "title": "تابع التعلم",
+    "viewAll": "عرض الكل",
+    "next": "التالي",
+    "continue": "متابعة"
+  },
+  "ongoingCoursesData": {
+    "advancedCardiology": "أمراض القلب المتقدمة",
+    "drSarah": "الدكتورة سارة جونسون",
+    "fourHrThirty": "4 ساعات و30 دقيقة",
+    "twoHoursAgo": "منذ ساعتين",
+    "heartFailure": "إدارة فشل القلب",
+    "emergencyMedicine": "الطب الطارئ",
+    "drMike": "الدكتور مايك تشين",
+    "sixHrFifteen": "6 ساعات و15 دقيقة",
+    "oneDayAgo": "منذ يوم واحد",
+    "traumaAssessment": "تقييم الصدمات",
+    "pediatricCare": "رعاية الأطفال",
+    "drEmily": "الدكتورة إميلي ديفيس",
+    "threeHrFortyFive": "3 ساعات و45 دقيقة",
+    "threeDaysAgo": "منذ 3 أيام",
+    "childDevelopment": "نمو الطفل"
+  },
+  "recommendedCourses": {
+    "title": "دورات موصى بها لك",
+    "enroll": "التحق الآن"
+  },
+  "recommendedCoursesData": {
+    "medicalEthics": "الأخلاقيات الطبية في الممارسة",
+    "drRobert": "الدكتور روبرت ويلسون",
+    "twoHrFifteen": "ساعتان و15 دقيقة",
+    "intermediate": "متوسط",
+    "ethics": "الأخلاقيات",
+    "advancedSurgery": "التقنيات الجراحية المتقدمة",
+    "drLisa": "الدكتورة ليزا بارك",
+    "fiveHrThirty": "5 ساعات و30 دقيقة",
+    "advanced": "متقدم",
+    "surgery": "الجراحة",
+    "digitalHealth": "الابتكارات في الصحة الرقمية",
+    "drJames": "الدكتور جيمس كومار",
+    "threeHrFortyFive": "3 ساعات و45 دقيقة",
+    "beginner": "مبتدئ",
+    "technology": "التكنولوجيا"
+  },
+  
+
+  "myCourses": {
+    "title": "دوراتك"
+  },
+
+  "buttons": {
+    "play": "تشغيل",
+    "back": "عودة",
+    "startTest": "بدء الاختبار",
+    "viewResult": "عرض النتيجة"
+  },
+
+  "tabs": {
+    "announcements": "الإعلانات",
+    "tests": "سلسلة الاختبارات",
+    "pdfs": "ملفات PDF الداعمة"
+  },
+
+  "labels": {
+    "language": "اللغة"
+  },
+
+  "messages": {
+    "redirectQuiz": "يتم تحويلك إلى صفحة الاختبار التجريبي...",
+    "completeTestFirst": "يرجى إكمال الاختبار أولاً!",
+    "showingResult": "عرض النتيجة لـ"
+  },
+
+  "languageMixed": "إنجليزي / عربي",
+  "languageEnglish": "إنجليزي",
+  "languageArabic": "عربي",
+
+  "myCoursesData": {
+    "lecture1": "المحاضرة 1 - تشريح القلب",
+    "lecture1Desc": "نظرة عامة على حجرات القلب والصمامات والأوعية الدموية الرئيسية.",
+    "lecture1A1": "جلسة شكوك مباشرة يوم الجمعة",
+    "lecture1A2": "المهمة مستحقة الأسبوع القادم",
+    "heartQuiz": "اختبار تشريح القلب",
+    "mcq": "أسئلة اختيار من متعدد في التشريح",
+
+    "lecture2": "المحاضرة 2 - أساسيات تخطيط القلب ECG",
+    "lecture2Desc": "كيفية قراءة تخطيط القلب والتعرف على الأنماط الشائعة.",
+    "lecture2A1": "سيتم فتح الاختبار يوم الأحد",
+    "ecgTest": "اختبار أنماط ECG",
+
+    "lecture3": "المحاضرة 3 - علم أدوية القلب",
+    "lecture3Desc": "الأدوية الأساسية المستخدمة في حالات الطوارئ القلبية وتأثيراتها.",
+    "lecture3A1": "تم رفع ورقة تدريب الأسئلة",
+    "pharmaQuiz": "اختبار علم الأدوية",
+
+    "lecture4": "المحاضرة 4 - التدخلات القلبية",
+    "lecture4Desc": "أساسيات القسطرة القلبية (PCI) ومؤشراتها — مناقشة حالات.",
+    "lecture4A1": "مناقشة دراسة حالة يوم الأربعاء",
+    "interQuiz": "اختبار التدخلات"
+  },
+  
+  "userProfile": {
+    "title": "ملفي الشخصي",
+    "subtitle": "إدارة ملفك المهني ومتابعة التقدم",
+    "loading": "جاري تحميل الملف...",
+    
+    "profile": {
+      "doctorTitle": "د.",
+      "firstName": "أحمد",
+      "lastName": "المنصوري",
+      "specialization": "أمراض القلب",
+      "hospital": "مستشفى دبي",
+      "experience": "8 سنوات",
+      "memberSince": "عضو منذ",
+      "bio": "طبيب قلب استشاري بخبرة 8 سنوات في طب القلب التدخلي. متخصص في قسطرة القلب وإدارة قصور القلب. شغوف بالتعليم الطبي والتطوير المهني المستمر."
+    },
+    
+    "stats": {
+      "courses": "الدورات",
+      "certificates": "الشهادات",
+      "avgScore": "متوسط النقاط",
+      "overallProgress": "التقدم العام",
+      "enrolledCourses": "الدورات المسجلة",
+      "lecturesWatched": "المحاضرات المشاهدة",
+      "certificatesEarned": "الشهادات المكتسبة"
+    },
+    
+    "license": {
+      "title": "الرخصة الطبية",
+      "licenseNo": "رقم الرخصة",
+      "noLicense": "لا توجد رخصة مرفوعة"
+    },
+    
+    "subscription": {
+      "title": "خطة الاشتراك",
+      "professional": "المحترف",
+      "renewsOn": "تجدد في",
+      "currentPlan": "الخطة الحالية",
+      "activeStatus": "اشتراكك نشط وسيتم تجديده تلقائياً",
+      "basic": "الخطة الأساسية",
+      "month": "شهر",
+      "recommended": "مُوصى به",
+      "features": {
+        "allCourses": "جميع الدورات",
+        "certificates": "الشهادات",
+        "prioritySupport": "دعم أولوي",
+        "advancedContent": "محتوى متقدم",
+        "basic1": "الوصول للدورات الأساسية",
+        "basic2": "دعم المجتمع",
+        "basic3": "شهادات محدودة",
+        "pro1": "جميع الدورات مفتوحة",
+        "pro2": "شهادات احترافية",
+        "pro3": "دعم أولوي",
+        "pro4": "محتوى متقدم"
+      }
+    },
+    
+    "tabs": {
+      "accountInfo": "معلومات الحساب",
+      "security": "الأمان",
+      "about": "حول",
+      "insights": "الإحصائيات",
+      "subscription": "الاشتراك",
+      "notifications": "الإشعارات"
+    },
+    
+    "form": {
+      "fullName": "الاسم الكامل",
+      "specialization": "التخصص",
+      "hospital": "المستشفى",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "experience": "الخبرة",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "profileImage": "صورة الملف",
+      "medicalLicense": "الرخصة الطبية",
+      "licenseNumber": "رقم الرخصة",
+      "yearsExperience": "سنوات الخبرة",
+      "currentPassword": "كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة"
+    },
+    
+    "specializations": {
+      "cardiology": "أمراض القلب",
+      "emergency": "الطب الطارئ",
+      "pediatrics": "طب الأطفال",
+      "surgery": "الجراحة",
+      "radiology": "الأشعة",
+      "general": "الممارسة العامة"
+    },
+    
+    "about": {
+      "professionalBio": "السيرة الذاتية المهنية",
+      "bioPlaceholder": "أضف سيرة ذاتية مهنية عن نفسك، خلفيتك الطبية، والاهتمامات المهنية.",
+      "professionalDetails": "التفاصيل المهنية"
+    },
+    
+    "charts": {
+      "weekDays": ["الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت", "الأحد"],
+      "learningHours": "ساعات التعلم",
+      "specialties": ["أمراض القلب", "الطوارئ", "طب الأطفال", "الجراحة", "الأشعة"],
+      "testScores": "نتائج الاختبارات (%)",
+      "weeklyProgress": "التقدم الأسبوعي للتعلم",
+      "specialtyPerformance": "أداء التخصصات"
+    },
+    
+    "notifications": {
+      "title": "تفضيلات الإشعارات",
+      "email": "إشعارات البريد الإلكتروني",
+      "courseReminders": "تذكير الدورات",
+      "newsletter": "النشرة الإخبارية",
+      "language": "اللغة"
+    },
+    
+    "buttons": {
+      "backToDashboard": "العودة للوحة التحكم",
+      "myCourses": "دوراتي",
+      "editProfile": "تعديل الملف",
+      "downloadLicense": "تحميل الرخصة",
+      "uploadLicense": "رفع الرخصة",
+      "manageSubscription": "إدارة الاشتراك",
+      "uploadAvatar": "رفع الصورة",
+      "saveChanges": "حفظ التغييرات",
+      "cancel": "إلغاء",
+      "editBio": "تعديل السيرة",
+      "upgradeNow": "ترقية الآن",
+      "savePreferences": "حفظ التفضيلات",
+      "updatePassword": "تحديث كلمة المرور",
+      "saveBio": "حفظ السيرة"
+    },
+    
+    "placeholders": {
+      "currentPassword": "أدخل كلمة المرور الحالية",
+      "newPassword": "أدخل كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة"
+    },
+    
+    "modals": {
+      "editBio": "تعديل السيرة الذاتية المهنية",
+      "bioPlaceholder": "شارك خلفيتك الطبية، تخصصك، اهتماماتك المهنية، وأي إنجازات..."
+    },
+    
+    "messages": {
+      "profileUpdated": "تم تحديث الملف بنجاح!",
+      "avatarUploaded": "تم رفع الصورة بنجاح",
+      "licenseUploaded": "تم رفع الرخصة بنجاح",
+      "downloadingLicense": "جاري تحميل الرخصة...",
+      "preferencesSaved": "تم حفظ التفضيلات!",
+      "passwordUpdated": "تم تحديث كلمة المرور بنجاح!"
+    },
+    
+    "errors": {
+      "noUser": "لم يتم العثور على مستخدم",
+      "incorrectPassword": "كلمة المرور الحالية غير صحيحة",
+      "passwordLength": "يجب أن تكون كلمة المرور الجديدة 6 أحرف على الأقل",
+      "passwordMismatch": "كلمات المرور الجديدة غير متطابقة"
+    }
+  },
+  "sidebar": {
+    "title": "بيانات المستخدم",
+    "dashboard": "لوحة التحكم",
+    "course": "دوراتي",
+    "profile": "الملف الشخصي",
+    "certificate": "شهاداتي"
+  }
+}

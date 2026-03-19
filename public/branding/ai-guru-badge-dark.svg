@@ -1,0 +1,12 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b1" x1="20" y1="16" x2="140" y2="144" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="68" fill="url(#b1)"/>
+  <circle cx="80" cy="80" r="56" stroke="white" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M50 90V62h10v28H50Zm0 13v-8h10v8H50Zm24 0c-9 0-16-7.1-16-16 0-8.9 7-16 16-16 5.1 0 9.6 2.1 12.5 5.5l-7.5 6a7.1 7.1 0 0 0-5-2 6.5 6.5 0 0 0-6.5 6.5c0 3.6 2.9 6.5 6.5 6.5 1.8 0 3.7-.8 5-2l7.5 6a15.9 15.9 0 0 1-12.5 5.5Z" fill="white"/>
+  <text x="80" y="124" text-anchor="middle" font-family="Sora, Poppins, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="white">ai.guru</text>
+</svg>

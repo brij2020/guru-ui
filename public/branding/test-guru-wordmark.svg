@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+  <title id="title">Test Guru logo</title>
+  <desc id="desc">Test Guru wordmark for online mock test platform</desc>
+  <defs>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="spark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(20,20)">
+    <circle cx="90" cy="90" r="72" fill="none" stroke="url(#ring)" stroke-width="14" />
+    <path d="M52 94l24 24 52-52" fill="none" stroke="url(#spark)" stroke-linecap="round" stroke-linejoin="round" stroke-width="14" />
+    <path d="M76 48h58" stroke="#0b1220" stroke-width="8" stroke-linecap="round" />
+  </g>
+  <text x="210" y="108" fill="#0b1220" font-family="Montserrat, Poppins, Segoe UI, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="2">TEST GURU</text>
+  <text x="212" y="156" fill="#0f766e" font-family="Montserrat, Poppins, Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="1">Online Mock Tests</text>
+</svg>

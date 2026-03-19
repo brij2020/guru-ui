@@ -1,0 +1,3305 @@
+{
+  "testTitle": "SBI Clerk 2025",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "She asked her brother to acompany her to the market so she wouldn’t have to carry all the heavy bags alone.",
+      "options": [
+        {
+          "id": "A",
+          "text": "asked"
+        },
+        {
+          "id": "B",
+          "text": "heavy"
+        },
+        {
+          "id": "C",
+          "text": "market"
+        },
+        {
+          "id": "D",
+          "text": "acompany"
+        },
+        {
+          "id": "E",
+          "text": "All are correct"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-1-5",
+      "passageText": "In the sentence below, four words have been highlighted which may be misspelt or inappropriate in their usage. Mark the erroneous word as the answer and if all the words are correct in their spellings and usage, choose ‘ All are correct ’ as the answer.",
+      "groupOrder": 1,
+      "answer": "asked"
+    },
+    {
+      "questionNumber": 2,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Everyone attended the meeting expect John, who was feeling unwell.",
+      "options": [
+        {
+          "id": "A",
+          "text": "attended"
+        },
+        {
+          "id": "B",
+          "text": "expect"
+        },
+        {
+          "id": "C",
+          "text": "meeting"
+        },
+        {
+          "id": "D",
+          "text": "feeling"
+        },
+        {
+          "id": "E",
+          "text": "All are correct"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-1-5",
+      "passageText": "In the sentence below, four words have been highlighted which may be misspelt or inappropriate in their usage. Mark the erroneous word as the answer and if all the words are correct in their spellings and usage, choose ‘ All are correct ’ as the answer.",
+      "groupOrder": 2,
+      "answer": "attended"
+    },
+    {
+      "questionNumber": 3,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "We decided to have dinner at a new Italian restuarant that recently opened in the city.",
+      "options": [
+        {
+          "id": "A",
+          "text": "dinner"
+        },
+        {
+          "id": "B",
+          "text": "opened"
+        },
+        {
+          "id": "C",
+          "text": "restuarnat"
+        },
+        {
+          "id": "D",
+          "text": "recently"
+        },
+        {
+          "id": "E",
+          "text": "All are correct"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-1-5",
+      "passageText": "In the sentence below, four words have been highlighted which may be misspelt or inappropriate in their usage. Mark the erroneous word as the answer and if all the words are correct in their spellings and usage, choose ‘ All are correct ’ as the answer.",
+      "groupOrder": 3,
+      "answer": "dinner"
+    },
+    {
+      "questionNumber": 4,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "She received a beautiful gift form her best friend on her birthday.",
+      "options": [
+        {
+          "id": "A",
+          "text": "friend"
+        },
+        {
+          "id": "B",
+          "text": "beautiful"
+        },
+        {
+          "id": "C",
+          "text": "received"
+        },
+        {
+          "id": "D",
+          "text": "form"
+        },
+        {
+          "id": "E",
+          "text": "All are correct"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-1-5",
+      "passageText": "In the sentence below, four words have been highlighted which may be misspelt or inappropriate in their usage. Mark the erroneous word as the answer and if all the words are correct in their spellings and usage, choose ‘ All are correct ’ as the answer.",
+      "groupOrder": 4,
+      "answer": "friend"
+    },
+    {
+      "questionNumber": 5,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "She felt a deep sense of contantment as she sat by the fireplace , sipping tea and reading her favorite book.",
+      "options": [
+        {
+          "id": "A",
+          "text": "contantment"
+        },
+        {
+          "id": "B",
+          "text": "fireplace"
+        },
+        {
+          "id": "C",
+          "text": "sipping"
+        },
+        {
+          "id": "D",
+          "text": "sense"
+        },
+        {
+          "id": "E",
+          "text": "All are correct Directions (6-8): In the question, one word is given in bold and correspondence to that, three sentences are given each containing that word. Choose the option depicting the sentence(s) that have/ has the correct usage of the word."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-1-5",
+      "passageText": "In the sentence below, four words have been highlighted which may be misspelt or inappropriate in their usage. Mark the erroneous word as the answer and if all the words are correct in their spellings and usage, choose ‘ All are correct ’ as the answer.",
+      "groupOrder": 5,
+      "answer": "contantment"
+    },
+    {
+      "questionNumber": 6,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "BATCH (I) The bakery prepared a fresh batch of cookies every morning to satisfy its customers. (II) She earned a batch for completing the advanced level of the training program. (III) The professor graded the first batch of exam papers before taking a break.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (I)"
+        },
+        {
+          "id": "B",
+          "text": "Both (I) and (III)"
+        },
+        {
+          "id": "C",
+          "text": "Only (III)"
+        },
+        {
+          "id": "D",
+          "text": "All (I), (II) and (III)"
+        },
+        {
+          "id": "E",
+          "text": "Only (II)"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-6-8",
+      "passageText": "In the question, one word is given in bold and correspondence to that, three sentences are given each containing that word. Choose the option depicting the sentence(s) that have/ has the correct usage of the word.",
+      "groupOrder": 1,
+      "answer": "Only (I)"
+    },
+    {
+      "questionNumber": 7,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "SLIP (I) She tried to walk carefully on the icy road, but she couldn't avoid a slip and fell. (II) He wrote his phone number on a small slip of paper and handed it to her. (III) She couldn't slip well last night because of the loud thunderstorm.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (III)"
+        },
+        {
+          "id": "B",
+          "text": "Only (II)"
+        },
+        {
+          "id": "C",
+          "text": "Both (I) and (III)"
+        },
+        {
+          "id": "D",
+          "text": "Both (I) and (II)"
+        },
+        {
+          "id": "E",
+          "text": "All (I), (II) and (III)"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-6-8",
+      "passageText": "In the question, one word is given in bold and correspondence to that, three sentences are given each containing that word. Choose the option depicting the sentence(s) that have/ has the correct usage of the word.",
+      "groupOrder": 2,
+      "answer": "Only (III)"
+    },
+    {
+      "questionNumber": 8,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "RATE (I) The interest rate on home loans has increased significantly this year. (II) Doctors rate this hospital as one of the best in the country. (III) The birth rate in many developed countries has been declining over the years.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (I)"
+        },
+        {
+          "id": "B",
+          "text": "Both (I) and (III)"
+        },
+        {
+          "id": "C",
+          "text": "Only (III)"
+        },
+        {
+          "id": "D",
+          "text": "All (I), (II) and (III)"
+        },
+        {
+          "id": "E",
+          "text": "Only (II) Directions (9-12): The following question contains a sentence which has been divided into four parts which might not be in their correct order of narrative. The sentence is then followed by five options, one of which gives the sequence of the rearranged parts to make the sentence meaningful. Choose the option which gives the correct sequence of the parts. If the sentence is already arranged in the correct sequence, then mark option \" No rearrangement required \" as the answer."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-6-8",
+      "passageText": "In the question, one word is given in bold and correspondence to that, three sentences are given each containing that word. Choose the option depicting the sentence(s) that have/ has the correct usage of the word.",
+      "groupOrder": 3,
+      "answer": "Only (I)"
+    },
+    {
+      "questionNumber": 9,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "began, 12 jurors were"
+        },
+        {
+          "id": "B",
+          "text": "before the trial"
+        },
+        {
+          "id": "C",
+          "text": "a pool of candidates"
+        },
+        {
+          "id": "D",
+          "text": "randomly selected from"
+        },
+        {
+          "id": "E",
+          "text": "No rearrangement required"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-9-12",
+      "passageText": "The following question contains a sentence which has been divided into four parts which might not be in their correct order of narrative. The sentence is then followed by five options, one of which gives the sequence of the rearranged parts to make the sentence meaningful. Choose the option which gives the correct sequence of the parts. If the sentence is already arranged in the correct sequence, then mark option \" No rearrangement required \" as the answer.",
+      "groupOrder": 1,
+      "answer": "began, 12 jurors were"
+    },
+    {
+      "questionNumber": 10,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "useless stuff, and imaginary"
+        },
+        {
+          "id": "B",
+          "text": "things, so we can't"
+        },
+        {
+          "id": "C",
+          "text": "the world is full of nonsense,"
+        },
+        {
+          "id": "D",
+          "text": "believe everything"
+        },
+        {
+          "id": "E",
+          "text": "No rearrangement required"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-9-12",
+      "passageText": "The following question contains a sentence which has been divided into four parts which might not be in their correct order of narrative. The sentence is then followed by five options, one of which gives the sequence of the rearranged parts to make the sentence meaningful. Choose the option which gives the correct sequence of the parts. If the sentence is already arranged in the correct sequence, then mark option \" No rearrangement required \" as the answer.",
+      "groupOrder": 2,
+      "answer": "useless stuff, and imaginary"
+    },
+    {
+      "questionNumber": 11,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "and singing to the music"
+        },
+        {
+          "id": "B",
+          "text": "have a gregarious time dancing"
+        },
+        {
+          "id": "C",
+          "text": "rushed into the nightclub to"
+        },
+        {
+          "id": "D",
+          "text": "crowds of people"
+        },
+        {
+          "id": "E",
+          "text": "No rearrangement required"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-9-12",
+      "passageText": "The following question contains a sentence which has been divided into four parts which might not be in their correct order of narrative. The sentence is then followed by five options, one of which gives the sequence of the rearranged parts to make the sentence meaningful. Choose the option which gives the correct sequence of the parts. If the sentence is already arranged in the correct sequence, then mark option \" No rearrangement required \" as the answer.",
+      "groupOrder": 3,
+      "answer": "and singing to the music"
+    },
+    {
+      "questionNumber": 12,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "that many of his"
+        },
+        {
+          "id": "B",
+          "text": "citizens lacked food"
+        },
+        {
+          "id": "C",
+          "text": "the dictator was"
+        },
+        {
+          "id": "D",
+          "text": "inhumane and unconcerned"
+        },
+        {
+          "id": "E",
+          "text": "No rearrangement required Directions (13-19): Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-9-12",
+      "passageText": "The following question contains a sentence which has been divided into four parts which might not be in their correct order of narrative. The sentence is then followed by five options, one of which gives the sequence of the rearranged parts to make the sentence meaningful. Choose the option which gives the correct sequence of the parts. If the sentence is already arranged in the correct sequence, then mark option \" No rearrangement required \" as the answer.",
+      "groupOrder": 4,
+      "answer": "that many of his"
+    },
+    {
+      "questionNumber": 13,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Select the most appropriate word to replace \"shooting\" in the following sentence from the passage.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stabbing"
+        },
+        {
+          "id": "B",
+          "text": "Firing"
+        },
+        {
+          "id": "C",
+          "text": "Striking"
+        },
+        {
+          "id": "D",
+          "text": "Beating"
+        },
+        {
+          "id": "E",
+          "text": "Kicking"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 1,
+      "answer": "Stabbing"
+    },
+    {
+      "questionNumber": 14,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "According to the passage, which of the following are primary causes of road accidents? (I) Speeding, distracted driving, and driving under the influence. (II) Poorly maintained roads and lack of proper traffic signals. (III) The increasing number of vehicles on the road.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (I)"
+        },
+        {
+          "id": "B",
+          "text": "Both (I) and (II)"
+        },
+        {
+          "id": "C",
+          "text": "Only (III)"
+        },
+        {
+          "id": "D",
+          "text": "Both (II) and (III)"
+        },
+        {
+          "id": "E",
+          "text": "All (I), (II), and (III)"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 2,
+      "answer": "Only (I)"
+    },
+    {
+      "questionNumber": 15,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Select the most appropriate word to replace \"restore\" in the following sentence from the passage.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reinstate"
+        },
+        {
+          "id": "B",
+          "text": "Abandon"
+        },
+        {
+          "id": "C",
+          "text": "Destroy"
+        },
+        {
+          "id": "D",
+          "text": "Rejuvenate"
+        },
+        {
+          "id": "E",
+          "text": "Replicate"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 3,
+      "answer": "Reinstate"
+    },
+    {
+      "questionNumber": 16,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Select the most appropriate word to fill in the blank in the following sentence from the passage.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decline"
+        },
+        {
+          "id": "B",
+          "text": "Rate"
+        },
+        {
+          "id": "C",
+          "text": "Solution"
+        },
+        {
+          "id": "D",
+          "text": "Reduction"
+        },
+        {
+          "id": "E",
+          "text": "Prevention"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 4,
+      "answer": "Decline"
+    },
+    {
+      "questionNumber": 17,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "According to the passage, what role do celebrities play in promoting road safety? (I) They encourage safe driving habits through public awareness campaigns. (II) Their influence can help restore discipline among drivers. (III) They have successfully eliminated reckless driving in several regions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (I)"
+        },
+        {
+          "id": "B",
+          "text": "Both (I) and (II)"
+        },
+        {
+          "id": "C",
+          "text": "Only (III)"
+        },
+        {
+          "id": "D",
+          "text": "Both (II) and (III)"
+        },
+        {
+          "id": "E",
+          "text": "All (I), (II), and (III)"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 5,
+      "answer": "Only (I)"
+    },
+    {
+      "questionNumber": 18,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following statements is/are TRUE according to the passage? (I) Poorly maintained roads and a lack of proper traffic signals contribute to the rising number of accidents. (II) Road rage incidents are primarily caused by the presence of strict traffic police officers. (III) Celebrity endorsements in road safety campaigns can help encourage responsible driving behavior.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (I)"
+        },
+        {
+          "id": "B",
+          "text": "Both (II) and (III)"
+        },
+        {
+          "id": "C",
+          "text": "Only (III)"
+        },
+        {
+          "id": "D",
+          "text": "Both (I) and (III)"
+        },
+        {
+          "id": "E",
+          "text": "All (I), (II), and (III)"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 6,
+      "answer": "Only (I)"
+    },
+    {
+      "questionNumber": 19,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following statements is/are FALSE according to the passage? (I) Installing traffic cameras has completely eliminated reckless driving. (II) Road rage incidents never escalate into violent confrontations. (III) The passage suggests that reducing the number of vehicles is the best way to prevent accidents.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only (I)"
+        },
+        {
+          "id": "B",
+          "text": "Both (I) and (II)"
+        },
+        {
+          "id": "C",
+          "text": "Only (III)"
+        },
+        {
+          "id": "D",
+          "text": "Both (II) and (III)"
+        },
+        {
+          "id": "E",
+          "text": "All (I), (II), and (III) Directions (20-24): Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The letter of that part is the answer. If the given sentence is grammatically and contextually correct, then choose option “No error” as your answer response. (Ignore errors of punctuation, if any)."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-13-19",
+      "passageText": "Read the following passage and answer the given questions. Road traffic is an essential part of modern life, enabling transportation and commerce. However, it also poses serious risks, including rising accidents, life-threatening injuries, and increasing road rage. Reckless driving, poor infrastructure, and inadequate law enforcement have turned roads into dangerous spaces where lives are lost every day. Addressing these issues requires collective action to restore discipline and ensure safer travel for all. One of the most alarming consequences of uncontrolled traffic is the high ___________ of accidents. Speeding, distracted driving, and driving under the influence are major contributors to fatal crashes. Many drivers neglect basic safety rules, such as wearing seat belts or maintaining safe distances, further increasing risks. Poorly maintained roads and insufficient traffic signals worsen the situation. Victims often suffer severe injuries, including fractures, paralysis, and brain trauma, leaving them permanently disabled. The financial burden of medical treatment and loss of livelihood devastates many families. Hit- and-run cases, where offenders escape accountability, highlight the urgent need for stricter enforcement. Road rage is another growing issue threatening public safety. Frustration due to traffic congestion often leads to aggressive behavior. In extreme cases, individuals resort to violence, sometimes resulting in physical assaults or even shooting incidents. What begins as a minor dispute can escalate into a crime, endangering both motorists and pedestrians. A lack of emotional control and failure to resolve conflicts peacefully worsen the situation. Traffic police play a crucial role in addressing these challenges. Beyond issuing fines, they regulate traffic, prevent violations, and promote road safety. Regular patrolling, strict penalties, and increased surveillance through cameras can help reduce accidents. Public awareness campaigns on responsible driving are also necessary. An effective way to restore safe driving habits is through celebrity-endorsed road safety campaigns. Celebrities influence public behavior, and their involvement can encourage drivers to follow traffic rules. Their participation in awareness programs and social media campaigns reinforces responsible driving. To combat road dangers, a combined effort from the government, law enforcement, and the public is essential. By improving infrastructure, enforcing laws, and promoting responsible driving through celebrity campaigns, society can work toward safer roads for everyone.",
+      "groupOrder": 7,
+      "answer": "Only (I)"
+    },
+    {
+      "questionNumber": 20,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Industrial waste and",
+      "options": [
+        {
+          "id": "A",
+          "text": "/ sewage has heavily polluted"
+        },
+        {
+          "id": "B",
+          "text": "/ the Ganga, endangering"
+        },
+        {
+          "id": "C",
+          "text": "/ aquatic life and human health."
+        },
+        {
+          "id": "D",
+          "text": ""
+        },
+        {
+          "id": "E",
+          "text": "No error"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-20-24",
+      "passageText": "Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The letter of that part is the answer. If the given sentence is grammatically and contextually correct, then choose option “No error” as your answer response. (Ignore errors of punctuation, if any).",
+      "groupOrder": 1,
+      "answer": "/ sewage has heavily polluted"
+    },
+    {
+      "questionNumber": 21,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "India's cities must",
+      "options": [
+        {
+          "id": "A",
+          "text": "/ build inclusive climate"
+        },
+        {
+          "id": "B",
+          "text": "/ resilient to protect"
+        },
+        {
+          "id": "C",
+          "text": "/ vulnerable communities."
+        },
+        {
+          "id": "D",
+          "text": ""
+        },
+        {
+          "id": "E",
+          "text": "No error"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-20-24",
+      "passageText": "Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The letter of that part is the answer. If the given sentence is grammatically and contextually correct, then choose option “No error” as your answer response. (Ignore errors of punctuation, if any).",
+      "groupOrder": 2,
+      "answer": "/ build inclusive climate"
+    },
+    {
+      "questionNumber": 22,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "The UGC draft regulations have",
+      "options": [
+        {
+          "id": "A",
+          "text": "/ sparked concerns in southern states"
+        },
+        {
+          "id": "B",
+          "text": "/, highlight regional disparities and the need"
+        },
+        {
+          "id": "C",
+          "text": "/ for a more inclusive policy framework."
+        },
+        {
+          "id": "D",
+          "text": ""
+        },
+        {
+          "id": "E",
+          "text": "No error"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-20-24",
+      "passageText": "Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The letter of that part is the answer. If the given sentence is grammatically and contextually correct, then choose option “No error” as your answer response. (Ignore errors of punctuation, if any).",
+      "groupOrder": 3,
+      "answer": "/ sparked concerns in southern states"
+    },
+    {
+      "questionNumber": 23,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "The escaped prisoner",
+      "options": [
+        {
+          "id": "A",
+          "text": "/ showed compassion"
+        },
+        {
+          "id": "B",
+          "text": "/ when him assisted the"
+        },
+        {
+          "id": "C",
+          "text": "/ wounded police officer."
+        },
+        {
+          "id": "D",
+          "text": ""
+        },
+        {
+          "id": "E",
+          "text": "No error"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-20-24",
+      "passageText": "Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The letter of that part is the answer. If the given sentence is grammatically and contextually correct, then choose option “No error” as your answer response. (Ignore errors of punctuation, if any).",
+      "groupOrder": 4,
+      "answer": "/ showed compassion"
+    },
+    {
+      "questionNumber": 24,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Most teachers in",
+      "options": [
+        {
+          "id": "A",
+          "text": "/ school expect you to being"
+        },
+        {
+          "id": "B",
+          "text": "/ polite to both the"
+        },
+        {
+          "id": "C",
+          "text": "/ teachers and the other students."
+        },
+        {
+          "id": "D",
+          "text": ""
+        },
+        {
+          "id": "E",
+          "text": "No error Directions (25-30): In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-20-24",
+      "passageText": "Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The letter of that part is the answer. If the given sentence is grammatically and contextually correct, then choose option “No error” as your answer response. (Ignore errors of punctuation, if any).",
+      "groupOrder": 5,
+      "answer": "/ school expect you to being"
+    },
+    {
+      "questionNumber": 25,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following word best fits in blank A?",
+      "options": [
+        {
+          "id": "A",
+          "text": "near"
+        },
+        {
+          "id": "B",
+          "text": "happy"
+        },
+        {
+          "id": "C",
+          "text": "strong"
+        },
+        {
+          "id": "D",
+          "text": "cold"
+        },
+        {
+          "id": "E",
+          "text": "bright"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-25-30",
+      "passageText": "In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________ (A) flowers, collecting nectar and pollen. This process helps __________ (B) the reproduction of many plants. Bees transfer pollen __________ (C) one flower to another, allowing plants to grow fruits and seeds. Without bees, many crops would struggle to grow, which would have a serious impact ____________ (D) food production. Farmers depend _____________ (E) bees to increase their harvest. It is important to take care ____________ (F) these pollinators to maintain a healthy environment.",
+      "groupOrder": 1,
+      "answer": "near"
+    },
+    {
+      "questionNumber": 26,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following word best fits in blank B?",
+      "options": [
+        {
+          "id": "A",
+          "text": "grow"
+        },
+        {
+          "id": "B",
+          "text": "jump"
+        },
+        {
+          "id": "C",
+          "text": "sleep"
+        },
+        {
+          "id": "D",
+          "text": "dry"
+        },
+        {
+          "id": "E",
+          "text": "heavy"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-25-30",
+      "passageText": "In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________ (A) flowers, collecting nectar and pollen. This process helps __________ (B) the reproduction of many plants. Bees transfer pollen __________ (C) one flower to another, allowing plants to grow fruits and seeds. Without bees, many crops would struggle to grow, which would have a serious impact ____________ (D) food production. Farmers depend _____________ (E) bees to increase their harvest. It is important to take care ____________ (F) these pollinators to maintain a healthy environment.",
+      "groupOrder": 2,
+      "answer": "grow"
+    },
+    {
+      "questionNumber": 27,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following word best fits in blank C?",
+      "options": [
+        {
+          "id": "A",
+          "text": "tall"
+        },
+        {
+          "id": "B",
+          "text": "water"
+        },
+        {
+          "id": "C",
+          "text": "from"
+        },
+        {
+          "id": "D",
+          "text": "soft"
+        },
+        {
+          "id": "E",
+          "text": "long"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-25-30",
+      "passageText": "In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________ (A) flowers, collecting nectar and pollen. This process helps __________ (B) the reproduction of many plants. Bees transfer pollen __________ (C) one flower to another, allowing plants to grow fruits and seeds. Without bees, many crops would struggle to grow, which would have a serious impact ____________ (D) food production. Farmers depend _____________ (E) bees to increase their harvest. It is important to take care ____________ (F) these pollinators to maintain a healthy environment.",
+      "groupOrder": 3,
+      "answer": "tall"
+    },
+    {
+      "questionNumber": 28,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following word best fits in blank D?",
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "fast"
+        },
+        {
+          "id": "C",
+          "text": "warm"
+        },
+        {
+          "id": "D",
+          "text": "loud"
+        },
+        {
+          "id": "E",
+          "text": "short"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-25-30",
+      "passageText": "In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________ (A) flowers, collecting nectar and pollen. This process helps __________ (B) the reproduction of many plants. Bees transfer pollen __________ (C) one flower to another, allowing plants to grow fruits and seeds. Without bees, many crops would struggle to grow, which would have a serious impact ____________ (D) food production. Farmers depend _____________ (E) bees to increase their harvest. It is important to take care ____________ (F) these pollinators to maintain a healthy environment.",
+      "groupOrder": 4,
+      "answer": "on"
+    },
+    {
+      "questionNumber": 29,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following word best fits in blank E?",
+      "options": [
+        {
+          "id": "A",
+          "text": "over"
+        },
+        {
+          "id": "B",
+          "text": "under"
+        },
+        {
+          "id": "C",
+          "text": "upper"
+        },
+        {
+          "id": "D",
+          "text": "on"
+        },
+        {
+          "id": "E",
+          "text": "open"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-25-30",
+      "passageText": "In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________ (A) flowers, collecting nectar and pollen. This process helps __________ (B) the reproduction of many plants. Bees transfer pollen __________ (C) one flower to another, allowing plants to grow fruits and seeds. Without bees, many crops would struggle to grow, which would have a serious impact ____________ (D) food production. Farmers depend _____________ (E) bees to increase their harvest. It is important to take care ____________ (F) these pollinators to maintain a healthy environment.",
+      "groupOrder": 5,
+      "answer": "over"
+    },
+    {
+      "questionNumber": 30,
+      "section": "English Language",
+      "type": "mcq",
+      "question": "Which of the following word best fits in blank F?",
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "of"
+        },
+        {
+          "id": "D",
+          "text": "slow"
+        },
+        {
+          "id": "E",
+          "text": "clean Directions (31-40): What will come in the place of questions (?) mark in following questions."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-25-30",
+      "passageText": "In the following passage there are blanks, each of which has been denoted by a letter. For each blank, five options are given. Choose the most appropriate word from the options that fits the blank appropriately. Bees are not only important for producing honey but also play a crucial role in pollination. They fly ____________ (A) flowers, collecting nectar and pollen. This process helps __________ (B) the reproduction of many plants. Bees transfer pollen __________ (C) one flower to another, allowing plants to grow fruits and seeds. Without bees, many crops would struggle to grow, which would have a serious impact ____________ (D) food production. Farmers depend _____________ (E) bees to increase their harvest. It is important to take care ____________ (F) these pollinators to maintain a healthy environment.",
+      "groupOrder": 6,
+      "answer": "in"
+    },
+    {
+      "questionNumber": 31,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "156 × 5 – 16 × 9 =?×318",
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        },
+        {
+          "id": "E",
+          "text": "5"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 1,
+      "answer": "1"
+    },
+    {
+      "questionNumber": 32,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "254 + 312 -?= 420",
+      "options": [
+        {
+          "id": "A",
+          "text": "166"
+        },
+        {
+          "id": "B",
+          "text": "156"
+        },
+        {
+          "id": "C",
+          "text": "126"
+        },
+        {
+          "id": "D",
+          "text": "136"
+        },
+        {
+          "id": "E",
+          "text": "146"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 2,
+      "answer": "166"
+    },
+    {
+      "questionNumber": 33,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "450-60% of 225=?- 8 3",
+      "options": [
+        {
+          "id": "A",
+          "text": "830"
+        },
+        {
+          "id": "B",
+          "text": "827"
+        },
+        {
+          "id": "C",
+          "text": "780"
+        },
+        {
+          "id": "D",
+          "text": "770"
+        },
+        {
+          "id": "E",
+          "text": "800"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 3,
+      "answer": "830"
+    },
+    {
+      "questionNumber": 34,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "120 × 20 ÷ 5– 80=?",
+      "options": [
+        {
+          "id": "A",
+          "text": "400"
+        },
+        {
+          "id": "B",
+          "text": "100"
+        },
+        {
+          "id": "C",
+          "text": "200"
+        },
+        {
+          "id": "D",
+          "text": "300"
+        },
+        {
+          "id": "E",
+          "text": "500"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 4,
+      "answer": "400"
+    },
+    {
+      "questionNumber": 35,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "",
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        },
+        {
+          "id": "E",
+          "text": "14"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 5,
+      "answer": "10"
+    },
+    {
+      "questionNumber": 36,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "(7 × 5 - 8) ÷ 9 + 3 =?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        },
+        {
+          "id": "E",
+          "text": "7"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 6,
+      "answer": "6"
+    },
+    {
+      "questionNumber": 37,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "245 + √225 × 2 - ? = 200",
+      "options": [
+        {
+          "id": "A",
+          "text": "95"
+        },
+        {
+          "id": "B",
+          "text": "90"
+        },
+        {
+          "id": "C",
+          "text": "85"
+        },
+        {
+          "id": "D",
+          "text": "80"
+        },
+        {
+          "id": "E",
+          "text": "75"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 7,
+      "answer": "95"
+    },
+    {
+      "questionNumber": 38,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "36 + 30% of 750 – 136 = ? 3",
+      "options": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        },
+        {
+          "id": "E",
+          "text": "1"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 8,
+      "answer": "7"
+    },
+    {
+      "questionNumber": 39,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "45% of 220 + 15×? = 129",
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        },
+        {
+          "id": "E",
+          "text": "6"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 9,
+      "answer": "4"
+    },
+    {
+      "questionNumber": 40,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "? ×4-177= 171",
+      "options": [
+        {
+          "id": "A",
+          "text": "86"
+        },
+        {
+          "id": "B",
+          "text": "84"
+        },
+        {
+          "id": "C",
+          "text": "88"
+        },
+        {
+          "id": "D",
+          "text": "85"
+        },
+        {
+          "id": "E",
+          "text": "87 Directions (41-45): The table given below shows the information about the movie ticket sold by three malls A, B and C in the month of January February, March."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-31-40",
+      "passageText": "What will come in the place of questions (?) mark in following questions.",
+      "groupOrder": 10,
+      "answer": "86"
+    },
+    {
+      "questionNumber": 41,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "If the ratio of movie ticket sold by B in April to movie ticket sold by C in February is 4:1, then find the movie ticket sold by B in April.",
+      "options": [
+        {
+          "id": "A",
+          "text": "400"
+        },
+        {
+          "id": "B",
+          "text": "500"
+        },
+        {
+          "id": "C",
+          "text": "240"
+        },
+        {
+          "id": "D",
+          "text": "480"
+        },
+        {
+          "id": "E",
+          "text": "800"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-41-45",
+      "passageText": "The table given below shows the information about the movie ticket sold by three malls A, B and C in the month of January February, March.",
+      "groupOrder": 1,
+      "answer": "400"
+    },
+    {
+      "questionNumber": 42,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Find the average number of tickets sold by B in February, C in March and A in January.",
+      "options": [
+        {
+          "id": "A",
+          "text": "140"
+        },
+        {
+          "id": "B",
+          "text": "120"
+        },
+        {
+          "id": "C",
+          "text": "200"
+        },
+        {
+          "id": "D",
+          "text": "180"
+        },
+        {
+          "id": "E",
+          "text": "100"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-41-45",
+      "passageText": "The table given below shows the information about the movie ticket sold by three malls A, B and C in the month of January February, March.",
+      "groupOrder": 2,
+      "answer": "140"
+    },
+    {
+      "questionNumber": 43,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "The movie ticket sold by A and B together in February is what percentage of movie ticket sold by C in March?",
+      "options": [
+        {
+          "id": "A",
+          "text": "100%"
+        },
+        {
+          "id": "B",
+          "text": "120%"
+        },
+        {
+          "id": "C",
+          "text": "40%"
+        },
+        {
+          "id": "D",
+          "text": "160%"
+        },
+        {
+          "id": "E",
+          "text": "150%"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-41-45",
+      "passageText": "The table given below shows the information about the movie ticket sold by three malls A, B and C in the month of January February, March.",
+      "groupOrder": 3,
+      "answer": "100%"
+    },
+    {
+      "questionNumber": 44,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Find the ratio of tickets sold by B in March to tickets sold by A in February.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1:4"
+        },
+        {
+          "id": "B",
+          "text": "2:3"
+        },
+        {
+          "id": "C",
+          "text": "2:5"
+        },
+        {
+          "id": "D",
+          "text": "8:1"
+        },
+        {
+          "id": "E",
+          "text": "1:1"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-41-45",
+      "passageText": "The table given below shows the information about the movie ticket sold by three malls A, B and C in the month of January February, March.",
+      "groupOrder": 4,
+      "answer": "1:4"
+    },
+    {
+      "questionNumber": 45,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Movie ticket sold by B in March is what percent more or less than movie ticket sold by C in February?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%"
+        },
+        {
+          "id": "B",
+          "text": "190%"
+        },
+        {
+          "id": "C",
+          "text": "40%"
+        },
+        {
+          "id": "D",
+          "text": "0%"
+        },
+        {
+          "id": "E",
+          "text": "150% Directions (46-50): The bar graph given below shows the number of sweets sold by the shopkeeper A from Monday to Friday."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-41-45",
+      "passageText": "The table given below shows the information about the movie ticket sold by three malls A, B and C in the month of January February, March.",
+      "groupOrder": 5,
+      "answer": "20%"
+    },
+    {
+      "questionNumber": 46,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "If 40% total sweets sold on Friday, then find the number of sweets unsold on Friday.",
+      "options": [
+        {
+          "id": "A",
+          "text": "140"
+        },
+        {
+          "id": "B",
+          "text": "120"
+        },
+        {
+          "id": "C",
+          "text": "200"
+        },
+        {
+          "id": "D",
+          "text": "180"
+        },
+        {
+          "id": "E",
+          "text": "100"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-46-50",
+      "passageText": "The bar graph given below shows the number of sweets sold by the shopkeeper A from Monday to Friday.",
+      "groupOrder": 1,
+      "answer": "140"
+    },
+    {
+      "questionNumber": 47,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Find a difference between sweets sold on Monday & Tuesday together and sweets sold on Friday.",
+      "options": [
+        {
+          "id": "A",
+          "text": "140"
+        },
+        {
+          "id": "B",
+          "text": "160"
+        },
+        {
+          "id": "C",
+          "text": "200"
+        },
+        {
+          "id": "D",
+          "text": "180"
+        },
+        {
+          "id": "E",
+          "text": "100"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-46-50",
+      "passageText": "The bar graph given below shows the number of sweets sold by the shopkeeper A from Monday to Friday.",
+      "groupOrder": 2,
+      "answer": "140"
+    },
+    {
+      "questionNumber": 48,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Sweets sold on Tuesday is what percentage more or less than sweets sold on Thursday",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%"
+        },
+        {
+          "id": "B",
+          "text": "19%"
+        },
+        {
+          "id": "C",
+          "text": "10%"
+        },
+        {
+          "id": "D",
+          "text": "5%"
+        },
+        {
+          "id": "E",
+          "text": "15%"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-46-50",
+      "passageText": "The bar graph given below shows the number of sweets sold by the shopkeeper A from Monday to Friday.",
+      "groupOrder": 3,
+      "answer": "20%"
+    },
+    {
+      "questionNumber": 49,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Find the average number of sweets sold all days except Wednesday.",
+      "options": [
+        {
+          "id": "A",
+          "text": "105"
+        },
+        {
+          "id": "B",
+          "text": "120"
+        },
+        {
+          "id": "C",
+          "text": "200"
+        },
+        {
+          "id": "D",
+          "text": "180"
+        },
+        {
+          "id": "E",
+          "text": "100"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-46-50",
+      "passageText": "The bar graph given below shows the number of sweets sold by the shopkeeper A from Monday to Friday.",
+      "groupOrder": 4,
+      "answer": "105"
+    },
+    {
+      "questionNumber": 50,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Find the ratio of total sweets sold on Tuesday to total sweets sold on Friday.",
+      "options": [
+        {
+          "id": "A",
+          "text": "8:9"
+        },
+        {
+          "id": "B",
+          "text": "8:3"
+        },
+        {
+          "id": "C",
+          "text": "9:5"
+        },
+        {
+          "id": "D",
+          "text": "1:1"
+        },
+        {
+          "id": "E",
+          "text": "9:8"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-46-50",
+      "passageText": "The bar graph given below shows the number of sweets sold by the shopkeeper A from Monday to Friday.",
+      "groupOrder": 5,
+      "answer": "8:9"
+    },
+    {
+      "questionNumber": 51,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A man invested certain amount in two schemes A and B, he invested 30% of the amount in scheme A at rate of 10% p.a. and rest in scheme B at rate of 5% p.a., If after four years the man received total interest of Rs 1300, then find the amount invested by man in scheme B (in Rs.)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5000"
+        },
+        {
+          "id": "B",
+          "text": "1500"
+        },
+        {
+          "id": "C",
+          "text": "3000"
+        },
+        {
+          "id": "D",
+          "text": "3500"
+        },
+        {
+          "id": "E",
+          "text": "4500"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "5000"
+    },
+    {
+      "questionNumber": 52,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A man invested 25% of his monthly income on food. From the remaining, he spends 20% on rent. If the man spends 20% of the remaining income on education and saved Rs 19200, then find the monthly income of man ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "30000 Rs."
+        },
+        {
+          "id": "B",
+          "text": "50000 Rs."
+        },
+        {
+          "id": "C",
+          "text": "60000 Rs."
+        },
+        {
+          "id": "D",
+          "text": "40000 Rs."
+        },
+        {
+          "id": "E",
+          "text": "48000 Rs."
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "30000 Rs."
+    },
+    {
+      "questionNumber": 53,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A car covers 120 km distance in 5 hours. If the car covers 84 km distance with original speed and 135 km distance with 25% increased speed, then find the total time taken by the car to cover the total distance (in hours) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        },
+        {
+          "id": "E",
+          "text": "9"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "6"
+    },
+    {
+      "questionNumber": 54,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "In a town 40% are male and rest are female. If 40% of total female are graduate and total non-graduate female are 540, then find the number of males in the town ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "900"
+        },
+        {
+          "id": "B",
+          "text": "500"
+        },
+        {
+          "id": "C",
+          "text": "400"
+        },
+        {
+          "id": "D",
+          "text": "600"
+        },
+        {
+          "id": "E",
+          "text": "1200"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "900"
+    },
+    {
+      "questionNumber": 55,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Reema and Seema started a business with an investment of Rs X and Rs X + 500 for a year. If the profit share of Reema is 1/6 less than that of Seema, then find the value of X.",
+      "options": [
+        {
+          "id": "A",
+          "text": "3000"
+        },
+        {
+          "id": "B",
+          "text": "2500"
+        },
+        {
+          "id": "C",
+          "text": "2000"
+        },
+        {
+          "id": "D",
+          "text": "3500"
+        },
+        {
+          "id": "E",
+          "text": "1500"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "3000"
+    },
+    {
+      "questionNumber": 56,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A shopkeeper sold an article for Rs 2400 at a 20% profit. The discount allowed on the article is 20%. If he allowed 10% discount on the article, then find the profit on the article.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rs 690"
+        },
+        {
+          "id": "B",
+          "text": "Rs 380"
+        },
+        {
+          "id": "C",
+          "text": "Rs 560"
+        },
+        {
+          "id": "D",
+          "text": "Rs 240"
+        },
+        {
+          "id": "E",
+          "text": "Rs 700"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "Rs 690"
+    },
+    {
+      "questionNumber": 57,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "The present age of Sunita to Mohit is 6:5, respectively, and the present age of Vinita is 11 years more than that of Mohit. If the present age of Vinita is twice the age of Sunita five years ago, then find the present age of Vinita.",
+      "options": [
+        {
+          "id": "A",
+          "text": "27 years"
+        },
+        {
+          "id": "B",
+          "text": "20 years"
+        },
+        {
+          "id": "C",
+          "text": "22 years"
+        },
+        {
+          "id": "D",
+          "text": "24 years"
+        },
+        {
+          "id": "E",
+          "text": "26 years"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "27 years"
+    },
+    {
+      "questionNumber": 58,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A vessel contains 70 liters of milk and water in the ratio of 3:7. If the X liters of milk and 56 liters of water are added to the mixture, then the ratio of the milk to water becomes 3:5. Find X.",
+      "options": [
+        {
+          "id": "A",
+          "text": "48"
+        },
+        {
+          "id": "B",
+          "text": "42"
+        },
+        {
+          "id": "C",
+          "text": "35"
+        },
+        {
+          "id": "D",
+          "text": "56"
+        },
+        {
+          "id": "E",
+          "text": "63"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "48"
+    },
+    {
+      "questionNumber": 59,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A, B and C can do a work in 48 days, 72 days and 54 days respectively. If A and B together can do a work for 8 days, then find the time taken (in days) by C to complete the remaining work.",
+      "options": [
+        {
+          "id": "A",
+          "text": "44"
+        },
+        {
+          "id": "B",
+          "text": "31"
+        },
+        {
+          "id": "C",
+          "text": "43"
+        },
+        {
+          "id": "D",
+          "text": "34"
+        },
+        {
+          "id": "E",
+          "text": "39"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "44"
+    },
+    {
+      "questionNumber": 60,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "The total time taken by a boat to cover 105 km upstream and 105 km downstream in 7.5 hours. If the ratio of the speed of boat in downstream to upstream is 2:1 respectively, then find the speed of the boat in speed in still water?",
+      "options": [
+        {
+          "id": "A",
+          "text": "44.5"
+        },
+        {
+          "id": "B",
+          "text": "31.5"
+        },
+        {
+          "id": "C",
+          "text": "43.5"
+        },
+        {
+          "id": "D",
+          "text": "34.5"
+        },
+        {
+          "id": "E",
+          "text": "39.5"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "44.5"
+    },
+    {
+      "questionNumber": 61,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "A train takes 30 seconds to cross a pole and 45 seconds to cross a 350 meters long bridge. Find the length of the train.",
+      "options": [
+        {
+          "id": "A",
+          "text": "840 m"
+        },
+        {
+          "id": "B",
+          "text": "600 m"
+        },
+        {
+          "id": "C",
+          "text": "800 m"
+        },
+        {
+          "id": "D",
+          "text": "700 m"
+        },
+        {
+          "id": "E",
+          "text": "900 m"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "840 m"
+    },
+    {
+      "questionNumber": 62,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "The circumference of two circles is 88 meters and 132 meters. What is sum of the radius of both the circles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "14 meters"
+        },
+        {
+          "id": "B",
+          "text": "35 meters"
+        },
+        {
+          "id": "C",
+          "text": "7 meters"
+        },
+        {
+          "id": "D",
+          "text": "21 meters"
+        },
+        {
+          "id": "E",
+          "text": "42 meters Directions (63-65): What will be come in the place of question (?) mark in the following number series."
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "14 meters"
+    },
+    {
+      "questionNumber": 63,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "91, 112, 136, 164, 197 , ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "227"
+        },
+        {
+          "id": "B",
+          "text": "229"
+        },
+        {
+          "id": "C",
+          "text": "231"
+        },
+        {
+          "id": "D",
+          "text": "236"
+        },
+        {
+          "id": "E",
+          "text": "235"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-63-65",
+      "passageText": "What will be come in the place of question (?) mark in the following number series.",
+      "groupOrder": 1,
+      "answer": "227"
+    },
+    {
+      "questionNumber": 64,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "12, 39, 120, 363, ?, 3279",
+      "options": [
+        {
+          "id": "A",
+          "text": "1092"
+        },
+        {
+          "id": "B",
+          "text": "1089"
+        },
+        {
+          "id": "C",
+          "text": "1096"
+        },
+        {
+          "id": "D",
+          "text": "1192"
+        },
+        {
+          "id": "E",
+          "text": "1082"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-63-65",
+      "passageText": "What will be come in the place of question (?) mark in the following number series.",
+      "groupOrder": 2,
+      "answer": "1092"
+    },
+    {
+      "questionNumber": 65,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "5040, 840, ?, 42, 14, 7",
+      "options": [
+        {
+          "id": "A",
+          "text": "125"
+        },
+        {
+          "id": "B",
+          "text": "132"
+        },
+        {
+          "id": "C",
+          "text": "129"
+        },
+        {
+          "id": "D",
+          "text": "168"
+        },
+        {
+          "id": "E",
+          "text": "120 Directions (66-70): Read the given information carefully and answer the questions below: Eight persons – A, B, C, D, E, F, G and H - were born (but not necessarily in the same order as given) on two different dates – either 8 or 27 of four different months – January, May, June and November. No two persons were born on the same date. D was born on an even date in May. A was born in the month before D. A and D were born on same dates. Four persons were born between A and E. H was born in the same month as E. G was born just after B. Two persons were born between B and C."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-63-65",
+      "passageText": "What will be come in the place of question (?) mark in the following number series.",
+      "groupOrder": 3,
+      "answer": "125"
+    },
+    {
+      "questionNumber": 66,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "F was born on which date and month?",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 May"
+        },
+        {
+          "id": "B",
+          "text": "8 November"
+        },
+        {
+          "id": "C",
+          "text": "27 May"
+        },
+        {
+          "id": "D",
+          "text": "27 January"
+        },
+        {
+          "id": "E",
+          "text": "8 June"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-66-70",
+      "passageText": "Read the given information carefully and answer the questions below: Eight persons – A, B, C, D, E, F, G and H - were born (but not necessarily in the same order as given) on two different dates – either 8 or 27 of four different months – January, May, June and November. No two persons were born on the same date. D was born on an even date in May. A was born in the month before D. A and D were born on same dates. Four persons were born between A and E. H was born in the same month as E. G was born just after B. Two persons were born between B and C.",
+      "groupOrder": 1,
+      "answer": "8 May"
+    },
+    {
+      "questionNumber": 67,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many persons were born after C?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Five"
+        },
+        {
+          "id": "B",
+          "text": "One"
+        },
+        {
+          "id": "C",
+          "text": "Two"
+        },
+        {
+          "id": "D",
+          "text": "Three"
+        },
+        {
+          "id": "E",
+          "text": "Four"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-66-70",
+      "passageText": "Read the given information carefully and answer the questions below: Eight persons – A, B, C, D, E, F, G and H - were born (but not necessarily in the same order as given) on two different dates – either 8 or 27 of four different months – January, May, June and November. No two persons were born on the same date. D was born on an even date in May. A was born in the month before D. A and D were born on same dates. Four persons were born between A and E. H was born in the same month as E. G was born just after B. Two persons were born between B and C.",
+      "groupOrder": 2,
+      "answer": "Five"
+    },
+    {
+      "questionNumber": 68,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Who among the following was born on 8 November?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C"
+        },
+        {
+          "id": "B",
+          "text": "H"
+        },
+        {
+          "id": "C",
+          "text": "G"
+        },
+        {
+          "id": "D",
+          "text": "B"
+        },
+        {
+          "id": "E",
+          "text": "E"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-66-70",
+      "passageText": "Read the given information carefully and answer the questions below: Eight persons – A, B, C, D, E, F, G and H - were born (but not necessarily in the same order as given) on two different dates – either 8 or 27 of four different months – January, May, June and November. No two persons were born on the same date. D was born on an even date in May. A was born in the month before D. A and D were born on same dates. Four persons were born between A and E. H was born in the same month as E. G was born just after B. Two persons were born between B and C.",
+      "groupOrder": 3,
+      "answer": "C"
+    },
+    {
+      "questionNumber": 69,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Four of the following five are similar in a certain pattern, who among the following is dissimilar to others?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "D"
+        },
+        {
+          "id": "C",
+          "text": "H"
+        },
+        {
+          "id": "D",
+          "text": "B"
+        },
+        {
+          "id": "E",
+          "text": "G"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-66-70",
+      "passageText": "Read the given information carefully and answer the questions below: Eight persons – A, B, C, D, E, F, G and H - were born (but not necessarily in the same order as given) on two different dates – either 8 or 27 of four different months – January, May, June and November. No two persons were born on the same date. D was born on an even date in May. A was born in the month before D. A and D were born on same dates. Four persons were born between A and E. H was born in the same month as E. G was born just after B. Two persons were born between B and C.",
+      "groupOrder": 4,
+      "answer": "A"
+    },
+    {
+      "questionNumber": 70,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Which of the following statement is correct? I. D was born after A II. G and C were born in same month III. H was born on 8 June",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only I"
+        },
+        {
+          "id": "B",
+          "text": "Only I and II"
+        },
+        {
+          "id": "C",
+          "text": "Only II"
+        },
+        {
+          "id": "D",
+          "text": "Only I and III"
+        },
+        {
+          "id": "E",
+          "text": "Only III Directions (71-75): Study the following information carefully and answer the questions given below: Eight persons - A, B, C, D, E, F, G and H - sit in a row facing north, but not necessarily in the same order. D sits third to the right of C. Three persons sit between C and E. A sits second to the right of E. F sits fourth to the left of H. C is not an immediate neighbour of G. More than one person sit between H and G. B sits to the right of G."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-66-70",
+      "passageText": "Read the given information carefully and answer the questions below: Eight persons – A, B, C, D, E, F, G and H - were born (but not necessarily in the same order as given) on two different dates – either 8 or 27 of four different months – January, May, June and November. No two persons were born on the same date. D was born on an even date in May. A was born in the month before D. A and D were born on same dates. Four persons were born between A and E. H was born in the same month as E. G was born just after B. Two persons were born between B and C.",
+      "groupOrder": 5,
+      "answer": "Only I"
+    },
+    {
+      "questionNumber": 71,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Who among the following persons sits fourth to the left of B?",
+      "options": [
+        {
+          "id": "A",
+          "text": "G"
+        },
+        {
+          "id": "B",
+          "text": "D"
+        },
+        {
+          "id": "C",
+          "text": "E"
+        },
+        {
+          "id": "D",
+          "text": "F"
+        },
+        {
+          "id": "E",
+          "text": "None of these"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-71-75",
+      "passageText": "Study the following information carefully and answer the questions given below: Eight persons - A, B, C, D, E, F, G and H - sit in a row facing north, but not necessarily in the same order. D sits third to the right of C. Three persons sit between C and E. A sits second to the right of E. F sits fourth to the left of H. C is not an immediate neighbour of G. More than one person sit between H and G. B sits to the right of G.",
+      "groupOrder": 1,
+      "answer": "G"
+    },
+    {
+      "questionNumber": 72,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Which among the following statement is/are false?",
+      "options": [
+        {
+          "id": "A",
+          "text": "E sits at one of the extreme ends of the row"
+        },
+        {
+          "id": "B",
+          "text": "F and G are immediate neighbours"
+        },
+        {
+          "id": "C",
+          "text": "Only one person sits between G and C"
+        },
+        {
+          "id": "D",
+          "text": "A sits immediate left of B"
+        },
+        {
+          "id": "E",
+          "text": "H and E are immediate neighbours"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-71-75",
+      "passageText": "Study the following information carefully and answer the questions given below: Eight persons - A, B, C, D, E, F, G and H - sit in a row facing north, but not necessarily in the same order. D sits third to the right of C. Three persons sit between C and E. A sits second to the right of E. F sits fourth to the left of H. C is not an immediate neighbour of G. More than one person sit between H and G. B sits to the right of G.",
+      "groupOrder": 2,
+      "answer": "E sits at one of the extreme ends of the row"
+    },
+    {
+      "questionNumber": 73,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "If F and A, interchange their positions, who will sit to the immediate right of A?",
+      "options": [
+        {
+          "id": "A",
+          "text": "B"
+        },
+        {
+          "id": "B",
+          "text": "G"
+        },
+        {
+          "id": "C",
+          "text": "D"
+        },
+        {
+          "id": "D",
+          "text": "H"
+        },
+        {
+          "id": "E",
+          "text": "None of these"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-71-75",
+      "passageText": "Study the following information carefully and answer the questions given below: Eight persons - A, B, C, D, E, F, G and H - sit in a row facing north, but not necessarily in the same order. D sits third to the right of C. Three persons sit between C and E. A sits second to the right of E. F sits fourth to the left of H. C is not an immediate neighbour of G. More than one person sit between H and G. B sits to the right of G.",
+      "groupOrder": 3,
+      "answer": "B"
+    },
+    {
+      "questionNumber": 74,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Which of the following pairs represents the persons sitting at the extreme ends?",
+      "options": [
+        {
+          "id": "A",
+          "text": "E and C"
+        },
+        {
+          "id": "B",
+          "text": "E and D"
+        },
+        {
+          "id": "C",
+          "text": "C and B"
+        },
+        {
+          "id": "D",
+          "text": "B and D"
+        },
+        {
+          "id": "E",
+          "text": "None of these"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-71-75",
+      "passageText": "Study the following information carefully and answer the questions given below: Eight persons - A, B, C, D, E, F, G and H - sit in a row facing north, but not necessarily in the same order. D sits third to the right of C. Three persons sit between C and E. A sits second to the right of E. F sits fourth to the left of H. C is not an immediate neighbour of G. More than one person sit between H and G. B sits to the right of G.",
+      "groupOrder": 4,
+      "answer": "E and C"
+    },
+    {
+      "questionNumber": 75,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "What is the position of C with respect to D?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Third to the right"
+        },
+        {
+          "id": "B",
+          "text": "Fourth to the left"
+        },
+        {
+          "id": "C",
+          "text": "Immediate right"
+        },
+        {
+          "id": "D",
+          "text": "Third to the left"
+        },
+        {
+          "id": "E",
+          "text": "Immediate left Directions (76-80): Read the given numeric series carefully and answer the related questions: 3 7 4 9 8 6 5 2 1 3 4 7 9 6 2 5 3 4 6 8 2 7 4 3 5 8 9 3 2 7 4"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-71-75",
+      "passageText": "Study the following information carefully and answer the questions given below: Eight persons - A, B, C, D, E, F, G and H - sit in a row facing north, but not necessarily in the same order. D sits third to the right of C. Three persons sit between C and E. A sits second to the right of E. F sits fourth to the left of H. C is not an immediate neighbour of G. More than one person sit between H and G. B sits to the right of G.",
+      "groupOrder": 5,
+      "answer": "Third to the right"
+    },
+    {
+      "questionNumber": 76,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Which element is 11 th from the right end in the given series?",
+      "options": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        },
+        {
+          "id": "E",
+          "text": "3"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-76-80",
+      "passageText": "Read the given numeric series carefully and answer the related questions: 3 7 4 9 8 6 5 2 1 3 4 7 9 6 2 5 3 4 6 8 2 7 4 3 5 8 9 3 2 7 4",
+      "groupOrder": 1,
+      "answer": "7"
+    },
+    {
+      "questionNumber": 77,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many square numbers are immediately preceded by an odd number?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "Three"
+        },
+        {
+          "id": "D",
+          "text": "Four"
+        },
+        {
+          "id": "E",
+          "text": "More than four"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-76-80",
+      "passageText": "Read the given numeric series carefully and answer the related questions: 3 7 4 9 8 6 5 2 1 3 4 7 9 6 2 5 3 4 6 8 2 7 4 3 5 8 9 3 2 7 4",
+      "groupOrder": 2,
+      "answer": "One"
+    },
+    {
+      "questionNumber": 78,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Which element is 6 th to the right of the 9 th odd number from the left end?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        },
+        {
+          "id": "E",
+          "text": "7"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-76-80",
+      "passageText": "Read the given numeric series carefully and answer the related questions: 3 7 4 9 8 6 5 2 1 3 4 7 9 6 2 5 3 4 6 8 2 7 4 3 5 8 9 3 2 7 4",
+      "groupOrder": 3,
+      "answer": "3"
+    },
+    {
+      "questionNumber": 79,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many even numbers are immediately preceded by an odd number and immediately followed by an even number?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "Three"
+        },
+        {
+          "id": "D",
+          "text": "Four"
+        },
+        {
+          "id": "E",
+          "text": "Five"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-76-80",
+      "passageText": "Read the given numeric series carefully and answer the related questions: 3 7 4 9 8 6 5 2 1 3 4 7 9 6 2 5 3 4 6 8 2 7 4 3 5 8 9 3 2 7 4",
+      "groupOrder": 4,
+      "answer": "One"
+    },
+    {
+      "questionNumber": 80,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "What will the sum of 7 th element from left end and 4 th even number from right end?",
+      "options": [
+        {
+          "id": "A",
+          "text": "11"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "13"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        },
+        {
+          "id": "E",
+          "text": "9 Directions (81-83): In these questions, the relationship between different elements is shown in the statements. The statements are followed by two conclusions. Study the conclusions based on the given statements and select the appropriate answer:"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-76-80",
+      "passageText": "Read the given numeric series carefully and answer the related questions: 3 7 4 9 8 6 5 2 1 3 4 7 9 6 2 5 3 4 6 8 2 7 4 3 5 8 9 3 2 7 4",
+      "groupOrder": 5,
+      "answer": "11"
+    },
+    {
+      "questionNumber": 81,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Statements : B ≥ O > M = E > L < D > Z Conclusions: I. O ≤ Z II. B > D",
+      "options": [
+        {
+          "id": "A",
+          "text": "If only conclusion I is true"
+        },
+        {
+          "id": "B",
+          "text": "If only conclusion II is true"
+        },
+        {
+          "id": "C",
+          "text": "If either conclusion I or II is true"
+        },
+        {
+          "id": "D",
+          "text": "If both conclusions I and II are true"
+        },
+        {
+          "id": "E",
+          "text": "If neither conclusion I nor II is true"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-81-83",
+      "passageText": "In these questions, the relationship between different elements is shown in the statements. The statements are followed by two conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "groupOrder": 1,
+      "answer": "If only conclusion I is true"
+    },
+    {
+      "questionNumber": 82,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Statements : E < G < J ≥ N = B > U < P Conclusions: I. J > U II. P > G",
+      "options": [
+        {
+          "id": "A",
+          "text": "If only conclusion I is true"
+        },
+        {
+          "id": "B",
+          "text": "If only conclusion II is true"
+        },
+        {
+          "id": "C",
+          "text": "If either conclusion I or II is true"
+        },
+        {
+          "id": "D",
+          "text": "If both conclusions I and II are true"
+        },
+        {
+          "id": "E",
+          "text": "If neither conclusion I nor II is true"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-81-83",
+      "passageText": "In these questions, the relationship between different elements is shown in the statements. The statements are followed by two conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "groupOrder": 2,
+      "answer": "If only conclusion I is true"
+    },
+    {
+      "questionNumber": 83,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Statements : Y < K = S ≥ J < I > E < C ≤ D Conclusions: I. K < D II. S ≥ D",
+      "options": [
+        {
+          "id": "A",
+          "text": "If only conclusion I is true"
+        },
+        {
+          "id": "B",
+          "text": "If only conclusion II is true"
+        },
+        {
+          "id": "C",
+          "text": "If either conclusion I or II is true"
+        },
+        {
+          "id": "D",
+          "text": "If both conclusions I and II are true"
+        },
+        {
+          "id": "E",
+          "text": "If neither conclusion I nor II is true Directions (84-88): Study the following information carefully and answer the question given below : Eight persons - H, M, A, G, K, O, C and D are sitting around a square shaped table in such a way that four of them sit at four corners of the table while remaining four sit in the middle of the four sides, but not necessarily in the same order. The one who sits at the four corners faces the center while those who sits in the middle of the sides face outside. K sits immediate left of H. G sits second to the left of K. Three persons sit between A and M. M sits immediate left of G. Only two persons sit between H and O. O sits at one of the corners but does not sit adjacent to M. D sits third to the left of G."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-81-83",
+      "passageText": "In these questions, the relationship between different elements is shown in the statements. The statements are followed by two conclusions. Study the conclusions based on the given statements and select the appropriate answer:",
+      "groupOrder": 3,
+      "answer": "If only conclusion I is true"
+    },
+    {
+      "questionNumber": 84,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Who among the following person sits opposite to G?",
+      "options": [
+        {
+          "id": "A",
+          "text": "D"
+        },
+        {
+          "id": "B",
+          "text": "C"
+        },
+        {
+          "id": "C",
+          "text": "O"
+        },
+        {
+          "id": "D",
+          "text": "M"
+        },
+        {
+          "id": "E",
+          "text": "A"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-84-88",
+      "passageText": "Study the following information carefully and answer the question given below : Eight persons - H, M, A, G, K, O, C and D are sitting around a square shaped table in such a way that four of them sit at four corners of the table while remaining four sit in the middle of the four sides, but not necessarily in the same order. The one who sits at the four corners faces the center while those who sits in the middle of the sides face outside. K sits immediate left of H. G sits second to the left of K. Three persons sit between A and M. M sits immediate left of G. Only two persons sit between H and O. O sits at one of the corners but does not sit adjacent to M. D sits third to the left of G.",
+      "groupOrder": 1,
+      "answer": "D"
+    },
+    {
+      "questionNumber": 85,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "What is the position of O with respect to M?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Third to the left"
+        },
+        {
+          "id": "B",
+          "text": "Third to the right"
+        },
+        {
+          "id": "C",
+          "text": "Fourth to the right"
+        },
+        {
+          "id": "D",
+          "text": "Fifth to the right"
+        },
+        {
+          "id": "E",
+          "text": "Second to the right"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-84-88",
+      "passageText": "Study the following information carefully and answer the question given below : Eight persons - H, M, A, G, K, O, C and D are sitting around a square shaped table in such a way that four of them sit at four corners of the table while remaining four sit in the middle of the four sides, but not necessarily in the same order. The one who sits at the four corners faces the center while those who sits in the middle of the sides face outside. K sits immediate left of H. G sits second to the left of K. Three persons sit between A and M. M sits immediate left of G. Only two persons sit between H and O. O sits at one of the corners but does not sit adjacent to M. D sits third to the left of G.",
+      "groupOrder": 2,
+      "answer": "Third to the left"
+    },
+    {
+      "questionNumber": 86,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many persons sit between A and G when counted from the right of A?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "Five"
+        },
+        {
+          "id": "D",
+          "text": "Three"
+        },
+        {
+          "id": "E",
+          "text": "Four"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-84-88",
+      "passageText": "Study the following information carefully and answer the question given below : Eight persons - H, M, A, G, K, O, C and D are sitting around a square shaped table in such a way that four of them sit at four corners of the table while remaining four sit in the middle of the four sides, but not necessarily in the same order. The one who sits at the four corners faces the center while those who sits in the middle of the sides face outside. K sits immediate left of H. G sits second to the left of K. Three persons sit between A and M. M sits immediate left of G. Only two persons sit between H and O. O sits at one of the corners but does not sit adjacent to M. D sits third to the left of G.",
+      "groupOrder": 3,
+      "answer": "One"
+    },
+    {
+      "questionNumber": 87,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Four of the following five are alike in a certain way and thus form a group. Find the one who doesn’t belong to the group?",
+      "options": [
+        {
+          "id": "A",
+          "text": "M"
+        },
+        {
+          "id": "B",
+          "text": "H"
+        },
+        {
+          "id": "C",
+          "text": "A"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        },
+        {
+          "id": "E",
+          "text": "K"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-84-88",
+      "passageText": "Study the following information carefully and answer the question given below : Eight persons - H, M, A, G, K, O, C and D are sitting around a square shaped table in such a way that four of them sit at four corners of the table while remaining four sit in the middle of the four sides, but not necessarily in the same order. The one who sits at the four corners faces the center while those who sits in the middle of the sides face outside. K sits immediate left of H. G sits second to the left of K. Three persons sit between A and M. M sits immediate left of G. Only two persons sit between H and O. O sits at one of the corners but does not sit adjacent to M. D sits third to the left of G.",
+      "groupOrder": 4,
+      "answer": "M"
+    },
+    {
+      "questionNumber": 88,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Which among the following statement(s) is/are true? I. C sits second to the left of G II. G sits opposite to A III. Two persons sit between M and K when counting from left of M.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only I"
+        },
+        {
+          "id": "B",
+          "text": "Only III"
+        },
+        {
+          "id": "C",
+          "text": "Only II"
+        },
+        {
+          "id": "D",
+          "text": "Both I and III"
+        },
+        {
+          "id": "E",
+          "text": "All I, II and III Directions (89-91): In the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the statements and decide which of the given conclusion logically follows from the statements. Give answer:"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-84-88",
+      "passageText": "Study the following information carefully and answer the question given below : Eight persons - H, M, A, G, K, O, C and D are sitting around a square shaped table in such a way that four of them sit at four corners of the table while remaining four sit in the middle of the four sides, but not necessarily in the same order. The one who sits at the four corners faces the center while those who sits in the middle of the sides face outside. K sits immediate left of H. G sits second to the left of K. Three persons sit between A and M. M sits immediate left of G. Only two persons sit between H and O. O sits at one of the corners but does not sit adjacent to M. D sits third to the left of G.",
+      "groupOrder": 5,
+      "answer": "Only I"
+    },
+    {
+      "questionNumber": 89,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Statement: All key is rubber. Only a few rubber is dot. Some Dot is paper. Conclusions: I. Some key is not paper. II. No paper being rubber is a possibility.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only I follows"
+        },
+        {
+          "id": "B",
+          "text": "Only II follows"
+        },
+        {
+          "id": "C",
+          "text": "Either I or II follow"
+        },
+        {
+          "id": "D",
+          "text": "Neither I nor II follow"
+        },
+        {
+          "id": "E",
+          "text": "Both I and II follow"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-89-91",
+      "passageText": "In the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the statements and decide which of the given conclusion logically follows from the statements. Give answer:",
+      "groupOrder": 1,
+      "answer": "Only I follows"
+    },
+    {
+      "questionNumber": 90,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Statement: Only soil is plant. Some soil is feather. No feather is color. Conclusions: I. All feather being soil is a possibility. II. Some soil is not color.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only I follows"
+        },
+        {
+          "id": "B",
+          "text": "Only II follows"
+        },
+        {
+          "id": "C",
+          "text": "Either I or II follow"
+        },
+        {
+          "id": "D",
+          "text": "Neither I nor II follow"
+        },
+        {
+          "id": "E",
+          "text": "Both I and II follow"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-89-91",
+      "passageText": "In the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the statements and decide which of the given conclusion logically follows from the statements. Give answer:",
+      "groupOrder": 2,
+      "answer": "Only I follows"
+    },
+    {
+      "questionNumber": 91,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Statement: Only a few money is scale. All scale is graph. Some graph is brick. Conclusions: I. No brick is scale. II. All money is graph.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only I follows"
+        },
+        {
+          "id": "B",
+          "text": "Only II follows"
+        },
+        {
+          "id": "C",
+          "text": "Either I or II follow"
+        },
+        {
+          "id": "D",
+          "text": "Neither I nor II follow"
+        },
+        {
+          "id": "E",
+          "text": "Both I and II follow Directions (92-94): Study the following information carefully and answer the question given below: A certain number of people are sitting in a row facing north. A sits fifth to the left of B. E is an immediate neighbour of B. F sits second to the left of A and second from one of the extreme ends of the row. Only one person sits between B and G. E is not an immediate neighbour of G. K sits fourth to the right of G. No one sits to the right of K. Five persons sit between K and T."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-89-91",
+      "passageText": "In the questions below, some statements are given followed by two conclusions. You have to take the given statements to be true even if they seem to be at variance with commonly known facts. Read all the statements and decide which of the given conclusion logically follows from the statements. Give answer:",
+      "groupOrder": 3,
+      "answer": "Only I follows"
+    },
+    {
+      "questionNumber": 92,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Who among the following person sits fourth to the right of T?",
+      "options": [
+        {
+          "id": "A",
+          "text": "E"
+        },
+        {
+          "id": "B",
+          "text": "G"
+        },
+        {
+          "id": "C",
+          "text": "A"
+        },
+        {
+          "id": "D",
+          "text": "F"
+        },
+        {
+          "id": "E",
+          "text": "B"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-92-94",
+      "passageText": "Study the following information carefully and answer the question given below: A certain number of people are sitting in a row facing north. A sits fifth to the left of B. E is an immediate neighbour of B. F sits second to the left of A and second from one of the extreme ends of the row. Only one person sits between B and G. E is not an immediate neighbour of G. K sits fourth to the right of G. No one sits to the right of K. Five persons sit between K and T.",
+      "groupOrder": 1,
+      "answer": "E"
+    },
+    {
+      "questionNumber": 93,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Who among the following sits seventh from the left end of the row?",
+      "options": [
+        {
+          "id": "A",
+          "text": "B"
+        },
+        {
+          "id": "B",
+          "text": "G"
+        },
+        {
+          "id": "C",
+          "text": "E"
+        },
+        {
+          "id": "D",
+          "text": "T"
+        },
+        {
+          "id": "E",
+          "text": "Unknown person"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-92-94",
+      "passageText": "Study the following information carefully and answer the question given below: A certain number of people are sitting in a row facing north. A sits fifth to the left of B. E is an immediate neighbour of B. F sits second to the left of A and second from one of the extreme ends of the row. Only one person sits between B and G. E is not an immediate neighbour of G. K sits fourth to the right of G. No one sits to the right of K. Five persons sit between K and T.",
+      "groupOrder": 2,
+      "answer": "B"
+    },
+    {
+      "questionNumber": 94,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many persons are sitting in the row?",
+      "options": [
+        {
+          "id": "A",
+          "text": "13"
+        },
+        {
+          "id": "B",
+          "text": "14"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "11"
+        },
+        {
+          "id": "E",
+          "text": "12 Directions (95-97): Study the information carefully and answer the questions given below. There are eight persons in a three-generation family with three married couples. M is father of O. Q is the daughter-in-law of G. Q is the mother of S. S is the grandchild of M. P is the sister of M. S and T are siblings. T is the only son of O. L and P are married."
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-92-94",
+      "passageText": "Study the following information carefully and answer the question given below: A certain number of people are sitting in a row facing north. A sits fifth to the left of B. E is an immediate neighbour of B. F sits second to the left of A and second from one of the extreme ends of the row. Only one person sits between B and G. E is not an immediate neighbour of G. K sits fourth to the right of G. No one sits to the right of K. Five persons sit between K and T.",
+      "groupOrder": 3,
+      "answer": "13"
+    },
+    {
+      "questionNumber": 95,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How is G related to T?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mother"
+        },
+        {
+          "id": "B",
+          "text": "Granddaughter"
+        },
+        {
+          "id": "C",
+          "text": "Grandmother"
+        },
+        {
+          "id": "D",
+          "text": "Grandfather"
+        },
+        {
+          "id": "E",
+          "text": "None of these"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-95-97",
+      "passageText": "Study the information carefully and answer the questions given below. There are eight persons in a three-generation family with three married couples. M is father of O. Q is the daughter-in-law of G. Q is the mother of S. S is the grandchild of M. P is the sister of M. S and T are siblings. T is the only son of O. L and P are married.",
+      "groupOrder": 1,
+      "answer": "Mother"
+    },
+    {
+      "questionNumber": 96,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many female members are there in the family?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Three"
+        },
+        {
+          "id": "B",
+          "text": "Five"
+        },
+        {
+          "id": "C",
+          "text": "Four"
+        },
+        {
+          "id": "D",
+          "text": "Two"
+        },
+        {
+          "id": "E",
+          "text": "None of these"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-95-97",
+      "passageText": "Study the information carefully and answer the questions given below. There are eight persons in a three-generation family with three married couples. M is father of O. Q is the daughter-in-law of G. Q is the mother of S. S is the grandchild of M. P is the sister of M. S and T are siblings. T is the only son of O. L and P are married.",
+      "groupOrder": 2,
+      "answer": "Three"
+    },
+    {
+      "questionNumber": 97,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "Who among the following is the aunt of O?",
+      "options": [
+        {
+          "id": "A",
+          "text": "G"
+        },
+        {
+          "id": "B",
+          "text": "P"
+        },
+        {
+          "id": "C",
+          "text": "Q"
+        },
+        {
+          "id": "D",
+          "text": "T"
+        },
+        {
+          "id": "E",
+          "text": "Can’t be determined"
+        }
+      ],
+      "groupType": "rc_passage",
+      "groupId": "group-95-97",
+      "passageText": "Study the information carefully and answer the questions given below. There are eight persons in a three-generation family with three married couples. M is father of O. Q is the daughter-in-law of G. Q is the mother of S. S is the grandchild of M. P is the sister of M. S and T are siblings. T is the only son of O. L and P are married.",
+      "groupOrder": 3,
+      "answer": "G"
+    },
+    {
+      "questionNumber": 98,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "How many pair of digits are in the number ‘275849136’, each of which have as many digits between them as in the number series (both forward and backward order)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "Three"
+        },
+        {
+          "id": "D",
+          "text": "Four"
+        },
+        {
+          "id": "E",
+          "text": "More than four"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "One"
+    },
+    {
+      "questionNumber": 99,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "In the word ‘HUNGARILY’, if all the letters are arranged in alphabetical order from left to right, then, how many letters will remain same on their positions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "Four"
+        },
+        {
+          "id": "D",
+          "text": "Three"
+        },
+        {
+          "id": "E",
+          "text": "One"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "None"
+    },
+    {
+      "questionNumber": 100,
+      "section": "Numerical Ability",
+      "type": "mcq",
+      "question": "If a meaningful word is formed by using the second, fourth, fifth and tenth letters (from the left end) of the word “RENOVATION”, then which of the following will be the second letter from the left end of the meaningful word thus formed. If more than one such meaningful word is formed mark Y as your answer. If no meaningful word is formed, mark Z as your answer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "N"
+        },
+        {
+          "id": "B",
+          "text": "Y"
+        },
+        {
+          "id": "C",
+          "text": "E"
+        },
+        {
+          "id": "D",
+          "text": "Z"
+        },
+        {
+          "id": "E",
+          "text": "V"
+        }
+      ],
+      "groupType": "none",
+      "groupId": "",
+      "passageText": "",
+      "groupOrder": null,
+      "answer": "N"
+    }
+  ]
+}

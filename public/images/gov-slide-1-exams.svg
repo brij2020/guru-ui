@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Government Exam Mock Tests for SSC Banking UPSC</title>
+  <desc id="desc">Education platform slide showing government exam mock test categories with call to action</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf4ff"/>
+      <stop offset="100%" stop-color="#d9ecff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="28" fill="#ffffff" stroke="#d5e8ff" stroke-width="4"/>
+  <text x="130" y="180" fill="#0f172a" font-size="54" font-family="Inter, Arial, sans-serif" font-weight="800">Government Exam Mock Tests</text>
+  <text x="130" y="235" fill="#475569" font-size="28" font-family="Inter, Arial, sans-serif" font-weight="500">SSC CGL • Banking • UPSC • Railway • PSC</text>
+  <rect x="130" y="290" width="260" height="56" rx="12" fill="#0073e6"/>
+  <text x="175" y="327" fill="#ffffff" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700">Start Free Test</text>
+  <rect x="700" y="180" width="320" height="90" rx="14" fill="#eef6ff" stroke="#cfe4ff"/>
+  <text x="735" y="235" fill="#0073e6" font-size="32" font-family="Inter, Arial, sans-serif" font-weight="700">SSC CGL</text>
+  <rect x="700" y="295" width="320" height="90" rx="14" fill="#eef6ff" stroke="#cfe4ff"/>
+  <text x="735" y="350" fill="#0073e6" font-size="32" font-family="Inter, Arial, sans-serif" font-weight="700">IBPS / SBI</text>
+  <rect x="700" y="410" width="320" height="90" rx="14" fill="#eef6ff" stroke="#cfe4ff"/>
+  <text x="735" y="465" fill="#0073e6" font-size="32" font-family="Inter, Arial, sans-serif" font-weight="700">UPSC / PSC</text>
+</svg>

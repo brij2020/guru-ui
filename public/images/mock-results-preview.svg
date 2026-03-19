@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Mock test results preview with rank and percentile</title>
+  <desc id="desc">Dashboard card showing rank percentile and weak topic indicators for exam preparation</desc>
+  <rect width="900" height="620" fill="#f7f7fb"/>
+  <rect x="70" y="60" width="760" height="500" rx="26" fill="#ffffff" stroke="#dddde9" stroke-width="4"/>
+  <rect x="120" y="110" width="300" height="36" rx="12" fill="#8500ac"/>
+  <rect x="120" y="170" width="210" height="18" rx="9" fill="#c6abd6"/>
+  <rect x="120" y="198" width="280" height="18" rx="9" fill="#c6abd6"/>
+  <rect x="120" y="226" width="240" height="18" rx="9" fill="#c6abd6"/>
+  <rect x="120" y="280" width="220" height="180" rx="18" fill="#f6edfb" stroke="#e7d8f0"/>
+  <rect x="360" y="280" width="220" height="180" rx="18" fill="#eef5ff" stroke="#d5e4ff"/>
+  <rect x="600" y="280" width="180" height="180" rx="18" fill="#ecfdf4" stroke="#caefd9"/>
+  <rect x="140" y="320" width="180" height="18" rx="8" fill="#a94bcc"/>
+  <rect x="380" y="320" width="180" height="18" rx="8" fill="#3b82f6"/>
+  <rect x="620" y="320" width="140" height="18" rx="8" fill="#16a34a"/>
+</svg>

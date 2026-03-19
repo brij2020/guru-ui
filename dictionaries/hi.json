@@ -1,0 +1,1832 @@
+{
+  "Navheader": {
+    "categories": "Categories",
+    "getCertified": "Get Certified",
+    "login": "Login",
+    "signup": "Sign Up",
+    "searchPlaceholder": "Search for anything"
+  },
+  "Cart": {
+    "cartTitle": "Cart",
+    "emptyCart": "Your cart is empty",
+    "remove": "Remove",
+    "checkout": "Checkout"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to continue your medical learning journey",
+    "emailLabel": "Email Address",
+    "emailRequired": "Please enter your email",
+    "emailPlaceholder": "Enter your email address",
+    "passwordLabel": "Password",
+    "passwordRequired": "Please enter your password",
+    "passwordPlaceholder": "Enter your password",
+    "signIn": "Sign In",
+    "signingIn": "Signing In...",
+    "or": "or",
+    "invalidCredentials": "Invalid email or password",
+    "noAccount": "Don't have an account? Create account",
+    "createAccount": "Create account",
+    "medical": "Medical",
+    "certified": "Certified",
+    "secure": "Secure"
+  },
+  "dashboard": {
+    "admin": {
+      "header": {
+        "role": "Administrator",
+        "name": " Mohammed Al Rashid",
+        "profile": "Profile",
+        "logout": "Logout"
+      },
+      "sider": {
+        "brandCollapsed": "M+",
+        "brandFull": "Med + Cert",
+      "dashboard": "Dashboard",
+      "courses": "Courses",
+      "tests": "Tests",
+      "users": "Users",
+      "manage ai test meta data": "Manage AI Test Meta Data"
+    },
+      "profile": {
+        "firstName": "Mohammed",
+        "lastName": "Al Rashid",
+        "role": "Senior Administrator",
+        "bio": "System administrator with 5+ years of experience managing e-learning platforms. Specialized in user management, content moderation, and platform optimization.",
+        "department": "Platform Operations",
+        "location": "Dubai, UAE",
+        "permissionsTitle": "Admin Permissions",
+        "permissions": {
+          "fullAccess": "Full Access",
+          "userManagement": "User Management",
+          "contentModeration": "Content Moderation",
+          "analytics": "Analytics"
+        },
+        "activity": {
+          "courseApproved": "Course Approved",
+          "userRegistered": "User Registered",
+          "reportResolved": "Report Resolved",
+          "systemUpdated": "System Updated"
+        },
+        "memberSince": "Member Since",
+        "lastLogin": "Last Login",
+        "editProfile": "Edit Profile",
+        "logout": "Logout",
+        "profileImageAlt": "Profile",
+        "stats": {
+          "totalUsers": "Total Users",
+          "activeCourses": "Active Courses",
+          "certificates": "Certificates",
+          "testsConducted": "Tests Conducted"
+        },
+        "quickActionsTitle": "Quick Actions",
+        "quickActions": {
+          "manageUsers": "Manage Users",
+          "manageUsersDesc": "User accounts & permissions",
+          "viewAnalytics": "View Analytics",
+          "viewAnalyticsDesc": "Platform performance",
+          "settings": "Settings",
+          "settingsDesc": "System configuration",
+          "reports": "Reports",
+          "reportsDesc": "Generate reports"
+        },
+        "recentActivity": "Recent Activity",
+        "accountInformation": {
+          "accountInformation": "Account Information",
+          "email": "Email",
+          "phone": "Phone",
+          "department": "Department"
+        }
+      },
+      "stats": {
+        "totalCourses": "Total Courses",
+        "totalTests": "Total Tests",
+        "activeUsers": "Active Users",
+        "completionRate": "Completion Rate"
+      },
+      "charts": {
+        "coursesBySpecialization": "Courses by Specialization",
+        "coursesByRole": "Courses by Role",
+        "coursesLabel": "Courses",
+        "roleLabel": "Role",
+        "specializationLabel": "Specialization"
+      },
+      "tests": {
+        "stats": {
+          "totalTests": "Total Tests",
+          "objectiveTests": "Objective Tests",
+          "subjectiveTests": "Subjective Tests"
+        },
+        "charts": {
+          "testsBySpecialization": "Tests by Specialization & Type",
+          "testDistribution": "Test Distribution & Trends",
+          "byRole": "By Role",
+          "monthlyTrend": "Monthly Trend"
+        }
+      },
+      "userData": {
+        "quickActions": "Quick Actions",
+        "createCourse": "Create New Course",
+        "addCourse": "Add a new course to the platform",
+        "createQuiz": "Create New Quiz",
+        "addQuiz": "Add a new quiz to the platform",
+        "manageUsers": "Manage Users",
+        "viewUsers": "View and manage all users",
+        "viewReport": "View Reports",
+        "analytics": "Analytics and performance insights",
+        "systemSetting": "System Settings",
+        "configure": "Configure platform settings",
+        "helpCenter": "Help Center",
+        "getSupport": "Get support and documentation",
+        "proTip": "Pro Tip",
+        "useQuick": "Use quick actions to efficiently manage your platform.Most common tasks are just one click away!"
+      },
+      "reportData": {
+        "weeklyActivity": "Weekly Activity Trends",
+        "peakActivity": " Peak Activity",
+        "showstotalActivities": " Shows total activities per day"
+      },
+      "progressTable": {
+        "UserProgressTracking": " User Progress Tracking",
+        "title": {
+          "user": "User",
+          "course": "Course",
+          "progress": "Progress",
+          "status": "Status"
+        },
+        "userProgressData": {
+          "users": [
+            {
+              "name": "Ali Khan",
+              "course": "CPR Training",
+              "specialization": "Doctor",
+              "score": 85,
+              "certificate": "Issued"
+            },
+            {
+              "name": "Maria Ahmed",
+              "course": "First Aid",
+              "specialization": "Nurse",
+              "score": 65,
+              "certificate": "Pending"
+            },
+            {
+              "name": "Dr. Ahmed",
+              "course": "Emergency Care",
+              "specialization": "Doctor",
+              "score": 92,
+              "certificate": "Issued"
+            },
+            {
+              "name": "Sara Ali",
+              "course": "Trauma Care",
+              "specialization": "Nurse",
+              "score": 50,
+              "certificate": "Pending"
+            },
+            {
+              "name": "John Smith",
+              "course": "Pediatric Care",
+              "specialization": "Doctor",
+              "score": 78,
+              "certificate": "Issued"
+            },
+            {
+              "name": "Emily Johnson",
+              "course": "ICU Procedures",
+              "specialization": "Nurse",
+              "score": 88,
+              "certificate": "Issued"
+            }
+          ]
+        }
+      },
+      "cards":{
+        "totalEnrollments":"Total Enrollments",
+        "certificatesIssued":"Certificates Issued",
+        "avgCompletion":"Avg Completion",
+        "activeCourses":"Active Courses",
+        "coursePerformanceOverview":"Course Performance Overview",
+        "certificationTrends":"Certification Trends"
+      },
+      "RecentActivity":{
+        "totalEnrolled":"Total Enrolled",
+        "testAttempts":"Test Attempts",
+        "certificates":"Certificates",
+        "weeklyActivityBreakdown":"Weekly Activity Breakdown",
+        "activityTrends":"Activity Trends"
+      }
+    },
+    "user": {
+      "welcome": "Welcome To Your Dashboard",
+      "logout": "Logout",
+      "enrolledCourses": "Enrolled Courses",
+      "lecturesWatched": "Lectures Watched",
+      "submissions": "My Submissions",
+      "testSeries": "Test Series",
+      "score": "Score",
+      "activity": "Activity",
+      "quiz": "Quiz",
+      "submission": "Submission",
+      "courses": "Courses",
+      "recommendedCourses": "Recommended Courses",
+      "view": "View",
+      "close": "Close",
+      "enrollNow": "Enroll Now"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "links": {
+      "medCertBusiness": "Med-Cert Business",
+      "teach": "Teach on Med-Cert",
+      "app": "Get the app",
+      "about": "About us",
+      "contact": "Contact us",
+      "careers": "Careers",
+      "blog": "Blog",
+      "help": "Help and Support",
+      "affiliate": "Affiliate",
+      "investors": "Investors",
+      "terms": "Terms",
+      "privacy": "Privacy policy",
+      "cookies": "Cookie settings",
+      "sitemap": "Sitemap",
+      "accessibility": "Accessibility statement"
+    },
+    "language": {
+      "en": "English",
+      "ar": "Arabic"
+    },
+    "copyright": "© {year} Med-Cert, Inc."
+  },
+  "reviewSection": {
+    "title": "What People Say",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Zayed",
+        "image": "https://randomuser.me/api/portraits/men/32.jpg",
+        "review": "This platform is amazing! The UI is clean and user-friendly. Highly recommended."
+      },
+      {
+        "id": 2,
+        "name": "Amina",
+        "image": "https://randomuser.me/api/portraits/women/44.jpg",
+        "review": "I really enjoyed the features. The quiz creation was seamless and fast."
+      },
+      {
+        "id": 3,
+        "name": "Malik",
+        "image": "https://randomuser.me/api/portraits/men/65.jpg",
+        "review": "Great experience overall. Support team was quick to respond to my queries."
+      }
+    ]
+  },
+  "navbar": {
+    "categories": "Categories",
+    "searchPlaceholder": "Search courses...",
+    "login": "Log in",
+    "signup": "Sign up",
+    "cart": "Cart",
+    "Dentist": "Dentist",
+    "Gynecologist": "Gynecologist",
+    "GeneralPhysician": "General Physician",
+    "Dermatologist": "Dermatologist",
+    "ENTSpecialist": "ENT Specialist",
+    "Homoeopath": "Homoeopath",
+    "Ayurveda": "Ayurveda"
+  },
+  "hero": {
+    "title": "Learn",
+    "highlight": "Healthcare Skills",
+    "subtitle": "Access professional courses designed for doctors and nurses. Upgrade your career with certifications and real-world learning.",
+    "stats": {
+      "count": "500+",
+      "courses": "Courses Available"
+    },
+    "trending": "Trending Domains",
+    "domains": {
+      "dentist": "Dentist",
+      "gynecologist": "Gynecologist",
+      "physician": "General Physician",
+      "dermatologist": "Dermatologist",
+      "ent": "ENT Specialist",
+      "homoeopath": "Homoeopath",
+      "ayurveda": "Ayurveda"
+    }
+  },
+  "signup": {
+    "createAccount": "Create Account",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "role": "Role",
+    "specialization": "Specialization",
+    "uploadLicense": "Upload License",
+    "hospital": "Hospital",
+    "signUp": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login",
+    "BackToHome":"Back to home",
+    "doctor": "Doctor",
+    "nurse": "Nurse",
+    "technician": "Technician",
+    "specializations": {
+      "cardiologist": "Cardiologist",
+      "dermatologist": "Dermatologist",
+      "gynecologist": "Gynecologist",
+      "pediatrician": "Pediatrician",
+      "orthopedic": "Orthopedic",
+      "neurologist": "Neurologist",
+      "surgicalNurse": "Surgical Nurse",
+      "icuNurse": "ICU Nurse",
+      "pediatricNurse": "Pediatric Nurse",
+      "erNurse": "ER Nurse",
+      "oncologyNurse": "Oncology Nurse",
+      "radiologyTechnician": "Radiology Technician",
+      "laboratoryTechnician": "Laboratory Technician",
+      "pharmacyTechnician": "Pharmacy Technician",
+      "cardiologyTechnician": "Cardiology Technician",
+      "surgicalTechnician": "Surgical Technician"
+    },
+    "requiredFirstName": "Please enter your first name",
+    "requiredLastName": "Please enter your last name",
+    "requiredEmail": "Please enter your email",
+    "validEmail": "Please enter a valid email",
+    "requiredPassword": "Please enter a password",
+    "requiredConfirmPassword": "Please confirm your password",
+    "passwordMismatch": "Passwords do not match",
+    "requiredRole": "Please select a role",
+    "requiredSpecialization": "Please select specialization",
+    "requiredLicense": "Please upload your license",
+    "requiredHospital": "Please enter your hospital name",
+    "firstNamePlaceholder": "John",
+    "lastNamePlaceholder": "Doe",
+    "passwordPlaceholder": "Enter password",
+    "confirmPasswordPlaceholder": "Re-enter password",
+    "specializationPlaceholder": "Select specialization",
+    "uploadLicenseBtn": "Upload License",
+    "hospitalPlaceholder": "Hospital Name",
+    "successMessage": "Signup successful!"
+  },
+  "course": {
+    "title": "A broad selection of courses",
+    "subtitle": "Choose from online video courses with new additions published every month",
+    "courseData": {
+      "Dentist": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "Dental Surgery Basics",
+          "createdBy": "Dr. Smith",
+          "price": 49,
+          "description": "A complete guide to the fundamental principles of dental surgery, covering essential tools, procedural techniques, and patient safety protocols. Learn how to manage surgical environments and ensure optimal outcomes for various dental operations.",
+          "img": "https://lnkly.tech/1X"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "Root Canal Mastery",
+          "createdBy": "Dr. Allen",
+          "price": 59,
+          "description": "Step-by-step mastery of root canal therapy, including advanced instrumentation, irrigation techniques, and case-based discussions. Understand how to diagnose pulp diseases and perform endodontic treatments with precision.",
+          "img": "https://lnkly.tech/1Y"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Teeth Whitening Techniques",
+          "createdBy": "Dr. Lee",
+          "price": 39,
+          "description": "Learn professional teeth whitening methods using peroxide-based agents, laser-assisted techniques, and custom trays. Explore the science behind enamel safety and long-term effectiveness for different patient profiles.",
+          "img": "https://lnkly.tech/1Z"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Oral Hygiene Essentials",
+          "createdBy": "Dr. Patel",
+          "price": 29,
+          "description": "Understand the essentials of oral hygiene, including brushing techniques, flossing habits, and the role of fluoride. Learn how to educate patients for better daily care and prevent common dental issues like plaque and gingivitis.",
+          "img": "https://lnkly.tech/1a"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Dental Implants Guide",
+          "createdBy": "Dr. Brown",
+          "price": 69,
+          "description": "Comprehensive training on dental implants, from initial diagnosis and bone assessment to surgical placement and post-operative maintenance. Explore implant materials, osseointegration, and long-term success strategies.",
+          "img": "https://lnkly.tech/1b"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Pediatric Dentistry",
+          "createdBy": "Dr. Green",
+          "price": 55,
+          "description": "Focused training in pediatric dentistry, dealing with children’s unique dental anatomy, behavior management, and preventive care. Learn how to create a child-friendly clinic environment and handle early orthodontic needs.",
+          "img": "https://lnkly.tech/1c"
+        }
+      ],
+      "Gynecologist/obstetrician": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "Prenatal Care Basics",
+          "createdBy": "Dr. Johnson",
+          "price": 49,
+          "description": "Covers all stages of prenatal care, from conception to delivery, ensuring a healthy pregnancy journey for both mother and child. Learn fetal monitoring, nutritional guidance, and emotional support strategies.",
+          "img": "https://lnkly.tech/1d"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "High-Risk Pregnancy",
+          "createdBy": "Dr. Evans",
+          "price": 69,
+          "description": "Practical approaches to identifying and managing high-risk pregnancies, including gestational diabetes, preeclampsia, and multiple gestations. Understand how to coordinate care across specialties and respond to complications.",
+          "img": "https://lnkly.tech/1e"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Obstetric Emergencies",
+          "createdBy": "Dr. White",
+          "price": 79,
+          "description": "Training to handle critical obstetric emergencies such as postpartum hemorrhage, shoulder dystocia, and eclampsia. Gain confidence in rapid decision-making and emergency protocols in labor wards.",
+          "img": "https://lnkly.tech/1f"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Infertility Treatments",
+          "createdBy": "Dr. Young",
+          "price": 59,
+          "description": "In-depth overview of infertility treatments, including IUI, IVF, and hormonal therapies. Explore reproductive technologies and counseling techniques for couples facing fertility challenges.",
+          "img": "https://lnkly.tech/1g"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Menstrual Disorders",
+          "createdBy": "Dr. Hill",
+          "price": 45,
+          "description": "Diagnosis and management of menstrual disorders affecting women of all ages, from adolescence to menopause. Learn to treat conditions like PCOS, amenorrhea, and dysmenorrhea with both medical and lifestyle interventions.",
+          "img": "https://lnkly.tech/1h"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Postnatal Care",
+          "createdBy": "Dr. King",
+          "price": 39,
+          "description": "Guidelines for effective postnatal care, addressing physical recovery, breastfeeding support, and mental health screening. Understand how to monitor maternal well-being and promote bonding with the newborn.",
+          "img": "https://lnkly.tech/1i"
+        }
+      ],
+      "General Physician": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "Primary Healthcare Basics",
+          "createdBy": "Dr. Adams",
+          "price": 39,
+          "description": "Introduction to primary healthcare practices and patient-centered care, focusing on preventive medicine and early diagnosis. Learn how to build trust and long-term relationships with patients across demographics.",
+          "img": "https://lnkly.tech/1j"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "Hypertension Management",
+          "createdBy": "Dr. Davis",
+          "price": 49,
+          "description": "Evidence-based techniques for diagnosing and treating hypertension, including lifestyle modifications, pharmacological options, and monitoring strategies. Understand the impact of comorbidities and patient adherence.",
+          "img": "https://lnkly.tech/24"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Diabetes Control",
+          "createdBy": "Dr. Wilson",
+          "price": 59,
+          "description": "Guidelines on lifestyle, diet, and medication for managing diabetes, with emphasis on glycemic control, insulin therapy, and patient education. Explore complications like neuropathy and retinopathy.",
+          "img": "https://lnkly.tech/1k"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Common Infectious Diseases",
+          "createdBy": "Dr. Martin",
+          "price": 45,
+          "description": "Diagnosis and treatment of common infectious diseases across age groups, including respiratory infections, gastrointestinal illnesses, and vector-borne diseases. Learn to interpret lab results and prescribe appropriate antimicrobials.",
+          "img": "https://lnkly.tech/1z"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Emergency Medicine Essentials",
+          "createdBy": "Dr. Lopez",
+          "price": 69,
+          "description": "Learn to handle medical emergencies and urgent care situations effectively, from cardiac arrest to anaphylaxis. Gain skills in triage, stabilization, and referral protocols.",
+          "img": "https://lnkly.tech/20"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Family Medicine Overview",
+          "createdBy": "Dr. Walker",
+          "price": 55,
+          "description": "Comprehensive understanding of family medicine and holistic care, integrating physical, emotional, and social health. Explore chronic disease management and continuity of care across generations.",
+          "img": "https://lnkly.tech/21"
+        }
+      ],
+      "Dermatologist": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "Skin Care Basics",
+          "createdBy": "Dr. Allen",
+          "price": 39,
+          "description": "Basic skin care practices for prevention and maintenance of healthy skin, including cleansing routines, moisturization, and sun protection. Learn how to tailor regimens for different skin types and conditions.",
+          "img": "https://lnkly.tech/25"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "Acne Treatments",
+          "createdBy": "Dr. Clark",
+          "price": 49,
+          "description": "Clinical approaches to treating acne and preventing recurrence, using topical agents, oral medications, and procedural interventions. Understand hormonal influences and psychological impacts.",
+          "img": "https://lnkly.tech/26"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Psoriasis & Eczema",
+          "createdBy": "Dr. Lewis",
+          "price": 59,
+          "description": "Management of chronic skin conditions such as eczema and psoriasis, with insights into immunomodulatory therapies, lifestyle triggers, and patient counseling. Explore long-term care strategies and flare prevention.",
+          "img": "https://lnkly.tech/26"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Laser Dermatology",
+          "createdBy": "Dr. Hall",
+          "price": 69,
+          "description": "Hands-on training in advanced laser-based dermatology procedures, including hair removal, pigmentation correction, and scar treatment. Learn safety protocols and post-procedure care.",
+          "img": "https://lnkly.tech/28"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Cosmetic Dermatology",
+          "createdBy": "Dr. Allen",
+          "price": 79,
+          "description": "Aesthetic and cosmetic dermatology for enhancing patient confidence, covering botox, fillers, chemical peels, and skin rejuvenation. Understand ethical considerations and patient expectations.",
+          "img": "https://lnkly.tech/29"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Pediatric Dermatology",
+          "createdBy": "Dr. Scott",
+          "price": 55,
+          "description": "Pediatric dermatology focusing on children’s skin issues and treatments, such as diaper rash, birthmarks, and atopic dermatitis. Learn age-appropriate therapies and parental guidance techniques.",
+          "img": "https://lnkly.tech/2A"
+        }
+      ],
+      "Ear-nose-throat(ent) Specialist": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "ENT Anatomy Basics",
+          "createdBy": "Dr. Parker",
+          "price": 39,
+          "description": "Detailed overview of ENT anatomy and its clinical significance, including the auditory system, nasal passages, and laryngeal structures. Learn how anatomical knowledge informs diagnosis and surgical planning.",
+          "img": "https://lnkly.tech/22"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "Hearing Loss Treatments",
+          "createdBy": "Dr. Campbell",
+          "price": 49,
+          "description": "Diagnosis and treatment methods for patients with hearing loss, from audiometry to cochlear implants. Understand causes like otosclerosis, infections, and age-related degeneration.",
+          "img": "https://lnkly.tech/2B"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Allergic Rhinitis",
+          "createdBy": "Dr. Rivera",
+          "price": 45,
+          "description": "Causes, symptoms, and treatments of allergic rhinitis and sinus issues, including antihistamines, nasal sprays, and surgical options. Learn how to differentiate between allergic and infectious presentations.",
+          "img": "https://lnkly.tech/2C"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Sinus Surgery",
+          "createdBy": "Dr. Murphy",
+          "price": 59,
+          "description": "Practical surgical training for managing chronic sinus conditions, such as endoscopic sinus surgery and balloon sinuplasty. Explore pre-op evaluation and post-op care.",
+          "img": "https://lnkly.tech/2D"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Voice Disorders",
+          "createdBy": "Dr. Bailey",
+          "price": 69,
+          "description": "Care and rehabilitation methods for patients with voice disorders, including vocal cord paralysis, nodules, and functional dysphonia. Learn therapy techniques and surgical interventions.",
+          "img": "https://lnkly.tech/2E"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Sleep Apnea Management",
+          "createdBy": "Dr. Cooper",
+          "price": 75,
+          "description": "Approaches to diagnosing and managing sleep apnea through ENT, including CPAP therapy, uvulopalatopharyngoplasty, and lifestyle changes. Understand the link between airway anatomy and sleep quality.",
+          "img": "https://lnkly.tech/2F"
+        }
+      ],
+      "Homoeopath": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "Introduction to Homoeopathy",
+          "createdBy": "Dr. Morgan",
+          "price": 29,
+          "description": "Foundational concepts of homoeopathy and its holistic approach to health, emphasizing the law of similars and individualized treatment. Learn the philosophy behind remedy selection and patient evaluation.",
+          "img": "https://lnkly.tech/2G"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "Remedies for Common Cold",
+          "createdBy": "Dr. Bell",
+          "price": 35,
+          "description": "Practical home remedies for managing colds, flu, and seasonal illnesses, using common substances like Belladonna, Aconite, and Bryonia. Understand dosage, potency, and symptom matching.",
+          "img": "https://lnkly.tech/2H"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Chronic Disease Management",
+          "createdBy": "Dr. Reed",
+          "price": 49,
+          "description": "Homoeopathic strategies for long-term chronic disease management, including arthritis, migraines, and digestive disorders. Explore constitutional remedies and case follow-ups.",
+          "img": "https://lnkly.tech/2I"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Homeopathic Pharmacy",
+          "createdBy": "Dr. Cook",
+          "price": 45,
+          "description": "Pharmacy skills for preparing and handling homeopathic remedies, including dilution techniques, succussion, and storage protocols. Learn regulatory standards and safety practices.",
+          "img": "https://lnkly.tech/2J"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Case Studies in Homoeopathy",
+          "createdBy": "Dr. Brooks",
+          "price": 55,
+          "description": "Case-based learning for applying homoeopathy in real scenarios, with detailed patient histories, remedy selection, and outcome tracking. Develop clinical reasoning and documentation skills.",
+          "img": "https://lnkly.tech/1m"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Advanced Materia Medica",
+          "createdBy": "Dr. Ward",
+          "price": 65,
+          "description": "Advanced Materia Medica and its applications in clinical settings, exploring remedy profiles, keynotes, and comparative analysis. Deepen your understanding of remedy relationships and miasmatic theory.",
+          "img": "https://lnkly.tech/2N"
+        }
+      ],
+      "Ayurveda": [
+        {
+          "id": 1,
+          "expiry": 7,
+          "title": "Basics of Ayurveda",
+          "createdBy": "Dr. Shah",
+          "price": 29,
+          "description": "Learn the principles of Ayurveda and its role in modern healthcare, including the concept of doshas, dhatus, and the five elements. Understand how to assess prakriti and vikriti in patients.",
+          "img": "https://lnkly.tech/1n"
+        },
+        {
+          "id": 2,
+          "expiry": 7,
+          "title": "Ayurvedic Diet & Nutrition",
+          "createdBy": "Dr. Mehta",
+          "price": 39,
+          "description": "Dietary practices and nutrition guidelines rooted in Ayurveda, focusing on seasonal eating, digestive fire (Agni), and food compatibility. Learn how to create personalized meal plans.",
+          "img": "https://lnkly.tech/2O"
+        },
+        {
+          "id": 3,
+          "expiry": 7,
+          "title": "Panchakarma Therapy",
+          "createdBy": "Dr. Nair",
+          "price": 49,
+          "description": "Medicinal properties and uses of common Ayurvedic herbs like Ashwagandha, Triphala, and Brahmi. Learn how to prepare decoctions, churnas, and oils for therapeutic use.",
+          "img": "https://lnkly.tech/2P"
+        },
+        {
+          "id": 4,
+          "expiry": 7,
+          "title": "Ayurvedic Herbs",
+          "createdBy": "Dr. Iyer",
+          "price": 45,
+          "description": "Integrating yoga and Ayurveda for balanced health and wellness, combining physical postures, breathing techniques, and meditation. Understand how to align body, mind, and spirit.",
+          "img": "https://lnkly.tech/1n"
+        },
+        {
+          "id": 5,
+          "expiry": 7,
+          "title": "Yoga & Ayurveda",
+          "createdBy": "Dr. Menon",
+          "price": 55,
+          "description": "A holistic approach to achieving harmony of mind, body, and spirit through Ayurvedic philosophy, lifestyle routines, and spiritual practices. Explore daily rituals (Dinacharya) and seasonal regimens (Ritucharya).",
+          "img": "https://lnkly.tech/2Q"
+        },
+        {
+          "id": 6,
+          "expiry": 7,
+          "title": "Holistic Healing",
+          "createdBy": "Dr. Pillai",
+          "price": 65,
+          "description": "Detoxification and rejuvenation techniques with Panchakarma therapy, including Vamana, Virechana, Basti, Nasya, and Raktamokshana. Explore indications, contraindications, and post-therapy care.",
+          "img": "https://lnkly.tech/2R"
+        }
+      ]
+    }
+  },
+  "buttonText": {
+    "viewAll": "View all",
+    "startTest": "Start Test",
+    "addtoCart": "Add to Cart"
+  },
+  "ayurved": {
+    "title1": "Ayurveda",
+    "title2": "Mock Tests",
+    "subtitle": "Master dentistry with practice tests across specializations.",
+    "ayurvedTests": [
+      {
+        "title": "Basic Concepts of Ayurveda",
+        "description": "Covers doshas, dhatus, and body constitution.",
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1o",
+        "href": "/tests/basic-ayurveda"
+      },
+      {
+        "title": "Panchakarma Therapy",
+        "description": "Learn detoxification techniques and rejuvenation therapies.",
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1p",
+        "href": "/tests/panchakarma"
+      },
+      {
+        "title": "Dravyaguna",
+        "description": "Study medicinal herbs and their pharmacological actions.",
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1q",
+        "href": "/tests/dravyaguna"
+      },
+      {
+        "title": "Ayurvedic Diagnosis",
+        "description": "Covers nadi pariksha, prakriti analysis, and disease classification.",
+        "price": 199,
+        "duration": 30,
+        "img": "https://lnkly.tech/1r",
+        "href": "/tests/ayurvedic-diagnosis"
+      }
+    ]
+  },
+  "dentist": {
+    "title1": "Dentist",
+    "title2": "Mock Tests",
+    "subtitle": "Master dentistry with practice tests across specializations.",
+    "dentistTests": [
+      {
+        "title": "Oral Surgery",
+        "description": "Covers procedures, anesthesia, and emergency management.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/1r",
+        "href": "/tests/oral-surgery"
+      },
+      {
+        "title": "Orthodontics",
+        "description": "Covers braces, aligners, and dental alignment techniques.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/1t",
+        "href": "/tests/orthodontics"
+      },
+      {
+        "title": "Endodontics",
+        "description": "Learn about root canal procedures and pulp treatments.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/1u",
+        "href": "/tests/endodontics"
+      },
+      {
+        "title": "Periodontics",
+        "description": "Covers gum diseases and modern periodontal treatments.",
+        "price": 99,
+        "duration": 45,
+        "img": "https://lnkly.tech/2T",
+        "href": "/tests/periodontics"
+      }
+    ]
+  },
+  "dermatologist": {
+    "title1": "Dermatologist",
+    "title2": "Mock Tests",
+    "subtitle": "",
+    "dermatologistTests": [
+      {
+        "title": "Clinical Dermatology",
+        "price": 99,
+        "duration": 60,
+        "description": "Covers skin diseases, diagnosis, and topical treatments.",
+        "img": "https://lnkly.tech/1v",
+        "href": "/tests/clinical-dermatology"
+      },
+      {
+        "title": "Cosmetic Dermatology",
+        "price": 99,
+        "duration": 60,
+        "description": "Learn about botox, fillers, and aesthetic procedures.",
+        "img": "https://lnkly.tech/1w",
+        "href": "/tests/cosmetic-dermatology"
+      },
+      {
+        "title": "Pediatric Dermatology",
+        "price": 99,
+        "duration": 60,
+        "description": "Focus on skin conditions in infants and children.",
+        "img": "https://lnkly.tech/1x",
+        "href": "/tests/pediatric-dermatology"
+      },
+      {
+        "title": "Dermato-Oncology",
+        "price": 99,
+        "duration": 60,
+        "description": "Covers skin cancers and surgical interventions.",
+        "img": "https://lnkly.tech/1y",
+        "href": "/tests/dermato-oncology"
+      }
+    ]
+  },
+  "entSpecialist": {
+    "title1": "Ear Nose Throat Specialist",
+    "title2": "Mock Tests",
+    "subtitle": "",
+    "entSpecialistTests": [
+      {
+        "title": "Otology",
+        "price": 99,
+        "duration": 120,
+        "description": "Covers ear disorders, hearing loss, and tinnitus management.",
+        "img": "https://ascentist.com/wp-content/uploads/2021/11/Otology-and-Neurotology-in-Kansas-City-MO.jpg",
+        "href": "/tests/otology"
+      },
+      {
+        "title": "Rhinology",
+        "price": 99,
+        "duration": 120,
+        "description": "Learn about nasal conditions, sinusitis, and allergy treatments.",
+        "img": "https://fadlullahaksoy.com/en/wp-content/uploads/2019/12/Nasal-Diseases-Rhinology.jpg",
+        "href": "/tests/rhinology"
+      },
+      {
+        "title": "Laryngology",
+        "price": 99,
+        "duration": 120,
+        "description": "Focus on voice disorders, throat infections, and vocal cord care.",
+        "img": "https://www.masseyeandear.org/assets/MEE/images/ent/education/laryngology-fellowship-banner.png",
+        "href": "/tests/laryngology"
+      },
+      {
+        "title": "Head & Neck Surgery",
+        "price": 99,
+        "duration": 120,
+        "description": "Covers surgical procedures for tumors and trauma.",
+        "img": "https://www.oto-hns.northwestern.edu/images/1440x400/main_page-1440x600.jpg",
+        "href": "/tests/head-neck-surgery"
+      }
+    ]
+  },
+  "generalPhysician": {
+    "title1": "General Physician",
+    "title2": "Mock Tests",
+    "subtitle": "",
+    "generalPhysicianTests": [
+      {
+        "title": "Obstetrics",
+        "price": 99,
+        "duration": 30,
+        "description": "Focus on pregnancy, labor, delivery, and postpartum care.",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "title": "Reproductive Endocrinology",
+        "price": 99,
+        "duration": 30,
+        "description": "Covers infertility, IVF, hormonal disorders, and reproductive health.",
+        "img": "https://www.careinsurance.com/upload_master/media/posts/April2025/endocrinology.webp",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "title": "Gynecologic Oncology",
+        "price": 99,
+        "duration": 30,
+        "description": "Learn about cancers of the female reproductive system and treatments.",
+        "img": "https://sunnybrook.ca/uploads/1/programs/odette-cancer/gyneonc/gynonc_vicus_171103_103-s.jpg",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "title": "Maternal-Fetal Medicine",
+        "price": 99,
+        "duration": 30,
+        "description": "Covers high-risk pregnancies and fetal complications.",
+        "img": "https://cache.careers360.mobi/media/presets/820X410/careers/banner_images/2020/7/22/General%20Physician.jpg",
+        "href": "/tests/maternal-fetal-medicine"
+      }
+    ]
+  },
+  "gynecologist": {
+    "title1": "Gynecologist",
+    "title2": "Mock Tests",
+    "subtitle": "Master dentistry with practice tests across specializations.",
+    "gynecologistTests": [
+      {
+        "title": "Obstetrics",
+        "price": 99,
+        "duration": 60,
+        "description": "Focus on pregnancy, labor, delivery, and postpartum care.",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "title": "Reproductive Endocrinology",
+        "price": 99,
+        "duration": 60,
+        "description": "Covers infertility, IVF, hormonal disorders, and reproductive health.",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.Ik13Z6JDhESxar1l39wXDQHaE0?w=740&h=482&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "title": "Gynecologic Oncology",
+        "price": 99,
+        "duration": 60,
+        "description": "Learn about cancers of the female reproductive system and treatments.",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.z7OhT5Xr02j46s5b2zu9fAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "title": "Maternal-Fetal Medicine",
+        "price": 99,
+        "duration": 60,
+        "description": "Covers high-risk pregnancies and fetal complications.",
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.Jf1K3ZCurMB7cIn12XVnwQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/maternal-fetal-medicine"
+      }
+    ]
+  },
+  "homoeopath": {
+    "title1": "Homoeopath",
+    "title2": "Mock Tests",
+    "subtitle": "Master dentistry with practice tests across specializations.",
+    "homoeopathTests": [
+      {
+        "title": "Principles of Homeopathy",
+        "duration": 15,
+        "description": "Covers similia principle, potentization, and remedy selection.",
+        "img": "https://lnkly.tech/2U",
+        "href": "/tests/homeopathy-principles",
+        "price": 99
+      },
+      {
+        "title": "Materia Medica",
+        "duration": 15,
+        "description": "Learn about key remedies and their indications.",
+        "img": "https://lnkly.tech/2V",
+        "href": "/tests/materia-medica",
+        "price": 99
+      },
+      {
+        "title": "Organon of Medicine",
+        "duration": 15,
+        "description": "Study Hahnemann’s philosophy and therapeutic guidelines.",
+        "img": "https://www.thehealthsite.com/wp-content/uploads/2022/01/homeopathy-medicine-treatment-in-hindi.jpg",
+        "href": "/tests/organon",
+        "price": 99
+      },
+      {
+        "title": "Case Taking & Analysis",
+        "duration": 15,
+        "description": "Covers patient interview techniques and remedy matching.",
+        "img": "https://nigolifeline.com/wp-content/uploads/2023/09/7-cardinal-principles-of-homeopathy.jpg",
+        "href": "/tests/case-taking",
+        "price": 99
+      }
+    ]
+  },
+  "AllCourses": {
+    "Course": "Course",
+    "Tests": "Tests",
+    "filters": "Filters",
+    "Categories": "Categories",
+    "Category": "Category",
+    "All": "All",
+    "NoResultsFound": "No results found.",
+    "AllCategories": [
+      "Dentist",
+      "Gynecologist",
+      "General Physician",
+      "Dermatologist",
+      "ENT Specialist",
+      "Homoeopath",
+      "Ayurveda"
+    ],
+    "allCourses": [
+      {
+        "id": 1,
+        "type": "course",
+        "category": "Ayurveda",
+        "title": "Basic Concepts of Ayurveda",
+        "createdBy": "Dr. Hilal Ahmed",
+        "price": 199,
+        "duration": 30,
+        "description": "Covers doshas, dhatus, and body constitution.",
+        "img": "https://el-vergel.com/wp-content/uploads/2020/09/Kundan-ayurveda-edited.jpg",
+        "href": "/tests/basic-ayurveda"
+      },
+      {
+        "id": 2,
+        "type": "test",
+        "category": "Ayurveda",
+        "title": "Panchakarma Therapy",
+        "createdBy": "Dr. Hilal Ahmed ",
+        "price": 199,
+        "duration": 30,
+        "description": "Learn detoxification techniques and rejuvenation therapies.",
+        "img": "https://i.pinimg.com/originals/b3/89/7d/b3897d1398dcc1be56e4cebce64e5b19.jpg",
+        "href": "/tests/panchakarma"
+      },
+      {
+        "id": 3,
+        "type": "test",
+        "category": "Ayurveda",
+        "title": "Dravyaguna",
+        "createdBy": "Dr. Hilal Ahmed ",
+        "price": 199,
+        "duration": 30,
+        "description": "Study medicinal herbs and their pharmacological actions.",
+        "img": "https://i1.wp.com/www.nctayurvedacollege.in/wp-content/uploads/2017/12/dravyaguna-min.jpg?fit=449%2C300&ssl=1",
+        "href": "/tests/dravyaguna"
+      },
+      {
+        "id": 4,
+        "type": "test",
+        "category": "Ayurveda",
+        "title": "Ayurvedic Diagnosis",
+        "createdBy": "Dr. Hilal Ahmed ",
+        "price": 199,
+        "duration": 30,
+        "description": "Covers nadi pariksha, prakriti analysis, and disease classification.",
+        "img": "https://healthy-ojas.com/sites/default/files/natural/ayurveda-pulse-diagnosis.jpg",
+        "href": "/tests/ayurvedic-diagnosis"
+      },
+      {
+        "id": 5,
+        "type": "test",
+        "category": "Dentist",
+        "title": "Oral Surgery",
+        "createdBy": "",
+        "price": 49,
+        "duration": 45,
+        "description": "Covers procedures, anesthesia, and emergency management.",
+        "img": "https://www.lovettdental.com/wp-content/uploads/2020/08/oral-surgery.jpeg",
+        "href": "/tests/oral-surgery"
+      },
+      {
+        "id": 6,
+        "type": "test",
+        "category": "Dentist",
+        "title": "Orthodontics",
+        "createdBy": "",
+        "price": 49,
+        "duration": 45,
+        "description": "Covers braces, aligners, and dental alignment techniques.",
+        "img": "https://lnkly.tech/1t",
+        "href": "/tests/orthodontics"
+      },
+      {
+        "id": 7,
+        "type": "test",
+        "category": "Dentist",
+        "title": "Endodontics",
+        "createdBy": "",
+        "price": 49,
+        "duration": 45,
+        "description": "Learn about root canal procedures and pulp treatments.",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gzaJgwdaougcnz0mJ5zr2wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/endodontics"
+      },
+      {
+        "id": 8,
+        "type": "test",
+        "category": "Dentist",
+        "title": "Periodontics",
+        "createdBy": "",
+        "price": 49,
+        "duration": 45,
+        "description": "Covers gum diseases and modern periodontal treatments.",
+        "img": "https://lnkly.tech/2T",
+        "href": "/tests/periodontics"
+      },
+      {
+        "id": 9,
+        "type": "test",
+        "category": "Dermatologist",
+        "title": "Clinical Dermatology",
+        "createdBy": "",
+        "price": 299,
+        "duration": 60,
+        "description": "Covers skin diseases, diagnosis, and topical treatments.",
+        "img": "https://tse2.mm.bing.net/th/id/OIP.PKaqx1BxL8Ane3kUN-l97QHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/clinical-dermatology"
+      },
+      {
+        "id": 10,
+        "type": "test",
+        "category": "Dermatologist",
+        "title": "Cosmetic Dermatology",
+        "createdBy": "",
+        "price": 299,
+        "duration": 60,
+        "description": "Learn about botox, fillers, and aesthetic procedures.",
+        "img": "https://elyzeemc.com/wp-content/uploads/2022/06/cosmetic-dermatology.png",
+        "href": "/tests/cosmetic-dermatology"
+      },
+      {
+        "id": 11,
+        "type": "test",
+        "category": "Dermatologist",
+        "title": "Pediatric Dermatology",
+        "createdBy": "",
+        "price": 299,
+        "duration": 60,
+        "description": "Focus on skin conditions in infants and children.",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.nuBj1BFGlzcgEb3KuZKJgAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/pediatric-dermatology"
+      },
+      {
+        "id": 12,
+        "type": "test",
+        "category": "Dermatologist",
+        "title": "Dermato-Oncology",
+        "createdBy": "",
+        "price": 299,
+        "duration": 60,
+        "description": "Covers skin cancers and surgical interventions.",
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.AZ8fK026HNYpTwTLXs4PegHaDk?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/dermato-oncology"
+      },
+      {
+        "id": 13,
+        "type": "test",
+        "category": "ENT Specialist",
+        "title": "Otology",
+        "createdBy": "",
+        "price": 99,
+        "duration": 120,
+        "description": "Covers ear disorders, hearing loss, and tinnitus management.",
+        "img": "https://ascentist.com/wp-content/uploads/2021/11/Otology-and-Neurotology-in-Kansas-City-MO.jpg",
+        "href": "/tests/otology"
+      },
+      {
+        "id": 14,
+        "type": "test",
+        "category": "ENT Specialist",
+        "title": "Rhinology",
+        "createdBy": "",
+        "price": 99,
+        "duration": 120,
+        "description": "Learn about nasal conditions, sinusitis, and allergy treatments.",
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.SjqNY8jg7LcafnS9lIpGvgHaDt?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/rhinology"
+      },
+      {
+        "id": 15,
+        "type": "test",
+        "category": "ENT Specialist",
+        "title": "Laryngology",
+        "createdBy": "",
+        "price": 99,
+        "duration": 120,
+        "description": "Focus on voice disorders, throat infections, and vocal cord care.",
+        "img": "https://www.masseyeandear.org/assets/MEE/images/ent/education/laryngology-fellowship-banner.png",
+        "href": "/tests/laryngology"
+      },
+      {
+        "id": 16,
+        "type": "test",
+        "category": "ENT Specialist",
+        "title": "Head & Neck Surgery",
+        "createdBy": "",
+        "price": 99,
+        "duration": 120,
+        "description": "Covers surgical procedures for tumors and trauma.",
+        "img": "https://www.oto-hns.northwestern.edu/images/1440x400/main_page-1440x600.jpg",
+        "href": "/tests/head-neck-surgery"
+      },
+      {
+        "id": 17,
+        "type": "test",
+        "category": "General Physician",
+        "title": "Obstetrics",
+        "createdBy": "",
+        "price": 49,
+        "duration": 30,
+        "description": "Focus on pregnancy, labor, delivery, and postpartum care.",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "id": 18,
+        "type": "test",
+        "category": "General Physician",
+        "title": "Reproductive Endocrinology",
+        "createdBy": "",
+        "price": 49,
+        "duration": 30,
+        "description": "Covers infertility, IVF, hormonal disorders, and reproductive health.",
+        "img": "https://www.careinsurance.com/upload_master/media/posts/April2025/endocrinology.webp",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "id": 19,
+        "type": "test",
+        "category": "General Physician",
+        "title": "Gynecologic Oncology",
+        "createdBy": "",
+        "price": 49,
+        "duration": 30,
+        "description": "Learn about cancers of the female reproductive system and treatments.",
+        "img": "https://sunnybrook.ca/uploads/1/programs/odette-cancer/gyneonc/gynonc_vicus_171103_103-s.jpg",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "id": 20,
+        "type": "test",
+        "category": "General Physician",
+        "title": "Maternal-Fetal Medicine",
+        "createdBy": "",
+        "price": 49,
+        "duration": 30,
+        "description": "Covers high-risk pregnancies and fetal complications.",
+        "img": "https://cache.careers360.mobi/media/presets/820X410/careers/banner_images/2020/7/22/General%20Physician.jpg",
+        "href": "/tests/maternal-fetal-medicine"
+      },
+      {
+        "id": 21,
+        "type": "test",
+        "category": "Gynecologist",
+        "title": "Obstetrics",
+        "createdBy": "",
+        "price": 30,
+        "duration": 60,
+        "description": "Focus on pregnancy, labor, delivery, and postpartum care.",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.5eoHhDJ9XF4BEGAcmVCXSwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/obstetrics"
+      },
+      {
+        "id": 22,
+        "type": "test",
+        "category": "Gynecologist",
+        "title": "Reproductive Endocrinology",
+        "createdBy": "",
+        "price": 30,
+        "duration": 60,
+        "description": "Covers infertility, IVF, hormonal disorders, and reproductive health.",
+        "img": "https://tse3.mm.bing.net/th/id/OIP.Ik13Z6JDhESxar1l39wXDQHaE0?w=740&h=482&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/reproductive-endocrinology"
+      },
+      {
+        "id": 23,
+        "type": "test",
+        "category": "Gynecologist",
+        "title": "Gynecologic Oncology",
+        "createdBy": "",
+        "price": 30,
+        "duration": 60,
+        "description": "Learn about cancers of the female reproductive system and treatments.",
+        "img": "https://tse1.mm.bing.net/th/id/OIP.z7OhT5Xr02j46s5b2zu9fAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/gynecologic-oncology"
+      },
+      {
+        "id": 24,
+        "type": "test",
+        "category": "Gynecologist",
+        "title": "Maternal-Fetal Medicine",
+        "createdBy": "",
+        "price": 30,
+        "duration": 60,
+        "description": "Covers high-risk pregnancies and fetal complications.",
+        "img": "https://tse1.explicit.bing.net/th/id/OIP.Jf1K3ZCurMB7cIn12XVnwQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "href": "/tests/maternal-fetal-medicine"
+      },
+      {
+        "id": 25,
+        "type": "test",
+        "category": "Homeopath",
+        "title": "Principles of Homeopathy",
+        "createdBy": "",
+        "price": 25,
+        "duration": 45,
+        "description": "Explore the law of similars, potentization, and holistic healing.",
+        "img": "https://lnkly.tech/2U",
+        "href": "/tests/principles-of-homeopathy"
+      },
+      {
+        "id": 26,
+        "type": "test",
+        "category": "Homeopath",
+        "title": "Materia Medica",
+        "createdBy": "",
+        "price": 35,
+        "duration": 60,
+        "description": "Study key remedies, their sources, and therapeutic indications.",
+        "img": "https://lnkly.tech/2V",
+        "href": "/tests/materia-medica"
+      },
+      {
+        "id": 27,
+        "type": "test",
+        "category": "Homeopath",
+        "title": "Homeopathic Case Taking",
+        "createdBy": "",
+        "price": 30,
+        "duration": 50,
+        "description": "Learn techniques for patient interviews and symptom analysis.",
+        "img": "https://lnkly.tech/2W",
+        "href": "/tests/homeopathic-case-taking"
+      },
+      {
+        "id": 28,
+        "type": "test",
+        "category": "Homeopath",
+        "title": "Repertory and Remedy Selection",
+        "createdBy": "",
+        "price": 40,
+        "duration": 70,
+        "description": "Master the use of repertories and selecting the simillimum.",
+        "img": "https://lnkly.tech/2X",
+        "href": "/tests/repertory-and-remedy-selection"
+      }
+    ]
+  },
+  "cart": {
+    "emptyCart": "Your cart is empty!",
+    "checkout": "Proceeding to checkout 🎉 (Integrate payment later)",
+    "removeText": "Item removed from cart",
+    "shoppingCart": "Shopping Cart",
+    "continueShopping": "Continue shopping",
+    "Instructor": "Instructor",
+    "Duration": "Duration",
+    "mins": "mins",
+    "Yes": "Yes",
+    "No": "No",
+    "Summary": "Summary",
+    "Subtotal": "Subtotal",
+    "OrderTotal": "Order Total",
+    "Apply": "Apply",
+    "ProceedtoCheckout": "Proceed to Checkout",
+    "OR": "OR",
+    "removeItemCart": "Remove this item from cart?"
+  },
+  "checkout": {
+    "text": {
+      "checkText": "Checkout",
+      "fname": "Full name is required",
+      "cardValid": "Enter a valid card number (12–19 digits)",
+      "expiry": "Expiry must be MM/YY",
+      "cvv": "CVV must be 3 digits",
+      "tc": "You must accept terms & privacy",
+      "code": "Please enter the 6-digit code",
+      "try": "Invalid code. Try again",
+      "noItem": "No items found for receipt",
+      "empty": "Your cart is empty",
+      "addItemMsg": "Please add some courses before proceeding to checkout",
+      "browse": "Browse Courses",
+      "pay": "Payment Details",
+      "card": "Cardholder Name",
+      "cardName": "Full name on card",
+      "cardNum": "Card Number",
+      "valid": "Valid card number",
+      "exp": "Expiry (MM/YY)",
+      "cvvN": "CVV",
+      "iAccept": "I accept the",
+      "termP": "terms & privacy",
+      "validate": "Validate & Process Payment",
+      "payMethod": "Accepted Payment Methods",
+      "visa": "VISA",
+      "masterCard": "MasterCard",
+      "gpay": "Gpay",
+      "aPay": "Apple Pay",
+      "otp": "Enter OTP",
+      "subm": "Submit Code",
+      "resend": "Resend Code",
+      "backto": "Back to payment",
+      "backtoC": "Back to Courses",
+      "downRec": "Download Receipt"
+    },
+    "paymentSlip": {
+      "heading": "Med-Cert Course - Payment Receipt",
+      "date": "Date:",
+      "time": "Time:",
+      "trans": "Transaction ID:",
+      "purchased": "Purchased Courses",
+      "inst": "Instructor",
+      "thankText": "Thank you for your purchase!"
+    }
+  },
+  "userdashboard": {
+    "enrolledCourses": "Enrolled Courses",
+    "lecturesWatched": "Lectures Completed",
+    "testsTaken": "Tests Taken",
+    "certificates": "Certificates"
+  },
+  "charts": {
+    "weeklyLearningActivity": "Weekly Learning Activity",
+    "courseProgress": "Course Progress",
+    "lecturesWatched": "Lectures Watched",
+    "testsCompleted": "Tests Completed",
+    "weekDays": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "courseStatusLabels": [
+      "Completed",
+      "In Progress",
+      "Not Started",
+      "Behind Schedule"
+    ]
+  },
+  "learningProgress": {
+    "title": "Learning Progress",
+    "completed": "completed"
+  },
+  "learningProgressData": {
+    "courseCompletion": "Course Completion",
+    "testSuccessRate": "Test Success Rate",
+    "learningConsistency": "Learning Consistency"
+  },
+  "quickActions": {
+    "title": "Quick Actions"
+  },
+  "quickActionsData": {
+    "browseCourses": "Browse Courses",
+    "myLearning": "My Learning",
+    "takeTest": "Take Test",
+    "certificates": "Certificates"
+  },
+  "recentActivity": {
+    "title": "Recent Activity"
+  },
+  "recentActivityData": {
+    "watched": "Watched",
+    "completed": "Completed",
+    "earned": "Earned",
+    "downloaded": "Downloaded",
+    "cardiacLecture": "Cardiac Arrhythmias Lecture",
+    "advancedCardiology": "Advanced Cardiology",
+    "emergencyQuiz": "Emergency Medicine Quiz",
+    "emergencyProcedures": "Emergency Procedures",
+    "blsCertificate": "Basic Life Support Certificate",
+    "blsTraining": "BLS Training",
+    "guidelinesPdf": "Clinical Guidelines PDF",
+    "medicalProtocols": "Medical Protocols",
+    "twoHoursAgo": "2 hours ago",
+    "oneDayAgo": "1 day ago",
+    "twoDaysAgo": "2 days ago",
+    "threeDaysAgo": "3 days ago"
+  },
+  "upcomingTests": {
+    "title": "Upcoming Tests",
+    "startTest": "Start Test",
+    "due": "Due",
+    "questions": "questions",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "upcomingTestsData": {
+    "cardiologyExam": "Cardiology Final Exam",
+    "advancedCardiology": "Advanced Cardiology",
+    "jan15": "2024-01-15",
+    "sixtyMinutes": "60 minutes",
+    "upcoming": "Upcoming",
+    "patientSafety": "Patient Safety Assessment",
+    "healthProtocols": "Healthcare Protocols",
+    "jan18": "2024-01-18",
+    "fortyFiveMinutes": "45 minutes",
+    "available": "Available",
+    "ethicsQuiz": "Medical Ethics Quiz",
+    "profEthics": "Professional Ethics",
+    "jan20": "2024-01-20",
+    "thirtyMinutes": "30 minutes"
+  },
+  "ongoingCourses": {
+    "title": "Continue Learning",
+    "viewAll": "View All",
+    "next": "Next",
+    "continue": "Continue"
+  },
+  "ongoingCoursesData": {
+    "advancedCardiology": "Advanced Cardiology",
+    "drSarah": "Dr. Sarah Johnson",
+    "fourHrThirty": "4h 30m",
+    "twoHoursAgo": "2 hours ago",
+    "heartFailure": "Heart Failure Management",
+    "emergencyMedicine": "Emergency Medicine",
+    "drMike": "Dr. Mike Chen",
+    "sixHrFifteen": "6h 15m",
+    "oneDayAgo": "1 day ago",
+    "traumaAssessment": "Trauma Assessment",
+    "pediatricCare": "Pediatric Care",
+    "drEmily": "Dr. Emily Davis",
+    "threeHrFortyFive": "3h 45m",
+    "threeDaysAgo": "3 days ago",
+    "childDevelopment": "Child Development"
+  },
+  "recommendedCourses": {
+    "title": "Recommended for You",
+    "enroll": "Enroll"
+  },
+  "recommendedCoursesData": {
+    "medicalEthics": "Medical Ethics in Practice",
+    "drRobert": "Dr. Robert Wilson",
+    "twoHrFifteen": "2h 15m",
+    "intermediate": "Intermediate",
+    "ethics": "Ethics",
+    "advancedSurgery": "Advanced Surgical Techniques",
+    "drLisa": "Dr. Lisa Park",
+    "fiveHrThirty": "5h 30m",
+    "advanced": "Advanced",
+    "surgery": "Surgery",
+    "digitalHealth": "Digital Health Innovations",
+    "drJames": "Dr. James Kumar",
+    "threeHrFortyFive": "3h 45m",
+    "beginner": "Beginner",
+    "technology": "Technology"
+  },
+  "myCourses": {
+    "title": "Your Courses"
+  },
+
+  "buttons": {
+    "play": "Play",
+    "back": "Back",
+    "startTest": "Start Test",
+    "viewResult": "View Result"
+  },
+
+  "tabs": {
+    "announcements": "Announcements",
+    "tests": "Test Series",
+    "pdfs": "Supporting PDFs"
+  },
+
+  "labels": {
+    "language": "Language"
+  },
+
+  "messages": {
+    "redirectQuiz": "Redirecting to Mock Quiz Page...",
+    "completeTestFirst": "Please complete the test first!",
+    "showingResult": "Showing result for"
+  },
+
+  "languageMixed": "English/Arabic",
+  "languageEnglish": "English",
+  "languageArabic": "Arabic",
+
+  "myCoursesData": {
+    "lecture1": "Lecture 1 - Heart Anatomy",
+    "lecture1Desc": "Overview of cardiac chambers, valves, and major vessels.",
+    "lecture1A1": "Live doubt session on Friday",
+    "lecture1A2": "Assignment due next week",
+    "heartQuiz": "Heart Anatomy Quiz",
+    "mcq": "Anatomy MCQ",
+
+    "lecture2": "Lecture 2 - ECG Basics",
+    "lecture2Desc": "How to read a basic ECG and recognize common patterns.",
+    "lecture2A1": "Quiz will be unlocked Sunday",
+    "ecgTest": "ECG Pattern Test",
+
+    "lecture3": "Lecture 3 - Cardiac Pharmacology",
+    "lecture3Desc": "Key drugs used in emergency cardiac care and their effects.",
+    "lecture3A1": "MCQ practice paper uploaded",
+    "pharmaQuiz": "Pharmacology Quiz",
+
+    "lecture4": "Lecture 4 - Interventions",
+    "lecture4Desc": "PCI basics and indications — case discussions.",
+    "lecture4A1": "Case study discussion on Wednesday",
+    "interQuiz": "Intervention Quiz"
+  },
+
+
+
+  "userProfile": {
+    "title": "My Profile",
+    "subtitle": "Manage your professional profile and track progress",
+    "loading": "Loading profile...",
+    
+    "profile": {
+      "doctorTitle": "Dr.",
+      "firstName": "Ahmed",
+      "lastName": "Al Mansouri",
+      "specialization": "Cardiology",
+      "hospital": "Dubai Hospital",
+      "experience": "8 years",
+      "memberSince": "Member since",
+      "bio": "Senior Cardiologist with 8 years of experience in interventional cardiology. Specialized in cardiac catheterization and heart failure management. Passionate about medical education and continuous professional development."
+    },
+    
+    "stats": {
+      "courses": "Courses",
+      "certificates": "Certificates",
+      "avgScore": "Avg Score",
+      "overallProgress": "Overall Progress",
+      "enrolledCourses": "Enrolled Courses",
+      "lecturesWatched": "Lectures Watched",
+      "certificatesEarned": "Certificates Earned"
+    },
+    
+    "license": {
+      "title": "Medical License",
+      "licenseNo": "License No",
+      "noLicense": "No license uploaded"
+    },
+    
+    "subscription": {
+      "title": "Subscription Plan",
+      "professional": "Professional",
+      "renewsOn": "Renews on",
+      "currentPlan": "Current Plan",
+      "activeStatus": "Your subscription is active and will renew automatically",
+      "basic": "Basic Plan",
+      "month": "month",
+      "recommended": "RECOMMENDED",
+      "features": {
+        "allCourses": "All Courses",
+        "certificates": "Certificates",
+        "prioritySupport": "Priority Support",
+        "advancedContent": "Advanced Content",
+        "basic1": "Access to basic courses",
+        "basic2": "Community support",
+        "basic3": "Limited certificates",
+        "pro1": "All courses unlocked",
+        "pro2": "Professional certificates",
+        "pro3": "Priority support",
+        "pro4": "Advanced content"
+      }
+    },
+    
+    "tabs": {
+      "accountInfo": "Account Info",
+      "security": "Security",
+      "about": "About",
+      "insights": "Insights",
+      "subscription": "Subscription",
+      "notifications": "Notifications"
+    },
+    
+    "form": {
+      "fullName": "Full Name",
+      "specialization": "Specialization",
+      "hospital": "Hospital",
+      "email": "Email",
+      "phone": "Phone",
+      "experience": "Experience",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "profileImage": "Profile Image",
+      "medicalLicense": "Medical License",
+      "licenseNumber": "License Number",
+      "yearsExperience": "Years of Experience",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password"
+    },
+    
+    "specializations": {
+      "cardiology": "Cardiology",
+      "emergency": "Emergency Medicine",
+      "pediatrics": "Pediatrics",
+      "surgery": "Surgery",
+      "radiology": "Radiology",
+      "general": "General Practice"
+    },
+    
+    "about": {
+      "professionalBio": "Professional Bio",
+      "bioPlaceholder": "Add a professional bio about yourself, your medical background, and professional interests.",
+      "professionalDetails": "Professional Details"
+    },
+    
+    "charts": {
+      "weekDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "learningHours": "Learning Hours",
+      "specialties": ["Cardiology", "Emergency", "Pediatrics", "Surgery", "Radiology"],
+      "testScores": "Test Scores (%)",
+      "weeklyProgress": "Weekly Learning Progress",
+      "specialtyPerformance": "Specialty Performance"
+    },
+    
+    "notifications": {
+      "title": "Notification Preferences",
+      "email": "Email Notifications",
+      "courseReminders": "Course Reminders",
+      "newsletter": "Newsletter",
+      "language": "Language"
+    },
+    
+    "buttons": {
+      "backToDashboard": "Back to Dashboard",
+      "myCourses": "My Courses",
+      "editProfile": "Edit Profile",
+      "downloadLicense": "Download License",
+      "uploadLicense": "Upload License",
+      "manageSubscription": "Manage Subscription",
+      "uploadAvatar": "Upload Avatar",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "editBio": "Edit Bio",
+      "upgradeNow": "Upgrade Now",
+      "savePreferences": "Save Preferences",
+      "updatePassword": "Update Password",
+      "saveBio": "Save Bio"
+    },
+    
+    "placeholders": {
+      "currentPassword": "Enter current password",
+      "newPassword": "Enter new password",
+      "confirmPassword": "Confirm new password"
+    },
+    
+    "modals": {
+      "editBio": "Edit Professional Bio",
+      "bioPlaceholder": "Share your medical background, specialization, professional interests, and any achievements..."
+    },
+    
+    "messages": {
+      "profileUpdated": "Profile updated successfully!",
+      "avatarUploaded": "Avatar uploaded successfully",
+      "licenseUploaded": "License uploaded successfully",
+      "downloadingLicense": "Downloading license...",
+      "preferencesSaved": "Preferences saved!",
+      "passwordUpdated": "Password updated successfully!"
+    },
+    
+    "errors": {
+      "noUser": "No user found",
+      "incorrectPassword": "Current password is incorrect",
+      "passwordLength": "New password must be at least 6 characters",
+      "passwordMismatch": "New passwords do not match"
+    }
+  },
+   "sidebar": {
+    "title": "User + Data",
+    "dashboard": "Dashboard",
+    "course": "My Course",
+    "profile": "My Profile",
+    "certificate": "My Certificate"
+  }
+}

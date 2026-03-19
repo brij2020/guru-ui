@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Test Guru Logo</title>
+  <desc id="logoDesc">Test Guru online mock test logo with brain icon and tagline Prepare Smart. Compete Strong.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="45%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="leftStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#66b2ff" />
+      <stop offset="100%" stop-color="#3396ec" />
+    </linearGradient>
+    <linearGradient id="rightStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94c8ff" />
+      <stop offset="100%" stop-color="#66b2ff" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="320" rx="24" fill="url(#bgGradient)" />
+
+  <g transform="translate(46,36)">
+    <circle cx="124" cy="124" r="98" fill="none" stroke="#0073e6" stroke-width="4" />
+    <path d="M121 28C94 30 72 45 59 69c-11 20-12 46-2 68 7 17 20 31 37 39 8 4 15 11 20 18" fill="none" stroke="url(#leftStroke)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M127 28c27 2 49 17 62 41 11 20 12 46 2 68-7 17-20 31-37 39-8 4-15 11-20 18" fill="none" stroke="url(#rightStroke)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M124 42v164" fill="none" stroke="#b5daff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M74 73c13 3 22 11 28 22M66 115c17 0 29 8 37 21M73 157c14-1 24 5 33 15" fill="none" stroke="url(#leftStroke)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M174 73c-13 3-22 11-28 22M182 115c-17 0-29 8-37 21M175 157c-14-1-24 5-33 15" fill="none" stroke="url(#rightStroke)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="320" y="158" fill="#ffffff" font-family="Montserrat, Poppins, Segoe UI, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="2">
+    TEST GURU
+  </text>
+  <text x="322" y="220" fill="#b5daff" font-family="Montserrat, Poppins, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="1.2">
+    Prepare Smart. Compete Strong.
+  </text>
+</svg>

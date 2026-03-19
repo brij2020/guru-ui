@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Rank and Percentile Insights for Government Exam Mock Tests</title>
+  <desc id="desc">Analytics dashboard slide showing percentile trend weak topics and score progress for exam aspirants</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef7ff"/>
+      <stop offset="100%" stop-color="#e3efff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <rect x="90" y="90" width="1020" height="620" rx="28" fill="#ffffff" stroke="#d6e8ff" stroke-width="4"/>
+  <text x="140" y="180" fill="#0f172a" font-size="50" font-family="Inter, Arial, sans-serif" font-weight="800">Rank &amp; Percentile Insights</text>
+  <text x="140" y="230" fill="#475569" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="500">Know your standing and improve weak topics faster</text>
+  <rect x="140" y="280" width="280" height="170" rx="18" fill="#f5faff" stroke="#d8ebff"/>
+  <text x="175" y="330" fill="#0073e6" font-size="30" font-family="Inter, Arial, sans-serif" font-weight="800">Rank: #342</text>
+  <text x="175" y="380" fill="#334155" font-size="24" font-family="Inter, Arial, sans-serif" font-weight="600">Top 12%</text>
+  <rect x="450" y="280" width="580" height="170" rx="18" fill="#f5faff" stroke="#d8ebff"/>
+  <polyline points="490,400 560,370 630,380 700,340 770,320 840,290 910,250 980,230" fill="none" stroke="#0073e6" stroke-width="8" stroke-linecap="round"/>
+  <rect x="140" y="480" width="890" height="170" rx="18" fill="#f5faff" stroke="#d8ebff"/>
+  <text x="175" y="540" fill="#0f172a" font-size="30" font-family="Inter, Arial, sans-serif" font-weight="700">Weak Topics: Time &amp; Distance, Polity, Reading Comprehension</text>
+  <text x="175" y="590" fill="#475569" font-size="24" font-family="Inter, Arial, sans-serif" font-weight="500">Recommended: 2 timed drills + 1 concept revision set daily</text>
+</svg>

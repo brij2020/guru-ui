@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Mock test platform for IT professionals students and government exam aspirants</title>
+  <desc id="desc">Illustration representing online mock tests for coding aptitude government exams and general education</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2e8ff"/>
+      <stop offset="100%" stop-color="#d9f2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="120" y="120" width="960" height="560" rx="28" fill="#ffffff" stroke="#d8d8e5" stroke-width="4"/>
+  <rect x="160" y="170" width="400" height="54" rx="10" fill="#8500ac" opacity="0.9"/>
+  <rect x="160" y="250" width="300" height="20" rx="10" fill="#d8b7e5"/>
+  <rect x="160" y="285" width="350" height="20" rx="10" fill="#d8b7e5"/>
+  <rect x="160" y="320" width="320" height="20" rx="10" fill="#d8b7e5"/>
+  <rect x="160" y="380" width="170" height="44" rx="12" fill="#8500ac"/>
+  <rect x="350" y="380" width="170" height="44" rx="12" fill="#ffffff" stroke="#8500ac" stroke-width="3"/>
+
+  <rect x="620" y="190" width="420" height="430" rx="22" fill="#f8f3ff" stroke="#e7d4f0"/>
+  <rect x="660" y="240" width="340" height="18" rx="9" fill="#a94bcc"/>
+  <rect x="660" y="280" width="250" height="14" rx="7" fill="#ccb2dc"/>
+  <rect x="660" y="315" width="300" height="14" rx="7" fill="#ccb2dc"/>
+  <rect x="660" y="350" width="280" height="14" rx="7" fill="#ccb2dc"/>
+  <circle cx="700" cy="430" r="36" fill="#8500ac"/>
+  <circle cx="800" cy="430" r="36" fill="#3b82f6"/>
+  <circle cx="900" cy="430" r="36" fill="#22c55e"/>
+  <rect x="660" y="500" width="340" height="70" rx="12" fill="#ffffff" stroke="#e0d8ea"/>
+</svg>
