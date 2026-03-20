@@ -902,10 +902,25 @@ export default function QuestionPublisherPage() {
         groupOrder: currentQuestion.groupType === "rc_passage" ? Number(currentQuestion.groupOrder || 1) + 1 : 1,
         groupTitle: currentQuestion.groupType === "rc_passage" ? currentQuestion.groupTitle : "",
         passageText: currentQuestion.groupType === "rc_passage" ? currentQuestion.passageText : "",
+        question: "",
+        options: ["", "", "", ""],
+        answer: "",
+        answerKey: "",
+        explanation: "",
+        assets: [],
+        tags: [],
       };
       setCurrentQuestion(nextDraft);
       setSelectedIndex(null);
-      form.setFieldsValue(nextDraft);
+      setBlackboardText("");
+      form.setFieldsValue({
+        ...nextDraft,
+        question: "",
+        options: ["", "", "", ""],
+        answer: "",
+        answerKey: "",
+        explanation: "",
+      });
       message.success("Question added to batch");
     } catch {
       // validation errors shown by form
