@@ -1703,207 +1703,246 @@ export default function QuestionPublisherPage() {
               <Card
                 size="small"
                 className="!mb-4"
-                title="Quick Paste Pad"
+                title={
+                  <Space>
+                    <span>📋 Quick Paste Pad</span>
+                    <Tag color="blue">PDF Import</Tag>
+                  </Space>
+                }
                 extra={
-                  <Button size="small" onClick={() => setBlackboardText("")}>
-                    Clear
-                  </Button>
+                  <Space>
+                    <Switch checked={autoFillFromPad} onChange={setAutoFillFromPad} size="small" checkedChildren="Auto" unCheckedChildren="Manual" />
+                    <Button size="small" danger onClick={() => setBlackboardText("")}>
+                      Clear
+                    </Button>
+                  </Space>
                 }
               >
-                <Row gutter={12}>
+                <Row gutter={16}>
                   <Col xs={24} lg={14}>
-                    <Text type="secondary">
-                      Paste directly from PDF.
+                    <Text type="secondary" className="!block !mb-2">
+                      Paste question text from PDF with format:
                     </Text>
                     <TextArea
-                      className="!mt-2"
-                      rows={11}
+                      rows={10}
                       value={blackboardText}
                       onChange={(e) => setBlackboardText(e.target.value)}
-                      placeholder={`Q. Passage based question text...
-A) option one
-B) option two
-C) option three
-D) option four
-Answer Key: B
-Explanation: optional`}
-                      style={{ marginTop: 8 }}
+                      placeholder={`Q. Question text here...
+A) First option
+B) Second option  
+C) Third option
+D) Fourth option
+Answer: B
+Explanation: Explanation here`}
                     />
-                    <Space className="!mt-3">
-                      <Switch checked={autoFillFromPad} onChange={setAutoFillFromPad} size="small" />
-                      <Button type="primary" onClick={applyParsedDraftToForm}>
-                        Parse To Form
+                    <Space className="!mt-3" size="small">
+                      <Button type="primary" icon={<EditOutlined />} onClick={applyParsedDraftToForm} disabled={!parsedDraft.question}>
+                        Parse to Form
                       </Button>
-                      <Button onClick={handleParseMultipleToBatch}>
-                        Parse Multiple To Batch
+                      <Button icon={<PlusOutlined />} onClick={handleParseMultipleToBatch} disabled={!parsedDraft.question}>
+                        Parse Multiple
                       </Button>
-                      <Button onClick={() => setBlackboardText("")}>Clear Pad</Button>
                     </Space>
                   </Col>
                   <Col xs={24} lg={10}>
                     <Card
                       size="small"
-                      style={{ minHeight: 280 }}
-                      title="Live Parsed Preview"
+                      style={{ minHeight: 280, backgroundColor: '#fafafa' }}
+                      title={
+                        <Space>
+                          <span>👁️ Live Preview</span>
+                          <Tag>{parsedDraft.options.filter(Boolean).length} options</Tag>
+                        </Space>
+                      }
                     >
-                      <Space direction="vertical" className="!w-full" size={6}>
-                        <Text type="secondary">
-                          Lines: {parsedDraft.rawQuestionLines.length} • Options: {parsedDraft.options.filter(Boolean).length}
-                        </Text>
-                        <Text strong>Question</Text>
-                        <Paragraph style={{ marginBottom: 4 }} ellipsis={{ rows: 4 }}>
-                          {parsedDraft.question || "No question detected yet"}
-                        </Paragraph>
-                        <Text strong>Options</Text>
-                        <div className="flex flex-wrap gap-1">
-                          {parsedDraft.options.map((opt, idx) =>
-                            opt ? (
-                              <Tag key={`parsed-opt-${idx}`} color="geekblue">
-                                {String.fromCharCode(65 + idx)}. {opt.slice(0, 50)}
-                              </Tag>
-                            ) : null
-                          )}
+                      <Space direction="vertical" className="!w-full" size="small">
+                        <div>
+                          <Text type="secondary" className="!text-xs">Question:</Text>
+                          <Paragraph style={{ marginBottom: 4, marginTop: 2 }} ellipsis={{ rows: 3 }}>
+                            {parsedDraft.question || <Text type="secondary">No question detected</Text>}
+                          </Paragraph>
                         </div>
-                        <Text>
-                          <strong>Answer Key:</strong> {parsedDraft.answerKey || "-"}
-                        </Text>
-                        <Text>
-                          <strong>Answer:</strong> {parsedDraft.answer || "-"}
-                        </Text>
+                        <div>
+                          <Text type="secondary" className="!text-xs">Options:</Text>
+                          <div className="flex flex-wrap gap-1 mt-1">
+                            {parsedDraft.options.map((opt, idx) =>
+                              opt ? (
+                                <Tag key={`parsed-opt-${idx}`} color={idx === parsedDraft.options.indexOf(parsedDraft.options.find(o => o && o.startsWith(parsedDraft.answerKey)))} ? 'green' : 'geekblue'}>
+                                  {String.fromCharCode(65 + idx)}. {opt.slice(0, 40)}
+                                </Tag>
+                              ) : null
+                            )}
+                          </div>
+                        </div>
+                        <div className="flex gap-4">
+                          <Text><Tag color="blue">Answer:</Tag> {parsedDraft.answerKey || '-'}</Text>
+                        </div>
                       </Space>
                     </Card>
                   </Col>
                 </Row>
               </Card>
 
-              <Row gutter={16}>
-                <Col span={12}>
-                  <Form.Item label="Section" name="section" rules={[{ required: true }]}>
-                    <Select
-                      options={availableSections}
-                    />
-                  </Form.Item>
-                </Col>
-                <Col span={12}>
-                  <Form.Item label="Topic" name="topic" rules={[{ required: true }]}>
-                    <Select
-                      showSearch
-                      allowClear
-                      placeholder="Select topic"
-                      options={filteredTopics.map((t) => ({ value: t, label: t }))}
-                    />
-                  </Form.Item>
-                </Col>
-              </Row>
-
-              <Row gutter={16}>
-                <Col span={8}>
-                  <Form.Item label="Difficulty" name="difficulty" rules={[{ required: true }]}>
-                    <Radio.Group>
-                      <Radio.Button value="easy">Easy</Radio.Button>
-                      <Radio.Button value="medium">Medium</Radio.Button>
-                      <Radio.Button value="hard">Hard</Radio.Button>
-                    </Radio.Group>
-                  </Form.Item>
-                </Col>
-                <Col span={16}>
-                  <Form.Item label="Question Type" name="questionType">
-                    <Select options={QUESTION_TYPES} />
-                  </Form.Item>
-                </Col>
-              </Row>
-
-              <Form.Item label="Group Type" name="groupType">
-                <Radio.Group
-                  onChange={(e) => {
-                    const selectedGroupType = e.target.value as GroupType;
-                    if (selectedGroupType === "rc_passage") {
-                      const seededId = currentQuestion.groupId || buildRcSetId();
+              <Card
+                size="small"
+                className="!mb-4"
+                title={
+                  <Space>
+                    <span>📚 Question Metadata</span>
+                    <Tag color="red">* Required</Tag>
+                  </Space>
+                }
+              >
+                <Row gutter={16}>
+                  <Col span={12}>
+                    <Form.Item label="Section" name="section" rules={[{ required: true, message: 'Select a section' }]}>
+                      <Select placeholder="Select section" options={availableSections} />
+                    </Form.Item>
+                  </Col>
+                  <Col span={12}>
+                    <Form.Item label="Topic" name="topic" rules={[{ required: true, message: 'Select a topic' }]}>
+                      <Select showSearch allowClear placeholder="Select topic" options={filteredTopics.map((t) => ({ value: t, label: t }))} />
+                    </Form.Item>
+                  </Col>
+                </Row>
+                <Row gutter={16}>
+                  <Col span={12}>
+                    <Form.Item label="Difficulty" name="difficulty" rules={[{ required: true }]}>
+                      <Radio.Group>
+                        <Radio.Button value="easy"><Tag color="green">Easy</Tag></Radio.Button>
+                        <Radio.Button value="medium"><Tag color="orange">Medium</Tag></Radio.Button>
+                        <Radio.Button value="hard"><Tag color="red">Hard</Tag></Radio.Button>
+                      </Radio.Group>
+                    </Form.Item>
+                  </Col>
+                  <Col span={12}>
+                    <Form.Item label="Question Type" name="questionType">
+                      <Select options={QUESTION_TYPES} placeholder="Select type" />
+                    </Form.Item>
+                  </Col>
+                </Row>
+                <Form.Item label="Group Type" name="groupType">
+                  <Radio.Group
+                    onChange={(e) => {
+                      const selectedGroupType = e.target.value as GroupType;
+                      if (selectedGroupType === "rc_passage") {
+                        const seededId = currentQuestion.groupId || buildRcSetId();
+                        const next = {
+                          ...currentQuestion,
+                          groupType: selectedGroupType,
+                          groupId: seededId,
+                          groupOrder: Number(currentQuestion.groupOrder || 1),
+                        };
+                        setCurrentQuestion(next);
+                        setRcSetQuestions([createEmptyRcItem(1)]);
+                        form.setFieldsValue({
+                          groupType: selectedGroupType,
+                          groupId: seededId,
+                          groupOrder: Number(currentQuestion.groupOrder || 1),
+                        });
+                        return;
+                      }
                       const next = {
                         ...currentQuestion,
-                        groupType: selectedGroupType,
-                        groupId: seededId,
-                        groupOrder: Number(currentQuestion.groupOrder || 1),
+                        groupType: "none" as GroupType,
+                        groupId: "",
+                        groupOrder: 1,
+                        groupTitle: "",
+                        passageText: "",
                       };
                       setCurrentQuestion(next);
                       setRcSetQuestions([createEmptyRcItem(1)]);
                       form.setFieldsValue({
-                        groupType: selectedGroupType,
-                        groupId: seededId,
-                        groupOrder: Number(currentQuestion.groupOrder || 1),
+                        groupType: "none",
+                        groupId: "",
+                        groupOrder: 1,
+                        groupTitle: "",
+                        passageText: "",
                       });
-                      return;
-                    }
+                    }}
+                  >
+                    <Radio.Button value="none">📝 Standalone</Radio.Button>
+                    <Radio.Button value="rc_passage">📖 RC Passage</Radio.Button>
+                  </Radio.Group>
+                </Form.Item>
+              </Card>
 
-                    const next = {
-                      ...currentQuestion,
-                      groupType: "none" as GroupType,
-                      groupId: "",
-                      groupOrder: 1,
-                      groupTitle: "",
-                      passageText: "",
-                    };
-                    setCurrentQuestion(next);
-                    setRcSetQuestions([createEmptyRcItem(1)]);
-                    form.setFieldsValue({
-                      groupType: "none",
-                      groupId: "",
-                      groupOrder: 1,
-                      groupTitle: "",
-                      passageText: "",
-                    });
-                  }}
-                >
-                  <Radio value="none">Standalone Question</Radio>
-                  <Radio value="rc_passage">Reading Comprehension (RC)</Radio>
-                </Radio.Group>
-              </Form.Item>
+              <Card
+                size="small"
+                className="!mb-4"
+                title={
+                  <Space>
+                    <span>❓ Question Content</span>
+                    <Tag color="red">* Required</Tag>
+                  </Space>
+                }
+              >
+                {renderRCFields()}
+                {renderQuestionFields()}
+              </Card>
 
-              {renderRCFields()}
-
-              {renderQuestionFields()}
+              <Card
+                size="small"
+                className="!mb-4"
+                title={
+                  <Space>
+                    <span>📎 Additional Info</span>
+                    <Tag color="default">Optional</Tag>
+                  </Space>
+                }
+              >
+                <Row gutter={16}>
+                  <Col span={24}>
+                    <Form.Item label="Source Exam (PYQ)" name="sourceExam">
+                      <Input placeholder="e.g., SBI Clerk Prelims 2023" />
+                    </Form.Item>
+                  </Col>
+                </Row>
+                <Row gutter={16}>
+                  <Col span={12}>
+                    <Form.Item label="Year" name="sourceYear">
+                      <InputNumber className="!w-full" min={2000} max={2100} placeholder="2023" />
+                    </Form.Item>
+                  </Col>
+                  <Col span={12}>
+                    <Form.Item label="Shift" name="sourceShift">
+                      <InputNumber className="!w-full" min={1} max={10} placeholder="1" />
+                    </Form.Item>
+                  </Col>
+                </Row>
+              </Card>
 
               <Divider />
 
-              <Form.Item label="Source Exam (PYQ)" name="sourceExam">
-                <Input placeholder="e.g., SBI Clerk Prelims 2023" />
-              </Form.Item>
-
-              <Row gutter={16}>
-                <Col span={12}>
-                  <Form.Item label="Year" name="sourceYear">
-                    <InputNumber className="!w-full" min={2000} max={2100} />
-                  </Form.Item>
-                </Col>
-                <Col span={12}>
-                  <Form.Item label="Shift" name="sourceShift">
-                    <InputNumber className="!w-full" min={1} max={10} />
-                  </Form.Item>
-                </Col>
-              </Row>
-
-              <Space className="!w-full justify-end">
-                {selectedIndex !== null ? (
-                  <>
-                    <Button onClick={() => {
-                      setSelectedIndex(null);
-                      setCurrentQuestion({ ...INITIAL_QUESTION, examSlug: currentQuestion.examSlug, stageSlug: currentQuestion.stageSlug });
-                      form.resetFields();
-                    }}>
-                      Cancel
+              <Space className="!w-full justify-between">
+                <div>
+                  <Text type="secondary">
+                    {questions.length > 0 && `Batch: ${questions.length} question${questions.length > 1 ? 's' : ''}`}
+                  </Text>
+                </div>
+                <Space>
+                  {selectedIndex !== null ? (
+                    <>
+                      <Button onClick={() => {
+                        setSelectedIndex(null);
+                        setCurrentQuestion({ ...INITIAL_QUESTION, examSlug: currentQuestion.examSlug, stageSlug: currentQuestion.stageSlug });
+                        form.resetFields();
+                      }}>
+                        Cancel Edit
+                      </Button>
+                      <Button type="primary" icon={<EditOutlined />} onClick={handleUpdateQuestion}>
+                        Update Question
+                      </Button>
+                    </>
+                  ) : (
+                    <Button type="primary" icon={<PlusOutlined />} onClick={handleAddQuestion}>
+                      Add to Batch
                     </Button>
-                    <Button type="primary" onClick={handleUpdateQuestion}>
-                      Update Question
-                    </Button>
-                  </>
-                ) : (
-                  <Button type="primary" icon={<PlusOutlined />} onClick={handleAddQuestion}>
-                    Add to Batch
+                  )}
+                  <Button icon={<EyeOutlined />} onClick={() => setIsPreviewOpen(true)}>
+                    Preview
                   </Button>
-                )}
-                <Button icon={<EyeOutlined />} onClick={() => setIsPreviewOpen(true)}>
-                  Preview
-                </Button>
+                </Space>
               </Space>
             </Form>
           </Card>
