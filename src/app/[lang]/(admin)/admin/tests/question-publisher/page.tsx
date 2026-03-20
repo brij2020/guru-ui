@@ -927,12 +927,13 @@ export default function QuestionPublisherPage() {
     message.info("All questions cleared");
   };
 
-  const handleSaveAll = async () => {
+  const handleSaveAll = async (reviewStatus: "approved" | "draft" = "approved") => {
     if (questions.length === 0) {
       message.error("No questions to save");
       return;
     }
 
+    const statusLabel = reviewStatus === "approved" ? "Publish" : "Draft";
     setIsSaving(true);
     try {
       const examMeta = GOV_EXAMS.find((exam) => exam.slug === questions[0]?.examSlug);
@@ -942,7 +943,7 @@ export default function QuestionPublisherPage() {
       const payload = {
         domain: resolvedDomain,
         language,
-        reviewStatus: "approved",
+        reviewStatus,
         questions: questions.map((q) => ({
           examSlug: q.examSlug,
           stageSlug: q.stageSlug,
@@ -967,7 +968,7 @@ export default function QuestionPublisherPage() {
           options: (Array.isArray(q.options) ? q.options : []).filter(Boolean),
           answer: q.answer,
           answerKey: q.answerKey,
-          reviewStatus: "approved",
+          reviewStatus,
           explanation: q.explanation,
           hasVisual: (Array.isArray(q.assets) ? q.assets : []).some((asset) => Boolean(String(asset?.url || "").trim())),
           assets: (Array.isArray(q.assets) ? q.assets : []).filter((asset) => Boolean(String(asset?.url || "").trim())),
@@ -982,10 +983,10 @@ export default function QuestionPublisherPage() {
 
       const response = await apiClient.post(API_ENDPOINTS.questionBank.bulkCreate, payload);
       if (response.data?.success) {
-        message.success(`Successfully saved ${questions.length} questions`);
+        message.success(`Successfully ${statusLabel === "Publish" ? "published" : "saved as draft"} ${questions.length} questions`);
         setQuestions([]);
       } else {
-        message.error(response.data?.message || "Failed to save questions");
+        message.error(response.data?.message || `Failed to ${statusLabel.toLowerCase()} questions`);
       }
     } catch (error: unknown) {
       let errorMessage = "Failed to save questions";
@@ -1440,17 +1441,24 @@ export default function QuestionPublisherPage() {
           <Button icon={<ClearOutlined />} onClick={handleClearAll}>
             Clear All ({questions.length})
           </Button>
-          <Popconfirm
-            title="Save all questions?"
-            description={`This will save ${questions.length} questions to the database`}
-            onConfirm={handleSaveAll}
-            okText="Save"
-            cancelText="Cancel"
+          <Button 
+            type="default" 
+            icon={<SaveOutlined />} 
+            loading={isSaving} 
+            disabled={questions.length === 0}
+            onClick={() => handleSaveAll("draft")}
           >
-            <Button type="primary" icon={<SaveOutlined />} loading={isSaving} disabled={questions.length === 0}>
-              Save All Questions
-            </Button>
-          </Popconfirm>
+            Draft
+          </Button>
+          <Button 
+            type="primary" 
+            icon={<SaveOutlined />} 
+            loading={isSaving} 
+            disabled={questions.length === 0}
+            onClick={() => handleSaveAll("approved")}
+          >
+            Publish
+          </Button>
         </Space>
       </div>
 
@@ -1725,13 +1733,21 @@ Explanation: optional`}
               <Space>
                 <Tag color="blue">{questions.length} questions</Tag>
                 <Button
+                  size="small"
+                  loading={isSaving}
+                  disabled={questions.length === 0}
+                  onClick={() => handleSaveAll("draft")}
+                >
+                  Draft
+                </Button>
+                <Button
                   type="primary"
                   size="small"
                   loading={isSaving}
                   disabled={questions.length === 0}
-                  onClick={handleSaveAll}
+                  onClick={() => handleSaveAll("approved")}
                 >
-                  Send For Review
+                  Publish
                 </Button>
               </Space>
             }
