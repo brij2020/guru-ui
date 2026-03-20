@@ -988,14 +988,32 @@ export default function QuestionPublisherPage() {
         message.error(response.data?.message || "Failed to save questions");
       }
     } catch (error: unknown) {
-      const apiMessage =
-        typeof error === "object" &&
-        error !== null &&
-        "response" in error &&
-        typeof (error as { response?: { data?: { message?: unknown } } }).response?.data?.message === "string"
-          ? ((error as { response?: { data?: { message?: string } } }).response?.data?.message as string)
-          : "Failed to save questions";
-      message.error(apiMessage);
+      let errorMessage = "Failed to save questions";
+      
+      if (typeof error === "object" && error !== null) {
+        const err = error as Record<string, unknown>;
+        
+        if (err.response) {
+          const resp = err.response as { status?: number; data?: { message?: string; error?: string } };
+          if (resp.status === 401) {
+            errorMessage = "Session expired. Please login again.";
+          } else if (resp.status === 403) {
+            errorMessage = "You don't have permission to perform this action.";
+          } else if (resp.status === 404) {
+            errorMessage = "API endpoint not found. Please refresh and try again.";
+          } else if (resp.status === 500) {
+            errorMessage = "Server error. Please try again later.";
+          } else if (resp.data?.message) {
+            errorMessage = String(resp.data.message);
+          } else if (resp.data?.error) {
+            errorMessage = String(resp.data.error);
+          }
+        } else if (err.message) {
+          errorMessage = String(err.message);
+        }
+      }
+      
+      message.error(errorMessage);
     } finally {
       setIsSaving(false);
     }
