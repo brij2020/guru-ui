@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Alert, Button, Card, Col, Divider, Form, Input, InputNumber, Modal, Radio, Row, Select, Space, Switch, Tag, Typography, message, Popconfirm } from "antd";
-import { PlusOutlined, DeleteOutlined, SaveOutlined, EyeOutlined, ClearOutlined, UploadOutlined } from "@ant-design/icons";
+import { PlusOutlined, DeleteOutlined, SaveOutlined, EyeOutlined, ClearOutlined, UploadOutlined, CloudUploadOutlined, EditOutlined, CheckCircleOutlined, LoadingOutlined } from "@ant-design/icons";
 import { apiClient } from "@/lib/apiClient";
 import { API_ENDPOINTS } from "@/lib/apiConfig";
 import { GOV_EXAMS } from "@/lib/mockTestBuilder";
@@ -71,6 +71,29 @@ interface LibraryAssetItem {
   size?: number;
   updatedAt?: string;
 }
+
+type BulkCreateApiResponse = {
+  success?: boolean;
+  message?: string;
+  data?: {
+    success?: boolean;
+    imported?: number;
+    inserted?: number;
+    updated?: number;
+    duplicatesSkipped?: number;
+    message?: string;
+  };
+  imported?: number;
+  inserted?: number;
+  updated?: number;
+  duplicatesSkipped?: number;
+};
+
+type SaveFeedback = {
+  type: "success" | "error";
+  text: string;
+  at: string;
+};
 
 type BlueprintSection = {
   key: string;
@@ -327,6 +350,19 @@ const parseBlackboardDraft = (input: string): ParsedDraft => {
   };
 };
 
+const parseBulkCreateSummary = (payload: BulkCreateApiResponse) => {
+  const nested = payload?.data || {};
+  const inserted = Number(nested.inserted ?? payload?.inserted ?? 0);
+  const updated = Number(nested.updated ?? payload?.updated ?? 0);
+  const imported = Number(nested.imported ?? payload?.imported ?? 0);
+  const duplicatesSkipped = Number(nested.duplicatesSkipped ?? payload?.duplicatesSkipped ?? 0);
+  const successFlag = nested.success ?? payload?.success;
+  const success =
+    typeof successFlag === "boolean" ? successFlag : inserted + updated + imported > 0;
+  const messageText = String(nested.message || payload?.message || "").trim();
+  return { success, inserted, updated, imported, duplicatesSkipped, messageText };
+};
+
 export default function QuestionPublisherPage() {
   const [form] = Form.useForm();
   const params = useParams<{ lang: string }>();
@@ -350,6 +386,7 @@ export default function QuestionPublisherPage() {
   const [isAssetLibraryLoading, setIsAssetLibraryLoading] = useState(false);
   const [assetLibrarySearch, setAssetLibrarySearch] = useState("");
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
+  const [saveFeedback, setSaveFeedback] = useState<SaveFeedback | null>(null);
   const STORAGE_KEY = "question-publisher-work";
 
   const saveWork = useCallback(() => {
@@ -981,12 +1018,28 @@ export default function QuestionPublisherPage() {
         })),
       };
 
-      const response = await apiClient.post(API_ENDPOINTS.questionBank.bulkCreate, payload);
-      if (response.data?.success) {
-        message.success(`Successfully ${statusLabel === "Publish" ? "published" : "saved as draft"} ${questions.length} questions`);
+      const response = await apiClient.post<BulkCreateApiResponse>(API_ENDPOINTS.questionBank.bulkCreate, payload);
+      const summary = parseBulkCreateSummary(response.data || {});
+      if (summary.success) {
+        const successText = `${statusLabel} success: inserted ${summary.inserted}, updated ${summary.updated}, imported ${summary.imported}, duplicates skipped ${summary.duplicatesSkipped}`;
+        setSaveFeedback({ type: "success", text: successText, at: new Date().toLocaleString() });
+        message.success(
+          successText
+        );
+        const nextDraft: QuestionFormData = {
+          ...INITIAL_QUESTION,
+          examSlug: currentQuestion.examSlug,
+          stageSlug: currentQuestion.stageSlug,
+        };
         setQuestions([]);
+        setSelectedIndex(null);
+        setCurrentQuestion(nextDraft);
+        setRcSetQuestions([createEmptyRcItem(1)]);
+        form.setFieldsValue(nextDraft);
       } else {
-        message.error(response.data?.message || `Failed to ${statusLabel.toLowerCase()} questions`);
+        const errorText = summary.messageText || `Failed to ${statusLabel.toLowerCase()} questions`;
+        setSaveFeedback({ type: "error", text: errorText, at: new Date().toLocaleString() });
+        message.error(errorText);
       }
     } catch (error: unknown) {
       let errorMessage = "Failed to save questions";
@@ -1014,6 +1067,7 @@ export default function QuestionPublisherPage() {
         }
       }
       
+      setSaveFeedback({ type: "error", text: errorMessage, at: new Date().toLocaleString() });
       message.error(errorMessage);
     } finally {
       setIsSaving(false);
@@ -1066,21 +1120,23 @@ export default function QuestionPublisherPage() {
         }],
       };
 
-      const response = await apiClient.post(API_ENDPOINTS.questionBank.bulkCreate, payload);
-      console.log("Bulk create response:", response.data);
-      
-      const responseData = response.data as { success?: boolean | string; inserted?: number; imported?: number; message?: string };
-      const isSuccess = responseData && (responseData.success === true || responseData.success === "" || (responseData.inserted || 0) + (responseData.imported || 0) > 0);
-      
-      if (isSuccess) {
-        message.success(`Question ${statusLabel === "Publish" ? "published" : "saved as draft"} successfully`);
+      const response = await apiClient.post<BulkCreateApiResponse>(API_ENDPOINTS.questionBank.bulkCreate, payload);
+      const summary = parseBulkCreateSummary(response.data || {});
+
+      if (summary.success) {
+        const successText = `${statusLabel} success: inserted ${summary.inserted}, updated ${summary.updated}, imported ${summary.imported}, duplicates skipped ${summary.duplicatesSkipped}`;
+        setSaveFeedback({ type: "success", text: successText, at: new Date().toLocaleString() });
+        message.success(
+          successText
+        );
         setQuestions((prev) => prev.filter((_, i) => i !== index));
         if (selectedIndex === index) {
           setSelectedIndex(null);
         }
       } else {
-        const errorMsg = responseData?.message || `Failed to ${statusLabel.toLowerCase()} question`;
-        message.error(errorMsg);
+        const errorText = summary.messageText || `Failed to ${statusLabel.toLowerCase()} question`;
+        setSaveFeedback({ type: "error", text: errorText, at: new Date().toLocaleString() });
+        message.error(errorText);
       }
     } catch (error: unknown) {
       let errorMessage = `Failed to ${statusLabel.toLowerCase()} question`;
@@ -1101,6 +1157,7 @@ export default function QuestionPublisherPage() {
         }
       }
       
+      setSaveFeedback({ type: "error", text: errorMessage, at: new Date().toLocaleString() });
       message.error(errorMessage);
     } finally {
       setIsSaving(false);
@@ -1528,26 +1585,65 @@ export default function QuestionPublisherPage() {
           <Button icon={<ClearOutlined />} onClick={handleClearAll}>
             Clear All ({questions.length})
           </Button>
-          <Button 
-            type="default" 
-            icon={<SaveOutlined />} 
-            loading={isSaving} 
+          <Popconfirm
+            title="Save as Draft?"
+            description="This will save questions as draft. You can publish them later."
+            onConfirm={() => handleSaveAll("draft")}
+            okText="Save Draft"
+            cancelText="Cancel"
             disabled={questions.length === 0}
-            onClick={() => handleSaveAll("draft")}
           >
-            Draft
-          </Button>
-          <Button 
-            type="primary" 
-            icon={<SaveOutlined />} 
-            loading={isSaving} 
+            <Button 
+              type="default"
+              icon={<EditOutlined />}
+              loading={isSaving} 
+              disabled={questions.length === 0}
+              style={{ borderColor: '#faad14', color: '#faad14' }}
+            >
+              Save Draft
+            </Button>
+          </Popconfirm>
+          <Popconfirm
+            title="Publish Questions?"
+            description="This will publish questions and make them available to users."
+            onConfirm={() => handleSaveAll("approved")}
+            okText="Publish"
+            cancelText="Cancel"
             disabled={questions.length === 0}
-            onClick={() => handleSaveAll("approved")}
           >
-            Publish
-          </Button>
+            <Button 
+              type="primary"
+              icon={<CloudUploadOutlined />} 
+              loading={isSaving} 
+              disabled={questions.length === 0}
+              style={{ backgroundColor: '#52c41a', borderColor: '#52c41a' }}
+            >
+              Publish All
+            </Button>
+            </Popconfirm>
         </Space>
       </div>
+      {isSaving && (
+        <Alert
+          className="!mb-4"
+          type="info"
+          showIcon
+          icon={<LoadingOutlined />}
+          message="Saving questions..."
+          description="Please wait while your questions are being saved."
+        />
+      )}
+      {saveFeedback && (
+        <Alert
+          className="!mb-4"
+          type={saveFeedback.type}
+          showIcon
+          closable
+          onClose={() => setSaveFeedback(null)}
+          message={saveFeedback.type === "success" ? "Save Completed" : "Save Failed"}
+          description={`${saveFeedback.text} | Last save: ${saveFeedback.at}`}
+        />
+      )}
 
       <Row gutter={24}>
         <Col xs={24} lg={14}>
@@ -1817,36 +1913,45 @@ Explanation: optional`}
           <Card
             title={`Question Batch (${questions.length})`}
             extra={
-              <Space>
-                <Tag color="blue">{questions.length} questions</Tag>
+              <Space size="small">
+                <Tag color="blue" style={{ marginRight: 8 }}>{questions.length} Q</Tag>
                 <Button
                   size="small"
+                  icon={<EditOutlined />}
                   loading={isSaving}
                   disabled={questions.length === 0}
                   onClick={() => handleSaveAll("draft")}
+                  style={{ borderColor: '#faad14', color: '#faad14' }}
                 >
                   Draft
                 </Button>
                 <Button
                   type="primary"
                   size="small"
+                  icon={<CloudUploadOutlined />}
                   loading={isSaving}
                   disabled={questions.length === 0}
                   onClick={() => handleSaveAll("approved")}
+                  style={{ backgroundColor: '#52c41a', borderColor: '#52c41a' }}
                 >
                   Publish
                 </Button>
               </Space>
             }
-          >
-            {questions.length === 0 ? (
-              <Alert
-                message="No questions added yet"
-                description="Create questions using the form and click 'Add to Batch' to build your question set."
-                type="info"
-                showIcon
-              />
-            ) : (
+            >
+              {questions.length === 0 ? (
+                <div className="text-center py-12">
+                  <div className="text-6xl mb-4">📝</div>
+                  <Title level={5} className="!mt-0">No Questions Yet</Title>
+                  <Text type="secondary" className="block mb-4">
+                    Fill the form on the left and click "Add to Batch" to create questions
+                  </Text>
+                  <div className="flex justify-center gap-4 mt-4">
+                    <Tag icon={<EditOutlined />} color="warning">Draft - Save for later</Tag>
+                    <Tag icon={<CloudUploadOutlined />} color="success">Publish - Make live</Tag>
+                  </div>
+                </div>
+              ) : (
               <div className="space-y-3 max-h-[70vh] overflow-y-auto">
                 {questions.map((q, idx) => (
                   <Card
@@ -1884,23 +1989,25 @@ Explanation: optional`}
                           <Button
                             type="primary"
                             size="small"
-                            icon={<SaveOutlined />}
+                            icon={<CloudUploadOutlined />}
                             loading={isSaving}
                             onClick={(e) => {
                               e.stopPropagation();
                               void handleSaveSingleQuestion(idx, "approved");
                             }}
+                            style={{ backgroundColor: '#52c41a', borderColor: '#52c41a' }}
                           >
                             Publish
                           </Button>
                           <Button
                             size="small"
-                            icon={<SaveOutlined />}
+                            icon={<EditOutlined />}
                             loading={isSaving}
                             onClick={(e) => {
                               e.stopPropagation();
                               void handleSaveSingleQuestion(idx, "draft");
                             }}
+                            style={{ borderColor: '#faad14', color: '#faad14' }}
                           >
                             Draft
                           </Button>
