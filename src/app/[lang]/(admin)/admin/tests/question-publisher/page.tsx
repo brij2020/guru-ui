@@ -1765,13 +1765,14 @@ Explanation: Explanation here`}
                         <div>
                           <Text type="secondary" className="!text-xs">Options:</Text>
                           <div className="flex flex-wrap gap-1 mt-1">
-                            {parsedDraft.options.map((opt, idx) =>
-                              opt ? (
-                                <Tag key={`parsed-opt-${idx}`} color={idx === parsedDraft.options.indexOf(parsedDraft.options.find(o => o && o.startsWith(parsedDraft.answerKey)))} ? 'green' : 'geekblue'}>
+                            {parsedDraft.options.map((opt, idx) => {
+                              const isCorrectAnswer = opt && parsedDraft.answerKey && opt.startsWith(parsedDraft.answerKey);
+                              return opt ? (
+                                <Tag key={`parsed-opt-${idx}`} color={isCorrectAnswer ? 'green' : 'geekblue'}>
                                   {String.fromCharCode(65 + idx)}. {opt.slice(0, 40)}
                                 </Tag>
-                              ) : null
-                            )}
+                              ) : null;
+                            })}
                           </div>
                         </div>
                         <div className="flex gap-4">
