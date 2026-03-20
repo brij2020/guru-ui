@@ -1069,7 +1069,8 @@ export default function QuestionPublisherPage() {
       const response = await apiClient.post(API_ENDPOINTS.questionBank.bulkCreate, payload);
       console.log("Bulk create response:", response.data);
       
-      const isSuccess = response.data && (response.data as { success?: boolean }).success === true;
+      const responseData = response.data as { success?: boolean | string; inserted?: number; imported?: number; message?: string };
+      const isSuccess = responseData && (responseData.success === true || responseData.success === "" || (responseData.inserted || 0) + (responseData.imported || 0) > 0);
       
       if (isSuccess) {
         message.success(`Question ${statusLabel === "Publish" ? "published" : "saved as draft"} successfully`);
@@ -1078,7 +1079,7 @@ export default function QuestionPublisherPage() {
           setSelectedIndex(null);
         }
       } else {
-        const errorMsg = (response.data as { message?: string })?.message || `Failed to ${statusLabel.toLowerCase()} question`;
+        const errorMsg = responseData?.message || `Failed to ${statusLabel.toLowerCase()} question`;
         message.error(errorMsg);
       }
     } catch (error: unknown) {
