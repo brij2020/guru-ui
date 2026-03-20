@@ -332,18 +332,18 @@ export default function PaperBlueprintsPage() {
           if (data.totalQuestions && typeof data.totalQuestions === 'number') setTotalQuestions(data.totalQuestions);
           if (data.difficultyMix && typeof data.difficultyMix === 'object') setDifficultyMix(data.difficultyMix);
           if (Array.isArray(data.sections) && data.sections.length) {
-            const cleanSections = data.sections.filter(s => s && typeof s === 'object').map(s => ({
-              key: s.key || `section-${Date.now()}`,
-              label: s.label || 'Unnamed Section',
+            const cleanSections = data.sections.filter((s: Record<string, unknown>) => s && typeof s === 'object').map((s: Record<string, unknown>) => ({
+              key: String(s.key || `section-${Date.now()}`),
+              label: String(s.label || 'Unnamed Section'),
               count: Number(s.count) || 10,
-              topics: Array.isArray(s.topics) ? s.topics.filter(t => typeof t === 'string') : [],
+              topics: Array.isArray(s.topics) ? s.topics.filter((t: unknown) => typeof t === 'string') : [],
             }));
             setSections(cleanSections);
           }
           if (Array.isArray(data.customTopics) && data.customTopics.length) {
-            const cleanTopics = data.customTopics.filter(t => t && typeof t === 'object' && typeof t.label === 'string').map(t => ({
-              key: t.key || t.label.toLowerCase().replace(/\s+/g, "-"),
-              label: t.label,
+            const cleanTopics = data.customTopics.filter((t: Record<string, unknown>) => t && typeof t === 'object' && typeof t.label === 'string').map((t: Record<string, unknown>) => ({
+              key: String(t.key || String(t.label).toLowerCase().replace(/\s+/g, "-")),
+              label: String(t.label),
             }));
             setCustomTopics(cleanTopics);
           }

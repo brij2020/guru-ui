@@ -1020,6 +1020,88 @@ export default function QuestionPublisherPage() {
     }
   };
 
+  const handleSaveSingleQuestion = async (index: number, reviewStatus: "approved" | "draft") => {
+    const question = questions[index];
+    if (!question) return;
+
+    const statusLabel = reviewStatus === "approved" ? "Publish" : "Draft";
+    setIsSaving(true);
+    try {
+      const examMeta = GOV_EXAMS.find((exam) => exam.slug === question.examSlug);
+      const stageMeta = examMeta?.stages.find((stage) => stage.slug === question.stageSlug);
+      const resolvedDomain = `${examMeta?.name || question.examSlug || "Government Exam"}${stageMeta?.name ? ` - ${stageMeta.name}` : ""}`.trim();
+
+      const payload = {
+        domain: resolvedDomain,
+        language,
+        reviewStatus,
+        questions: [{
+          examSlug: question.examSlug,
+          stageSlug: question.stageSlug,
+          domain: `${examMeta?.name || question.examSlug}${stageMeta?.name ? ` - ${stageMeta.name}` : ""}`.trim(),
+          language,
+          section: question.section,
+          topic: question.topic,
+          difficulty: question.difficulty,
+          type: question.questionType,
+          groupType: question.groupType,
+          groupId: question.groupType === "rc_passage" ? question.groupId : "",
+          groupOrder: question.groupType === "rc_passage" ? Number(question.groupOrder || 1) : null,
+          groupTitle: question.groupType === "rc_passage" ? question.groupTitle : "",
+          passageText: question.groupType === "rc_passage" ? question.passageText : "",
+          question: question.question,
+          options: (Array.isArray(question.options) ? question.options : []).filter(Boolean),
+          answer: question.answer,
+          answerKey: question.answerKey,
+          reviewStatus,
+          explanation: question.explanation,
+          hasVisual: (Array.isArray(question.assets) ? question.assets : []).some((asset) => Boolean(String(asset?.url || "").trim())),
+          assets: (Array.isArray(question.assets) ? question.assets : []).filter((asset) => Boolean(String(asset?.url || "").trim())),
+          tags: question.tags,
+          source: {
+            exam: question.sourceExam,
+            year: question.sourceYear,
+            shift: question.sourceShift,
+          },
+        }],
+      };
+
+      const response = await apiClient.post(API_ENDPOINTS.questionBank.bulkCreate, payload);
+      if (response.data?.success) {
+        message.success(`Question ${statusLabel === "Publish" ? "published" : "saved as draft"} successfully`);
+        const updated = questions.filter((_, i) => i !== index);
+        setQuestions(updated);
+        if (selectedIndex === index) {
+          setSelectedIndex(null);
+        }
+      } else {
+        message.error(response.data?.message || `Failed to ${statusLabel.toLowerCase()} question`);
+      }
+    } catch (error: unknown) {
+      let errorMessage = `Failed to ${statusLabel.toLowerCase()} question`;
+      
+      if (typeof error === "object" && error !== null) {
+        const err = error as Record<string, unknown>;
+        if (err.response) {
+          const resp = err.response as { status?: number; data?: { message?: string; error?: string } };
+          if (resp.status === 401) {
+            errorMessage = "Session expired. Please login again.";
+          } else if (resp.status === 403) {
+            errorMessage = "You don't have permission to perform this action.";
+          } else if (resp.data?.message) {
+            errorMessage = String(resp.data.message);
+          }
+        } else if (err.message) {
+          errorMessage = String(err.message);
+        }
+      }
+      
+      message.error(errorMessage);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
   const handleOptionChange = (index: number, value: string) => {
     const currentOptions = Array.isArray(currentQuestion.options) ? currentQuestion.options : ["", "", "", ""];
     const newOptions = [...currentOptions];
@@ -1792,15 +1874,43 @@ Explanation: optional`}
                           {q.question}
                         </Paragraph>
                       </div>
-                      <Button
-                        type="text"
-                        danger
-                        icon={<DeleteOutlined />}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleDeleteQuestion(idx);
-                        }}
-                      />
+                      <Space direction="vertical" size="small">
+                        <Space size="small">
+                          <Button
+                            type="primary"
+                            size="small"
+                            icon={<SaveOutlined />}
+                            loading={isSaving}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              void handleSaveSingleQuestion(idx, "approved");
+                            }}
+                          >
+                            Publish
+                          </Button>
+                          <Button
+                            size="small"
+                            icon={<SaveOutlined />}
+                            loading={isSaving}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              void handleSaveSingleQuestion(idx, "draft");
+                            }}
+                          >
+                            Draft
+                          </Button>
+                        </Space>
+                        <Button
+                          type="text"
+                          danger
+                          size="small"
+                          icon={<DeleteOutlined />}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleDeleteQuestion(idx);
+                          }}
+                        />
+                      </Space>
                     </div>
                   </Card>
                 ))}

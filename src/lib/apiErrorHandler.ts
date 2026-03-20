@@ -105,9 +105,9 @@ export function safeAsync<T>(
   context?: string
 ): Promise<[T | null, ApiError | null]> {
   return promise
-    .then((data) => [data, null])
+    .then((data): [T | null, ApiError | null] => [data, null])
     .catch((error) => {
       apiErrorHandler.handle(error, context);
-      return [null, apiErrorHandler.parseError(error)];
+      return [null, apiErrorHandler.parseError(error)] as [null, ApiError];
     });
 }

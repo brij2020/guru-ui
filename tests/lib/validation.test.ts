@@ -111,7 +111,7 @@ describe('Data Validation Utilities', () => {
       const section = {
         key: 'section-8',
         label: 'Test',
-        topics: 'not-an-array',
+        topics: 'not-an-array' as unknown as string[],
       };
       expect(isValidSection(section)).toBe(false);
     });

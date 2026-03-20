@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useCallback, ReactNode } from "react";
-import { apiErrorHandler, ApiError } from "./apiErrorHandler";
+import { apiErrorHandler, ApiError } from "@/lib/apiErrorHandler";
 
 interface ApiState<T> {
   data: T | null;
